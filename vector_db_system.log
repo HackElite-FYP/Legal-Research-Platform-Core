@@ -1,0 +1,24 @@
+2025-07-13 07:08:33,250 - __main__ - INFO - VectorDBEmbeddingSystem initialized
+2025-07-13 07:08:37,436 - __main__ - INFO - Searching for: 'property ownership rights'
+2025-07-13 07:08:37,741 - __main__ - INFO - Found 5 results
+2025-07-13 07:08:37,741 - __main__ - INFO - Searching for: 'marriage and divorce laws'
+2025-07-13 07:08:38,058 - __main__ - INFO - Found 5 results
+2025-07-13 07:08:38,059 - __main__ - INFO - Searching for: 'commercial contract disputes'
+2025-07-13 07:08:38,373 - __main__ - INFO - Found 5 results
+2025-07-13 07:08:38,374 - __main__ - INFO - Searching for: 'employment termination'
+2025-07-13 07:08:38,679 - __main__ - INFO - Found 5 results
+2025-07-13 07:08:38,680 - __main__ - INFO - Searching for: 'intellectual property'
+2025-07-13 07:08:38,985 - __main__ - INFO - Found 5 results
+2025-07-13 07:09:14,650 - __main__ - INFO - Searching for: 'property ownership and transfer'
+2025-07-13 07:09:14,967 - __main__ - INFO - Found 5 results
+2025-07-21 11:12:36,277 - __main__ - INFO - VectorDBEmbeddingSystem initialized
+2025-07-21 11:12:39,859 - __main__ - INFO - Searching for: 'property ownership rights'
+2025-07-21 11:12:40,169 - __main__ - INFO - Found 5 results
+2025-07-21 11:12:40,169 - __main__ - INFO - Searching for: 'marriage and divorce laws'
+2025-07-21 11:12:40,470 - __main__ - INFO - Found 5 results
+2025-07-21 11:12:40,470 - __main__ - INFO - Searching for: 'commercial contract disputes'
+2025-07-21 11:12:40,781 - __main__ - INFO - Found 5 results
+2025-07-21 11:12:40,781 - __main__ - INFO - Searching for: 'employment termination'
+2025-07-21 11:12:41,079 - __main__ - INFO - Found 5 results
+2025-07-21 11:12:41,079 - __main__ - INFO - Searching for: 'intellectual property'
+2025-07-21 11:12:41,391 - __main__ - INFO - Found 5 results

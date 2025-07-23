@@ -8,6 +8,10 @@ import os
 PINECONE_API_KEY = "pcsk_6VnPun_3BW3eoFL2X3wXssTxzcVqTEZTpgZJtvmsoBfA5WFsr8F6e5DiZHzkwK5xKXQyTU"
 PINECONE_ENVIRONMENT = "gcp-starter"
 PINECONE_INDEX_NAME = "sri-lankan-legal-docs"
+PINECONE_INDEX_NAME_ACTS_DENSE = "law-acts-dense"
+PINECONE_INDEX_NAME_CASES_DENSE = "law-cases-dense"
+PINECONE_INDEX_NAME_ACTS_SPARSE = "law-acts-sparse"
+PINECONE_INDEX_NAME_CASES_SPARSE = "law-cases-sparse"
 
 # Model Configuration
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"  # Default model

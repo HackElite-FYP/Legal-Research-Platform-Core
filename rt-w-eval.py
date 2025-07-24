@@ -37,7 +37,7 @@ NEO4J_PASSWORD = "G4UXZ6KLGd1dzo57rp6ITypJHZ37aM1fn-exAWdw3p8"
 NEO4J_DATABASE = "neo4j"
 
 FIRESTORE_PROJECT_ID = "legal-research-platform"
-FIRESTORE_CREDENTIALS_PATH = "legal-research-platform-firebase-adminsdk-fbsvc-0c941be26d.json"
+FIRESTORE_CREDENTIALS_PATH = "legal-research-platform-firebase-adminsdk-fbsvc-ab73d198d7.json"
 
 
 class QueryIntent(Enum):
@@ -361,6 +361,39 @@ class KnowledgeGraph:
         with self.driver.session(database=NEO4J_DATABASE) as session:
             result = session.run(query, parameters=params or {})
             return [dict(record) for record in result]
+        
+    async def get_claim_premise_data(self, doc_id: str) -> Optional[Dict[str, Any]]:
+        """Get claim-premise data for a document from Neo4j knowledge graph."""
+        if not self.driver: 
+            # Return mock data for testing
+            return {
+                "claims": [f"Mock claim for {doc_id}"],
+                "premises": [f"Mock premise for {doc_id}"]
+            }
+        
+        try:
+            # Use the Neo4j driver session to query claims and premises
+            with self.driver.session() as session:
+                # Query for claims and premises using the REFERS_TO relationship
+                cypher_query = """
+                MATCH (doc {doc_id: $doc_id})
+                RETURN doc.claims AS claims,
+                        doc.premises AS premises
+                """
+                
+                result = session.run(cypher_query, {"doc_id": doc_id}).single()
+                if result:
+                    return {
+                        "claims": result["claims"] or [],
+                        "premises": result["premises"] or []
+                    }
+                else:
+                    logger.warning(f"No claim-premise data found for doc_id: {doc_id}")
+                    return None
+                    
+        except Exception as e:
+            logger.error(f"Error fetching claim-premise data for {doc_id} from Neo4j: {e}")
+            return None
 
     def compute_kg_features(self, doc_id: str) -> KGFeatures:
         """Compute simplified KG features based on citation counts and relationships."""
@@ -371,14 +404,12 @@ class KnowledgeGraph:
             case_query = """
             MATCH (d:Case {doc_id: $doc_id})
             OPTIONAL MATCH (d)-[:REFERS_TO]->(act:Act)
-            OPTIONAL MATCH (d)<-[:REFERS_TO]-(citing_case:Case)
-            OPTIONAL MATCH (d)-[:PRESIDED_BY]->(judge:People)
+            OPTIONAL MATCH (a)<-[:REFERS_TO]-(citing_case:Case)
+            OPTIONAL MATCH (d)<-[r]-(judge:Person)
             RETURN 
                 count(DISTINCT act) as act_references,
                 count(DISTINCT citing_case) as citation_count,
                 count(DISTINCT judge) as judge_count,
-                d.court_level as court_level,
-                d.date as date
             """
             
             # Query for Acts
@@ -389,10 +420,7 @@ class KnowledgeGraph:
                 count(DISTINCT case) as citation_count,
                 0 as act_references,
                 0 as judge_count,
-                null as court_level,
-                d.date as date
             """
-            
             params = {"doc_id": doc_id}
             
             # Try Case first, then Act
@@ -414,14 +442,11 @@ class KnowledgeGraph:
                     features.jurisdictional_weight = 0.5  # Default for Acts
                 
                 # Compute recency boost
-                doc_date = data.get('date')
-                if doc_date and isinstance(doc_date, str):
-                    try:
-                        doc_datetime = datetime.fromisoformat(doc_date)
-                        years_old = (datetime.now() - doc_datetime).days / 365.25
-                        features.recency_boost = max(0, 1.0 - (years_old / 10))  # Decay over 10 years
-                    except:
-                        features.recency_boost = 0.0
+                doc_year = data.get('doc_year', 2000)
+                if doc_year and isinstance(doc_year, int):
+                    current_year = datetime.now().year
+                    years_old = current_year - doc_year
+                    features.recency_boost = max(0, 1.0 - (years_old / 10))  # Decay over 10 years
                 else:
                     features.recency_boost = 0.0
                 
@@ -484,9 +509,8 @@ class KnowledgeGraph:
             # Query for related judges
             judges_query = """
             UNWIND $doc_ids AS core_id
-            MATCH (core:Case {doc_id: core_id})-[:PRESIDED_BY]->(judge:People)
-            RETURN judge.name AS name,
-                   judge.position AS position
+            MATCH (core:Case {doc_id: core_id})<-[*]-(judge:Person)
+            RETURN judge.name AS name
             LIMIT 10
             """
             
@@ -575,7 +599,7 @@ class FirestoreClient:
             }
         
         try:
-            doc_ref = self.db.collection('presummaries').document(doc_id)
+            doc_ref = self.db.collection('summaries').document(doc_id)
             doc_snapshot = doc_ref.get()
             
             if doc_snapshot.exists:
@@ -688,7 +712,7 @@ class AdaptiveRetriever:
                         metadata=chunk.metadata,
                         vector_score=chunk.vector_score,
                         chunk_index=chunk.chunk_index,
-                        kg_features=self.kg.compute_kg_features(chunk.doc_id)
+                        kg_features=self.kg.compute_kg_features(chunk.doc_id) if chunk.doc_id else KGFeatures()
                     )
                     all_chunks.append(enhanced_chunk)
         
@@ -771,7 +795,7 @@ class ContextAssembler:
         core_documents = []
         for chunk in chunks:
             presummary = await self.firestore.get_presummary(chunk.doc_id)
-            claim_premise = await self.firestore.get_claim_premise_data(chunk.doc_id)
+            claim_premise = await self.kg.get_claim_premise_data(chunk.doc_id)
             
             doc_data = {
                 "doc_id": chunk.doc_id,

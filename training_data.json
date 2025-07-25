@@ -422,5 +422,120 @@
         }
       }
     ]
+  },
+  {
+    "query": "social media copyright infringement fair use DMCA takedown",
+    "query_id": "query_20",
+    "documents": [
+      {
+        "query": "social media copyright infringement fair use DMCA takedown",
+        "document_text": "The Petitioner, a professional photographer, filed a copyright infringement claim against the Respondent for unauthorized use of their copyrighted photographs on a commercial blog. The Respondent claimed fair use under Section 107 of the Copyright Act, arguing the use was for commentary and educational purposes. The Court must balance the four fair use factors: (1) purpose and character of use, (2) nature of the copyrighted work, (3) amount used, and (4) effect on the market. The DMCA provides a safe harbor for online service providers who promptly remove infringing content upon receiving a proper takedown notice that complies with 17 U.S.C. § 512(c)(3).",
+        "doc_id": "doc_20_0",
+        "relevance_score": 0.94,
+        "metadata_features": {
+          "court_level": 3,
+          "jurisdiction": "High Court",
+          "date": "2024-10-15",
+          "legal_domains": [
+            "intellectual property",
+            "copyright law",
+            "digital media",
+            "DMCA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "GDPR data protection personal information breach compensation",
+    "query_id": "query_21",
+    "documents": [
+      {
+        "query": "GDPR data protection personal information breach compensation",
+        "document_text": "The Claimant seeks compensation under Article 82 of the UK GDPR for a data breach where their personal information was unlawfully disclosed to third parties without consent. The breach involved sensitive financial information of over 10,000 customers. Under the Data Protection Act 2018, which implements the UK GDPR, data subjects have the right to compensation for material or non-material damage resulting from a breach. The Court must consider: (1) whether there was a breach of data protection legislation, (2) whether the Claimant suffered damage, and (3) whether there is a causal link between the two. The ICO's guidance on personal data breach notification will be particularly relevant in determining liability.",
+        "doc_id": "doc_21_0",
+        "relevance_score": 0.92,
+        "metadata_features": {
+          "court_level": 3,
+          "jurisdiction": "High Court",
+          "date": "2024-10-20",
+          "legal_domains": [
+            "data protection",
+            "GDPR",
+            "privacy law",
+            "compensation claims"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "international commercial arbitration enforcement of foreign award",
+    "query_id": "query_22",
+    "documents": [
+      {
+        "query": "international commercial arbitration enforcement of foreign award",
+        "document_text": "The Applicant seeks enforcement of a foreign arbitral award under the New York Convention 1958, as implemented by the Arbitration Act 1996. The Respondent resists enforcement on grounds of public policy and alleged procedural irregularities. Under Section 103 of the Arbitration Act 1996, the Court may refuse recognition or enforcement only on limited grounds, including: (a) incapacity of parties, (b) improper notice of appointment, (c) award dealing with matters not within the submission to arbitration, (d) composition of tribunal not in accordance with agreement, (e) award not yet binding or set aside, or (f) violation of public policy. The burden of proof lies with the party resisting enforcement to establish one of these grounds.",
+        "doc_id": "doc_22_0",
+        "relevance_score": 0.95,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Commercial Court",
+          "date": "2024-10-25",
+          "legal_domains": [
+            "commercial law",
+            "international arbitration",
+            "enforcement of judgments",
+            "New York Convention"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "environmental impact assessment judicial review development project",
+    "query_id": "query_23",
+    "documents": [
+      {
+        "query": "environmental impact assessment judicial review development project",
+        "document_text": "The Claimant challenges the Defendant local authority's decision to grant planning permission for a large-scale development project without requiring a full Environmental Impact Assessment (EIA). The Town and Country Planning (Environmental Impact Assessment) Regulations 2017 require an EIA for projects likely to have significant effects on the environment. The Claimant argues that the screening opinion was flawed as it failed to properly consider cumulative impacts with other developments in the area. The Court must determine whether the decision-maker: (1) took into account all relevant considerations, (2) failed to take into account irrelevant considerations, (3) reached a decision that was so unreasonable that no reasonable authority could have come to it, or (4) made an error of law.",
+        "doc_id": "doc_23_0",
+        "relevance_score": 0.91,
+        "metadata_features": {
+          "court_level": 3,
+          "jurisdiction": "Planning Court",
+          "date": "2024-11-01",
+          "legal_domains": [
+            "environmental law",
+            "planning law",
+            "judicial review",
+            "EIA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "online banking fraud liability cybersecurity regulations",
+    "query_id": "query_24",
+    "documents": [
+      {
+        "query": "online banking fraud liability cybersecurity regulations",
+        "document_text": "The Claimant seeks compensation from the Defendant bank for unauthorized transactions made through their online banking account. The dispute centers on whether the bank's security measures were compliant with the Payment Services Regulations 2017 and the strong customer authentication requirements under PSD2. The Court must consider: (1) whether the bank can rely on the 'gross negligence' defense under Regulation 77, (2) whether the multi-factor authentication measures were properly implemented, and (3) whether the bank's fraud detection systems were adequate. The Financial Conduct Authority's guidance on payment services and electronic money will be particularly relevant in assessing the bank's compliance with its regulatory obligations.",
+        "doc_id": "doc_24_0",
+        "relevance_score": 0.93,
+        "metadata_features": {
+          "court_level": 3,
+          "jurisdiction": "High Court",
+          "date": "2024-11-05",
+          "legal_domains": [
+            "banking law",
+            "cybersecurity",
+            "financial regulation",
+            "consumer protection"
+          ]
+        }
+      }
+    ]
   }
 ]

@@ -1093,9 +1093,9 @@ async def main():
         
         # Add some ground truth data for evaluation
         rag_system.add_evaluation_ground_truth(
-            "Who is the accused in the contempt of court case regarding bribery allegations against judges?",
-            relevant_doc_ids=["doc_123", "doc_456", "doc_789"],
-            relevance_scores={"doc_123": 1.0, "doc_456": 0.8, "doc_789": 0.6}
+        "Who is the accused in the contempt of court case regarding bribery allegations against judges?",
+        relevant_doc_ids=["doc_123", "doc_456", "doc_789"],
+        relevance_scores={"doc_123": 1.0, "doc_456": 0.8, "doc_789": 0.6}
         )
         
         # Example legal queries

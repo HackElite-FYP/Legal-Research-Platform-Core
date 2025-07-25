@@ -1,0 +1,426 @@
+[
+  {
+    "query": "writ of certiorari land development ordinance succession",
+    "query_id": "query_10",
+    "documents": [
+      {
+        "query": "writ of certiorari land development ordinance succession",
+        "document_text": "The Petitioner instituted this action to obtain writs of Certiorari quashing the 1st Respondent's decision to transfer the original ownership of the grant bearing number o/g/11395 to the 6th Respondent and quashing the 2nd Respondent's order to alter the status of the grantee as a life-holder under section 35 of the Registration of Documents Ordinance.",
+        "doc_id": "doc_10_0",
+        "relevance_score": 0.94,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "land law",
+            "succession"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "nomination registration requirements Section 60 Land Development Ordinance",
+    "query_id": "query_11",
+    "documents": [
+      {
+        "query": "nomination registration requirements Section 60 Land Development Ordinance",
+        "document_text": "Section 60 states 'No nomination or cancellation of the nomination of a successor shall be valid unless the document effecting such nomination or cancellation is duly registered before the date of the death of the owner of the holding or the permit holder.' The question is whether the particular nomination of succession indicated in the original permit needs to be registered under Section 60.",
+        "doc_id": "doc_11_0",
+        "relevance_score": 0.96,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "land law",
+            "statutory interpretation",
+            "succession",
+            "registration requirements"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "permit holder succession endorsement before issue Section 87",
+    "query_id": "query_12",
+    "documents": [
+      {
+        "query": "permit holder succession endorsement before issue Section 87",
+        "document_text": "Section 87 provides 'A person to whom a Government Agent has agreed to alienate land may nominate as his successor any person who is entitled under this Ordinance to be nominated, and the name of such successor may be endorsed on the permit before it is issued.' If the particular nomination was endorsed by the government agent before it is issued to the permit holder, there is no requirement that it should be registered under the Land Development Ordinance.",
+        "doc_id": "doc_12_0",
+        "relevance_score": 0.95,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "land law",
+            "government agent powers",
+            "permit endorsement",
+            "succession"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "judicial review illegality unreasonableness public authority decisions",
+    "query_id": "query_13",
+    "documents": [
+      {
+        "query": "judicial review illegality unreasonableness public authority decisions",
+        "document_text": "By 'illegality' as a ground for judicial review I mean that the decision maker must understand correctly the law that regulates his decision making power and must give effect to it. By 'irrationality' I mean what can be referred to as 'Wednesbury unreasonableness' - a decision which is so outrageous in its defiance of logic that no sensible person could have arrived at it. The Respondents have wrongly applied the provisions of the Land Development Ordinance.",
+        "doc_id": "doc_13_0",
+        "relevance_score": 0.92,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "administrative law",
+            "judicial review",
+            "Wednesbury unreasonableness",
+            "public authority"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "land succession devolution Third Schedule priority rules",
+    "query_id": "query_14",
+    "documents": [
+      {
+        "query": "land succession devolution Third Schedule priority rules",
+        "document_text": "Section 72 provides that when no successor has been nominated or the successor nominated has failed to succeed, the title to the land devolves as prescribed in Rule 1 of the Third Schedule. The said Rule provides for the relatives from whom the successor may be nominated. In the particular Schedule, preference is given to the oldest child as the successor. However, through amendment Act No.11 of 2022, preference is given to the person who developed such land over the older person.",
+        "doc_id": "doc_14_0",
+        "relevance_score": 0.91,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "land law",
+            "succession devolution",
+            "statutory amendments",
+            "priority rules"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "title certificate cancellation life interest holder status",
+    "query_id": "query_15",
+    "documents": [
+      {
+        "query": "title certificate cancellation life interest holder status",
+        "document_text": "The Petitioner learnt that the 1st and 2nd Respondents have taken steps to alter the records by removing the nomination of the Petitioner without giving the Petitioner any hearing, stating that the original grant holder has not nominated the Petitioner's mother as the successor and accordingly named the Petitioner's elder sister as the original owner. The Respondents had accepted the Petitioner's mother as the successor and issued a Grant. Later, the Respondents changed the status of the Petitioner's mother as a life interest holder.",
+        "doc_id": "doc_15_0",
+        "relevance_score": 0.88,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "land law",
+            "title alteration",
+            "life interest",
+            "procedural fairness"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of mandamus land registry title revalidation",
+    "query_id": "query_16",
+    "documents": [
+      {
+        "query": "writ of mandamus land registry title revalidation",
+        "document_text": "The Petitioner sought a Writ of Mandamus directing the 1st Respondent to name the Petitioner as the original owner and/or successor of the subject matter and directing the 1st to 5th Respondents to revalidate the certificate of title bearing number 0002878 and/or re-issue a certificate of title in favor of the Petitioner. This Court issues writs of Certiorari and Mandamus as prayed.",
+        "doc_id": "doc_16_0",
+        "relevance_score": 0.93,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "writ jurisdiction",
+            "mandamus",
+            "title revalidation",
+            "land registry"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "jurisdiction civil courts land development ordinance disputes",
+    "query_id": "query_17",
+    "documents": [
+      {
+        "query": "jurisdiction civil courts land development ordinance disputes",
+        "document_text": "The Petitioner filed action bearing No.172/L/17 in the District Court of Hungurakgoda seeking a declaration that the Petitioner is entitled to the subject matter under succession. The said action was dismissed on the basis of lack of jurisdiction and the Civil Appellate High Court of Anuradhapura in case NCP/HVVA/FA 28/19 affirmed the order of the District Court. The Petitioner has invoked the writ jurisdiction of this Court.",
+        "doc_id": "doc_17_0",
+        "relevance_score": 0.86,
+        "metadata_features": {
+          "court_level": 1,
+          "jurisdiction": "District Court/High Court",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "jurisdiction",
+            "civil procedure",
+            "land disputes",
+            "writ jurisdiction"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "ultra vires public decision making procedural fairness",
+    "query_id": "query_18",
+    "documents": [
+      {
+        "query": "ultra vires public decision making procedural fairness",
+        "document_text": "The fundamental principle of judicial review is that the courts will intervene to ensure that the powers of public decision-making bodies are exercised lawfully. If the decision-maker exercises his powers outside the jurisdiction conferred, in a manner which is procedurally irregular or is Wednesbury unreasonable, he is acting ultra vires his powers and therefore unlawfully. The Respondents took steps to alter the records without giving the Petitioner any hearing.",
+        "doc_id": "doc_18_0",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "administrative law",
+            "ultra vires",
+            "procedural fairness",
+            "natural justice"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "government agent land alienation nomination powers",
+    "query_id": "query_19",
+    "documents": [
+      {
+        "query": "government agent land alienation nomination powers",
+        "document_text": "This nomination was done by the government agent according to the provisions of the said Ordinance. The permit holder's intention is indicated to the government agent regarding the nomination. If the permit holder wishes to cancel the said nomination of the successor, it could be made in terms of the provisions in Chapter VII of the Land Development Ordinance and the Government Agent may cancel the name of such successor by an endorsement on the permit.",
+        "doc_id": "doc_19_0",
+        "relevance_score": 0.89,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-25",
+          "legal_domains": [
+            "land law",
+            "government agent",
+            "nomination powers",
+            "permit endorsement"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "defamatory publications against judges bribery accusations",
+    "query_id": "query_1",
+    "documents": [
+      {
+        "query": "defamatory publications against judges bribery accusations",
+        "document_text": "In his article, the Accused explicitly named His Lordship Justice A.H.M.D. Nawaz, their Ladyships Justice Kumudini Wickramasinghe, and Justice Devika Abeyratne, and made alleged accusations of bribery against them, specifying fixed sums of money. We find all the aspersions made against their Lordships of the Court of Appeal are false, defamatory and malicious.",
+        "doc_id": "doc_1_0",
+        "relevance_score": 0.92,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "defamation",
+            "judicial integrity",
+            "contempt of court"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "social media contempt proceedings evidence requirements",
+    "query_id": "query_2",
+    "documents": [
+      {
+        "query": "social media contempt proceedings evidence requirements",
+        "document_text": "The Criminal Investigations Department ('CID') has investigated the matter and ascertained that this article was uploaded to social media by the said Respondent. The said article had been circulated approximately among 122 web users and shared roughly among 4300 readers. Evidence was led through digital forensic investigation of computers taken into custody by the CID.",
+        "doc_id": "doc_2_0",
+        "relevance_score": 0.88,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "digital evidence",
+            "social media law",
+            "contempt of court"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "proceedings in absentia contempt cases",
+    "query_id": "query_3",
+    "documents": [
+      {
+        "query": "proceedings in absentia contempt cases",
+        "document_text": "As the CID informed Court that the Respondent is absconding, the Attorney General moved that the matter be taken up for Inquiry in the absence of the Respondent. The Respondent has left the island while the relevant Magistrate's Court case was pending against him. This Court was convinced that sufficient evidence was led to establish that the Respondent is evading Court and decided to proceed with the Inquiry in the absence of the said Respondent.",
+        "doc_id": "doc_3_0",
+        "relevance_score": 0.89,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "procedural law",
+            "contempt of court",
+            "absentia proceedings"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "burden of proof contempt of court criminal standard",
+    "query_id": "query_4",
+    "documents": [
+      {
+        "query": "burden of proof contempt of court criminal standard",
+        "document_text": "The Supreme Court has observed that even if contempt is not always a crime, it bears a criminal character and therefore, it must be satisfactorily proved. Tilakawardena J. has held that the offence of contempt of court under our law is a criminal charge and the burden of proof is that of proof beyond reasonable doubt. We hold that the charges against the Accused have been proved beyond reasonable doubt.",
+        "doc_id": "doc_4_0",
+        "relevance_score": 0.93,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "evidence law",
+            "contempt of court",
+            "burden of proof"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "judicial independence protection from scandalous publications",
+    "query_id": "query_5",
+    "documents": [
+      {
+        "query": "judicial independence protection from scandalous publications",
+        "document_text": "Creating such a false and malicious impression in the minds of the public has adversely affected the credibility, integrity and the independence of the Court of Appeal. Such statements will eventually tarnish the trust the public reposes in the administration of justice. The charge of contempt of Court was classically defined as the scandalizing of the Court, in that the words or acts are likely to bring the Court and the Judges into disrepute.",
+        "doc_id": "doc_5_0",
+        "relevance_score": 0.91,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "judicial independence",
+            "contempt of court",
+            "public confidence in judiciary"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Contempt of Court Act 2024 legislative changes",
+    "query_id": "query_6",
+    "documents": [
+      {
+        "query": "Contempt of Court Act 2024 legislative changes",
+        "document_text": "The 'Contempt of a Court, Tribunal or Institution Act No. 8 of 2024' was certified on 01.02.2024 and it was after the Rule had been issued against the Accused of these proceedings. Regardless of the procedures that were in place for contempt of court cases prior to the enactment of the said Act, we believe this Court has the inherent powers to make a decision Suo Moto in such proceedings.",
+        "doc_id": "doc_6_0",
+        "relevance_score": 0.85,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "statutory interpretation",
+            "contempt of court",
+            "legislative changes"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "digital forensic evidence social media publications",
+    "query_id": "query_7",
+    "documents": [
+      {
+        "query": "digital forensic evidence social media publications",
+        "document_text": "B.N.M.A.S.K. Senarathne (Chief Inspector, OIC of the CID and Digital Forensic Laboratory) testified regarding investigation of computers taken into custody by the CID from the place the Accused was living. R. A. Mahinda Rajapaksa (Sub-Inspector, CID Cyber Crime Investigations Unit, Social Media Unit) provided evidence about the social media circulation of the article on lankanewsweb.org.",
+        "doc_id": "doc_7_0",
+        "relevance_score": 0.87,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": ["digital forensics", "cyber crime", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "malicious publication interference with course of justice",
+    "query_id": "query_8",
+    "documents": [
+      {
+        "query": "malicious publication interference with course of justice",
+        "document_text": "The article authored and published by the said Accused has been made and published with a clear intention of insulting their Lordships of the Court of Appeal or to bring the Court of Appeal into disrepute. This eventually amounts to the interference with the course of justice or the abuse of process of court. There must be involved some act done or writing published calculated to obstruct or interfere with the due course of justice.",
+        "doc_id": "doc_8_0",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "contempt of court",
+            "interference with justice",
+            "malicious publication"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Bar Association complaint judicial misconduct allegations",
+    "query_id": "query_9",
+    "documents": [
+      {
+        "query": "Bar Association complaint judicial misconduct allegations",
+        "document_text": "It is noted that proceedings in the Magistrate's court has been commenced against the Respondent as a consequence of a complaint received by the Bar Association of Sri Lanka upon the said article. The Respondent has left the island while the relevant Magistrate's Court case was pending against him arising from the Bar Association complaint.",
+        "doc_id": "doc_9_0",
+        "relevance_score": 0.82,
+        "metadata_features": {
+          "court_level": 1,
+          "jurisdiction": "Magistrate's Court",
+          "date": "2024-09-18",
+          "legal_domains": [
+            "professional conduct",
+            "Bar Association",
+            "judicial misconduct allegations"
+          ]
+        }
+      }
+    ]
+  }
+]

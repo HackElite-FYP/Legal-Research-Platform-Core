@@ -1,182 +1,124 @@
 [
   {
-    "query": "writ of certiorari land development ordinance succession",
-    "query_id": "query_10",
+    "query": "writ of certiorari state lands recovery of possession act quit notice",
+    "query_id": "query_01",
     "documents": [
       {
-        "query": "writ of certiorari land development ordinance succession",
-        "document_text": "The Petitioner instituted this action to obtain writs of Certiorari quashing the 1st Respondent's decision to transfer the original ownership of the grant bearing number o/g/11395 to the 6th Respondent and quashing the 2nd Respondent's order to alter the status of the grantee as a life-holder under section 35 of the Registration of Documents Ordinance.",
-        "doc_id": "doc_10_0",
-        "relevance_score": 0.94,
+        "query": "writ of certiorari state lands recovery of possession act quit notice",
+        "document_text": "The Acting Divisional Secretary of Nikawaratiya has issued a quit notice in terms of section 3 of the State Lands (Recovery of Possession) Act No. 7 of 1979 as amended, requiring the appellant to quit the land he was in occupation, as mentioned in the quit notice on the basis that it was a state land, and the appellant is in unauthorized possession. Since the appellant has failed to abide by the said quit notice, the Divisional Secretary as a competent authority, has initiated an action before the Magistrate’s Court of Nikawaratiya. The learned Magistrate, after having considered the scope of an inquiry of this nature, has determined that the appellant has failed to establish that he has a valid permit or other written authority of the State. Therefore, it is the view of this Court that the competent authority had correctly issued the quit notice required in terms of section 3 of the Act.",
+        "doc_id": "3f222e28-d9a0-452e-aa98-498d5656613e",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
+          "date": "2024-01-30",
           "legal_domains": [
             "administrative law",
             "writ jurisdiction",
-            "land law",
-            "succession"
+            "land law"
           ]
         }
-      }
-    ]
-  },
-  {
-    "query": "nomination registration requirements Section 60 Land Development Ordinance",
-    "query_id": "query_11",
-    "documents": [
+      },
       {
-        "query": "nomination registration requirements Section 60 Land Development Ordinance",
-        "document_text": "Section 60 states 'No nomination or cancellation of the nomination of a successor shall be valid unless the document effecting such nomination or cancellation is duly registered before the date of the death of the owner of the holding or the permit holder.' The question is whether the particular nomination of succession indicated in the original permit needs to be registered under Section 60.",
-        "doc_id": "doc_11_0",
-        "relevance_score": 0.96,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
-          "legal_domains": [
-            "land law",
-            "statutory interpretation",
-            "succession",
-            "registration requirements"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "permit holder succession endorsement before issue Section 87",
-    "query_id": "query_12",
-    "documents": [
-      {
-        "query": "permit holder succession endorsement before issue Section 87",
-        "document_text": "Section 87 provides 'A person to whom a Government Agent has agreed to alienate land may nominate as his successor any person who is entitled under this Ordinance to be nominated, and the name of such successor may be endorsed on the permit before it is issued.' If the particular nomination was endorsed by the government agent before it is issued to the permit holder, there is no requirement that it should be registered under the Land Development Ordinance.",
-        "doc_id": "doc_12_0",
+        "query": "writ of certiorari state lands recovery of possession act quit notice",
+        "document_text": "The 1st Respondent has instituted proceedings against the Petitioner in the Magistrate’s Court of Kegalle in terms of the provisions of the State Lands (Recovery of Possession) Act, No. 7 of 1979. The Petitioner is seeking a Writ of Certiorari quashing the decision of the 1st Respondent, Divisional Secretary of Kegalle, that the Petitioner is in unauthorized occupation of the land which is described in the quit notice marked as P19a. The only ground upon which the learned Counsel for the Petitioner is challenging the quit notice issued under the provisions of the said Act is that the competent authority has not identified the subject matter with metes and bounds. This Court finds the subject matter described in the quit notice is properly identified.",
+        "doc_id": "eaaf5922-459d-46c6-8a6d-7d943cf59802",
         "relevance_score": 0.95,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
-          "legal_domains": [
-            "land law",
-            "government agent powers",
-            "permit endorsement",
-            "succession"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "judicial review illegality unreasonableness public authority decisions",
-    "query_id": "query_13",
-    "documents": [
-      {
-        "query": "judicial review illegality unreasonableness public authority decisions",
-        "document_text": "By 'illegality' as a ground for judicial review I mean that the decision maker must understand correctly the law that regulates his decision making power and must give effect to it. By 'irrationality' I mean what can be referred to as 'Wednesbury unreasonableness' - a decision which is so outrageous in its defiance of logic that no sensible person could have arrived at it. The Respondents have wrongly applied the provisions of the Land Development Ordinance.",
-        "doc_id": "doc_13_0",
-        "relevance_score": 0.92,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
+          "date": "2024-01-24",
           "legal_domains": [
             "administrative law",
-            "judicial review",
-            "Wednesbury unreasonableness",
-            "public authority"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "land succession devolution Third Schedule priority rules",
-    "query_id": "query_14",
-    "documents": [
-      {
-        "query": "land succession devolution Third Schedule priority rules",
-        "document_text": "Section 72 provides that when no successor has been nominated or the successor nominated has failed to succeed, the title to the land devolves as prescribed in Rule 1 of the Third Schedule. The said Rule provides for the relatives from whom the successor may be nominated. In the particular Schedule, preference is given to the oldest child as the successor. However, through amendment Act No.11 of 2022, preference is given to the person who developed such land over the older person.",
-        "doc_id": "doc_14_0",
-        "relevance_score": 0.91,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
-          "legal_domains": [
-            "land law",
-            "succession devolution",
-            "statutory amendments",
-            "priority rules"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "title certificate cancellation life interest holder status",
-    "query_id": "query_15",
-    "documents": [
-      {
-        "query": "title certificate cancellation life interest holder status",
-        "document_text": "The Petitioner learnt that the 1st and 2nd Respondents have taken steps to alter the records by removing the nomination of the Petitioner without giving the Petitioner any hearing, stating that the original grant holder has not nominated the Petitioner's mother as the successor and accordingly named the Petitioner's elder sister as the original owner. The Respondents had accepted the Petitioner's mother as the successor and issued a Grant. Later, the Respondents changed the status of the Petitioner's mother as a life interest holder.",
-        "doc_id": "doc_15_0",
-        "relevance_score": 0.88,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
-          "legal_domains": [
-            "land law",
-            "title alteration",
-            "life interest",
-            "procedural fairness"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "writ of mandamus land registry title revalidation",
-    "query_id": "query_16",
-    "documents": [
-      {
-        "query": "writ of mandamus land registry title revalidation",
-        "document_text": "The Petitioner sought a Writ of Mandamus directing the 1st Respondent to name the Petitioner as the original owner and/or successor of the subject matter and directing the 1st to 5th Respondents to revalidate the certificate of title bearing number 0002878 and/or re-issue a certificate of title in favor of the Petitioner. This Court issues writs of Certiorari and Mandamus as prayed.",
-        "doc_id": "doc_16_0",
-        "relevance_score": 0.93,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
-          "legal_domains": [
             "writ jurisdiction",
-            "mandamus",
-            "title revalidation",
-            "land registry"
+            "land law"
           ]
+        }
+      },
+      {
+        "query": "writ of certiorari state lands recovery of possession act quit notice",
+        "document_text": "The Respondents contend that the 1st Petitioner had erected an unlawful and unauthorised structure obstructing and encroaching a part of the public road. Thereafter, by following Section 77 of the Municipal Council Ordinance No. 29 of 1947 (as amended), demolished the said unauthorised structure. The issue that arises for the determination of the Court is whether the Respondents have acted within the powers vested in them. When observing the provisions of Section 77 of the Ordinance, it is clear that the Council has the power to order any person obstructing or encroaching upon any street to remove the obstruction. The Court finds that the Council has complied with Section 77(1) of the Ordinance by giving prior notice.",
+        "doc_id": "a8214375-4576-411e-9849-fbb225ce6f16",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "municipal law",
+            "land law"
+          ]
+        }
+      },
+      {
+        "query": "writ of certiorari state lands recovery of possession act quit notice",
+        "document_text": "The accused-appellant was indicted before the High Court of Gampaha, for causing the death of one Sirisena Perera alias Victor on 28th December 1993, at a place called Weliweriya within the jurisdiction of the High Court of Gampaha, and thereby committing the offence of murder punishable in terms of section 296 of the Penal Code. After trial without a jury, the appellant was found guilty as charged. The evidence led at the trial discloses the fact that the deceased and the appellant are relatives. Both of them had been fishmongers.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.05,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
         }
       }
     ]
   },
   {
-    "query": "jurisdiction civil courts land development ordinance disputes",
-    "query_id": "query_17",
+    "query": "criminal appeal murder conviction eyewitness credibility reasonable doubt",
+    "query_id": "query_02",
     "documents": [
       {
-        "query": "jurisdiction civil courts land development ordinance disputes",
-        "document_text": "The Petitioner filed action bearing No.172/L/17 in the District Court of Hungurakgoda seeking a declaration that the Petitioner is entitled to the subject matter under succession. The said action was dismissed on the basis of lack of jurisdiction and the Civil Appellate High Court of Anuradhapura in case NCP/HVVA/FA 28/19 affirmed the order of the District Court. The Petitioner has invoked the writ jurisdiction of this Court.",
-        "doc_id": "doc_17_0",
-        "relevance_score": 0.86,
+        "query": "criminal appeal murder conviction eyewitness credibility reasonable doubt",
+        "document_text": "The Appellants were indicted for committing murder punishable under Section 296 of the Penal Code. PW1, father of the deceased is the only eye witness to the incident. The Counsels for the Appellants argued that the evidence of the sole eye witness does not inspire confidence as it fails the test of credibility and probability. The evidence given by PW1 contradicts with the evidence given by PW2 on material points. The Learned High Court Judge had failed to take into consideration the said contradictions and omissions when she assessed the evidence of PW1. As the evidence given by the sole eye witness contains serious doubt and ambiguity over the prosecution version, this ground itself is enough to succeed the appeal. As the prosecution had failed on its duty to prove this case beyond reasonable doubt, I set aside the conviction and sentence.",
+        "doc_id": "4c9fba4d-eee6-4afa-8020-a56053595d73",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 1,
-          "jurisdiction": "District Court/High Court",
-          "date": "2024-09-25",
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction eyewitness credibility reasonable doubt",
+        "document_text": "The accused-appellant was indicted for the offence of murder. The sole eyewitness (PW-01) to the incident had been deceased when this matter was taken up for trial. However, the prosecution has led the deposition he made during the non-summary proceedings. According to the deposition made by the eyewitness PW-01, he has seen the appellant having a manna knife in his hand and attacking the deceased. The learned High Court Judge has considered the deposition of the sole eyewitness having in his mind, the inherent weaknesses of such a witness as his deposition was not before the trial Court to face the test of cross-examination. The learned Counsel for the appellant conceded that he has no basis to challenge the judgement as it is a judgement pronounced after having well considered the evidence.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction eyewitness credibility reasonable doubt",
+        "document_text": "This is a criminal appeal where the appellant was indicted for kidnapping and grave sexual abuse. The victim female child gave evidence as PW-01. The learned High Court Judge has considered the evidence having drawn her attention to the fact that no person can be expected to have a photographic memory of an incident of this nature. The learned High Court Judge has considered the evidence of the victim child and that of her mother who has come to the scene of the crime while it was happening. The evidence of both the witnesses clearly establishes that all these events had occurred in quick succession. The Court found no basis to conclude that there was any matter that could have been considered in favour of the appellant in relation to the evidence presented.",
+        "doc_id": "1fd3711c-cee9-4d59-9023-a32cd006f8d1",
+        "relevance_score": 0.45,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction eyewitness credibility reasonable doubt",
+        "document_text": "The Petitioner is an Executive Grade II Officer of the Sri Lanka Inland Revenue Service. Pursuant to a formal disciplinary inquiry held against the Petitioner, a Disciplinary Order was issued on the Petitioner imposing a deferment of two salary increments. The Petitioner made an appeal to the Administrative Appeals Tribunal seeking that he may be promoted to Executive Grade II with effect from 01.10.2009. The Public Service Commission contended that in computing the satisfactory service two years should be deducted for the deferment of two salary increments. The Administrative Appeals Tribunal dismissed the appeal of the Petitioner.",
+        "doc_id": "f377d509-ea0d-4a2f-9e7a-4d2a14515d19",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
           "legal_domains": [
-            "jurisdiction",
-            "civil procedure",
-            "land disputes",
+            "administrative law",
+            "employment law",
+            "public service law",
             "writ jurisdiction"
           ]
         }
@@ -184,356 +126,1313 @@
     ]
   },
   {
-    "query": "ultra vires public decision making procedural fairness",
-    "query_id": "query_18",
+    "query": "writ of certiorari employment law EPF liability for charitable organization",
+    "query_id": "query_03",
     "documents": [
       {
-        "query": "ultra vires public decision making procedural fairness",
-        "document_text": "The fundamental principle of judicial review is that the courts will intervene to ensure that the powers of public decision-making bodies are exercised lawfully. If the decision-maker exercises his powers outside the jurisdiction conferred, in a manner which is procedurally irregular or is Wednesbury unreasonable, he is acting ultra vires his powers and therefore unlawfully. The Respondents took steps to alter the records without giving the Petitioner any hearing.",
-        "doc_id": "doc_18_0",
-        "relevance_score": 0.9,
+        "query": "writ of certiorari employment law EPF liability for charitable organization",
+        "document_text": "The Petitioner in this application is seeking a Writ of Certiorari to quash the decision of the Respondent to register the Petitioner for EPF. The Petitioner’s fundamental position is that it is a small, non-profit, charitable organization with less than 10 employees and thus, the Petitioner is not liable to contribute to the EPF in accordance with Section 10(3) of the EPF Act. The crux of this application is to determine whether the Petitioner is liable to be registered as an employer to pay EPF. The relevant Gazette Notification provides that any charitable organization employing 10 or more employees falls under a covered employment. This Court is inclined to accept the Petitioner’s position that it is not engaged in any covered employment as provided for by the EPF Act and is not liable for payment of EPF.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
+          "date": "2024-01-23",
           "legal_domains": [
             "administrative law",
-            "ultra vires",
-            "procedural fairness",
-            "natural justice"
+            "employment law",
+            "writ jurisdiction",
+            "charitable law"
           ]
+        }
+      },
+      {
+        "query": "writ of certiorari employment law EPF liability for charitable organization",
+        "document_text": "This Writ Application seeks to quash orders stating that a loan granted to an employee cannot be recovered from the Employees’ Provident Fund. The issue is whether the Petitioner Company can recover the loan from the money in the Mercantile Services Provident Society (MSPS) Fund. Section 27 of the EPF Act permits the Commissioner of Labour to approve a Private Provident Fund. The MSPS Provident Fund is an approved Provident Fund. Rule 43 of the MSPS allows for the deduction of outstanding loans. The Petitioner Company lawfully recovered the loan from the MSPS Fund. Therefore, the orders directing the petitioner to repay the deducted amount are quashed.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": [
+            "administrative law",
+            "employment law",
+            "writ jurisdiction",
+            "provident funds"
+          ]
+        }
+      },
+      {
+        "query": "writ of certiorari employment law EPF liability for charitable organization",
+        "document_text": "The Petitioner to this Writ Application, Madulsima Plantations PLC, is a duly incorporated Company. The 3rd Respondent was a permanent employee who retired in 2008 and was paid his gratuity. Thereafter, he was re-employed on fixed-term contracts. The Assistant Commissioner of Labour decided that the Petitioner should pay additional gratuity for the entire period from 1973 to 2018, viewing the service as uninterrupted. This Application seeks a Writ of Certiorari to quash that decision. The Court finds the employee's contract terminated upon retirement in 2008 and that the subsequent fixed-term contracts were fresh agreements. The decision of the Labour Commissioner is quashed.",
+        "doc_id": "2acb30b0-4625-44c1-8e66-4224f774d4bf",
+        "relevance_score": 0.55,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": [
+            "administrative law",
+            "employment law",
+            "writ jurisdiction",
+            "gratuity"
+          ]
+        }
+      },
+      {
+        "query": "writ of certiorari employment law EPF liability for charitable organization",
+        "document_text": "This is an appeal regarding a quit notice issued under section 3 of the State Lands (Recovery of Possession) Act. The appellant failed to establish a valid permit to occupy the land. The court considered previous case law, including Farook Vs. Gunawardena, which held that in an inquiry before a Magistrate, the only defense is a valid permit from the State. The appellant could not raise the question of whether the land is State or private land before the Magistrate. The appeal was dismissed.",
+        "doc_id": "70e90de1-f93f-48d9-840a-6a2b1b067278",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["land law", "administrative law"]
         }
       }
     ]
   },
   {
-    "query": "government agent land alienation nomination powers",
-    "query_id": "query_19",
+    "query": "writ of mandamus school admission proof of residency legitimate expectation",
+    "query_id": "query_04",
     "documents": [
       {
-        "query": "government agent land alienation nomination powers",
-        "document_text": "This nomination was done by the government agent according to the provisions of the said Ordinance. The permit holder's intention is indicated to the government agent regarding the nomination. If the permit holder wishes to cancel the said nomination of the successor, it could be made in terms of the provisions in Chapter VII of the Land Development Ordinance and the Government Agent may cancel the name of such successor by an endorsement on the permit.",
-        "doc_id": "doc_19_0",
-        "relevance_score": 0.89,
+        "query": "writ of mandamus school admission proof of residency legitimate expectation",
+        "document_text": "The Petitioner sought to get his minor child admitted to Grade One of Mahamaya Girls’ School, Kandy under the category of “Children of residents in close proximity to the school”. The application was rejected on the basis that the Petitioner failed to prove the residency in three site inspections. The Petitioner claims that he had a legitimate expectation that his daughter would be admitted. As per the relevant Circular, it is mandatory for applicants under the Close Proximity Category to prove residence physically by site inspection. The Interview Board endeavoured to inspect the house on six subsequent occasions and had been unable to do so as the house was padlocked. The Petitioner cannot claim legitimate expectation merely based on the marks obtained at the first interview unless physical residence has been established. The Application for a Writ of Mandamus is dismissed.",
+        "doc_id": "8a23d9c9-b5b6-4c47-87ef-ab9d38ab5272",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-25",
+          "date": "2024-01-31",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "education law"
+          ]
+        }
+      },
+      {
+        "query": "writ of mandamus school admission proof of residency legitimate expectation",
+        "document_text": "The Petitioner seeks a Writ of Mandamus directing the Respondents to appoint the Petitioner as a Consultant Neurologist. The Petitioner states that there is a public duty cast on the Respondents to appoint him. The PGIM requested the Petitioner to undergo remedial training due to an adverse progress report from his overseas trainer. Having scrutinized the evidence presented, it is manifestly clear that the Petitioner’s local and overseas training is unsatisfactory. Adhering to the principles of natural justice, the PGIM requested the Petitioner to be present before a Committee, but he failed to attend. The Petitioner has no option but to undergo further training as recommended. The Petitioner is not entitled to the reliefs as prayed for.",
+        "doc_id": "8a1844b8-851e-4ad5-ae21-ce790eb9c199",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "professional regulation",
+            "medical law"
+          ]
+        }
+      },
+      {
+        "query": "writ of mandamus school admission proof of residency legitimate expectation",
+        "document_text": "The Respondent entered into an agreement with the Board of Investment of Sri Lanka (‘BOI’) to set up a business. The core issue is whether the Respondent is entitled for tax relief under BOI law in respect of a washing plant established in addition to the primary business. The Tax Appeals Commission decided the tax exemption granted applies to the additional business activities. The Commissioner General of Inland Revenue argued the exemption is limited to the business described in the initial agreement. The Court finds no lawful reason to accept the arguments of the Commissioner General and affirms the determination made by the TAC.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["tax law", "commercial law", "administrative law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "admissibility of electronic evidence best evidence rule contemporaneous recordings",
+    "query_id": "query_05",
+    "documents": [
+      {
+        "query": "admissibility of electronic evidence best evidence rule contemporaneous recordings",
+        "document_text": "In a bribery trial, the prosecution moved to play recordings from a pen drive (P-25) and a CD (P-27). The defense objected on the basis that the original mobile phone used for recording was not produced and there was no scientific analysis of the voices. The High Court Judge upheld the objection, citing the best evidence rule. This Court finds that if the prosecution has allowed access to the evidence in terms of section 7 of the Evidence (Special Provisions) Act, a trial Court has no basis to reject it. The best evidence rule has been whittled down. Under section 4 of the Act, contemporaneous recordings are admissible. The High Court order is set aside, and the Court is directed to allow the leading of evidence based on productions P-25 and P-27.",
+        "doc_id": "9f8a8858-7dc2-435e-b914-8dea2058034e",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": [
+            "criminal law",
+            "evidence law",
+            "bribery law",
+            "procedural law"
+          ]
+        }
+      },
+      {
+        "query": "admissibility of electronic evidence best evidence rule contemporaneous recordings",
+        "document_text": "In this sexual abuse case, the prosecution led the video evidence of a preliminary interview of the prosecutrix recorded by the Child Protection Authority, in terms of Section 163 (A) of the Evidence (Special Provisions) Act. Where a child witness contradicts a statement previously made in a video recording, Section 163A (5) allows the judge to act upon the previous statement if it is corroborated in material particulars by evidence from an independent source. The Learned High Court Judge wrongly concluded that the prosecution had corroborated the evidence of PW1 through the evidence given by PW3 and PW5, as their evidence only showed consistency, not independent corroboration. The conviction is set aside.",
+        "doc_id": "2d8f6172-6e23-4841-8b6e-70952dfc1cdc",
+        "relevance_score": 0.65,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "admissibility of electronic evidence best evidence rule contemporaneous recordings",
+        "document_text": "This revision application challenges an order remanding the accused pending further trial for grave sexual abuse. The learned High Court Judge relied on the explanation in section 263 of the Code of Criminal Procedure Act to remand the accused. This Court finds that the judge failed to consider the relevant provisions of the Bail Act No. 30 of 1997, which should prevail. The cancellation of an existing bail order can be made only under the limited circumstances mentioned in section 14 of the Bail Act. The reasons given by the High Court Judge do not fall within the ambit of section 14. The remanding order is set aside.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "procedural law", "bail law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "gratuity payment fixed-term contract after retirement",
+    "query_id": "query_06",
+    "documents": [
+      {
+        "query": "gratuity payment fixed-term contract after retirement",
+        "document_text": "The 3rd Respondent, a permanent employee, retired in 2008 upon reaching the compulsory retirement age and was paid his terminal dues, including gratuity. He was subsequently re-employed on periodic 'Fixed Term Contracts' until 2018. The Assistant Commissioner of Labour ordered the Petitioner Company to pay gratuity for the entire period from 1973 to 2018, deeming the service uninterrupted. This Court finds that the contract of employment terminated upon retirement in 2008, and the subsequent fixed-term contracts were fresh agreements that did not satisfy the minimum period for gratuity. The Court, referencing Brown and Company Limited vs The Commissioner of Labour, held that having accepted gratuity at retirement, the employee is estopped from claiming it again for the same period. The decision of the Labour Commissioner is quashed.",
+        "doc_id": "2acb30b0-4625-44c1-8e66-4224f774d4bf",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": [
+            "administrative law",
+            "employment law",
+            "writ jurisdiction",
+            "gratuity"
+          ]
+        }
+      },
+      {
+        "query": "gratuity payment fixed-term contract after retirement",
+        "document_text": "The Petitioner Company filed a Writ Application to quash orders that prevented them from recovering a loan from an employee's Provident Fund. The employee's service was terminated, and the company sought to recover a loan of Rs.600,000/- from his account in the Mercantile Services Provident Society (MSPS). The issue was whether the company was entitled to recover the loan from the employee's provident fund upon termination. The Court held that since the MSPS is an approved Private Provident Fund under the EPF Act, and its rules (Rule 43) allow for such a deduction, the recovery was lawful. The case deals with termination benefits and employment contracts, but focuses on loan recovery from EPF, not gratuity or retirement.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": [
+            "administrative law",
+            "employment law",
+            "writ jurisdiction",
+            "provident funds"
+          ]
+        }
+      },
+      {
+        "query": "gratuity payment fixed-term contract after retirement",
+        "document_text": "The Petitioner invoked the Writ jurisdiction of this Court to quash a decision by the PGIM requiring him to undergo remedial training to be certified as a Consultant Neurologist. The decision was based on adverse reports on his performance during local and overseas training. The Court found that the PGIM acted within its regulations and that the Petitioner had not successfully completed the required training. The application for a Writ of Mandamus to compel his appointment was dismissed. The case concerns professional qualification and training, not general employment rights like retirement or gratuity.",
+        "doc_id": "8a1844b8-851e-4ad5-ae21-ce790eb9c199",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "professional regulation"
+          ]
+        }
+      },
+      {
+        "query": "gratuity payment fixed-term contract after retirement",
+        "document_text": "This is an appeal regarding a quit notice issued under section 3 of the State Lands (Recovery of Possession) Act. The competent authority issued the notice requiring the appellant to vacate a state land due to unauthorized possession. The Magistrate found that the appellant failed to establish a valid permit or written authority for occupation. The Court of Appeal affirmed the decisions, finding no merit in the appeal, as the scope of inquiry is limited under the Act and the appellant did not discharge the onus of proving lawful occupation.",
+        "doc_id": "70e90de1-f93f-48d9-840a-6a2b1b067278",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
           "legal_domains": [
             "land law",
-            "government agent",
-            "nomination powers",
-            "permit endorsement"
+            "administrative law",
+            "writ jurisdiction"
           ]
         }
       }
     ]
   },
   {
-    "query": "defamatory publications against judges bribery accusations",
-    "query_id": "query_1",
+    "query": "tax exemption Board of Investment (BOI) supplementary agreement",
+    "query_id": "query_07",
     "documents": [
       {
-        "query": "defamatory publications against judges bribery accusations",
-        "document_text": "In his article, the Accused explicitly named His Lordship Justice A.H.M.D. Nawaz, their Ladyships Justice Kumudini Wickramasinghe, and Justice Devika Abeyratne, and made alleged accusations of bribery against them, specifying fixed sums of money. We find all the aspersions made against their Lordships of the Court of Appeal are false, defamatory and malicious.",
-        "doc_id": "doc_1_0",
-        "relevance_score": 0.92,
+        "query": "tax exemption Board of Investment (BOI) supplementary agreement",
+        "document_text": "The core issue is whether the Respondent company is entitled to tax relief under BOI law for a washing plant, finishing section, and warehouse established under a Supplementary Agreement. The Commissioner General of Inland Revenue argued that the 15-year tax exemption granted under the principal Agreement was limited to the initial business of manufacturing apparel. The Court noted that the Supplementary Agreement amended the principal agreement to include the new business activities. The BOI itself confirmed that the new plant formed part and parcel of the company's business. The Court affirmed the determination of the Tax Appeals Commission that the tax exemption applied to the profits and income from the business enhanced under the Supplementary Agreement.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
+          "date": "2024-01-24",
           "legal_domains": [
-            "defamation",
-            "judicial integrity",
-            "contempt of court"
+            "tax law",
+            "commercial law",
+            "administrative law",
+            "contract law"
           ]
+        }
+      },
+      {
+        "query": "tax exemption Board of Investment (BOI) supplementary agreement",
+        "document_text": "This case concerns a dispute over a gem mining license. The 5th Respondent's claim to the land is based on a Statutory Determination (SD) made by the Land Reform Commission under the Land Reform Law. The Petitioners, co-owners of the larger land, challenge the license. The court considered the Jinawathie case regarding the effect of an SD. The case involves the interpretation of statutory provisions and their impact on property rights, which is thematically similar to interpreting BOI agreements, but it does not concern tax exemptions or BOI law.",
+        "doc_id": "e18d4705-26a5-4c70-9216-5542b8693941",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": [
+            "administrative law",
+            "writ jurisdiction",
+            "land law",
+            "mining law"
+          ]
+        }
+      },
+      {
+        "query": "tax exemption Board of Investment (BOI) supplementary agreement",
+        "document_text": "The Petitioner is an officer of the Sri Lanka Inland Revenue Service challenging the denial of a promotion. The Public Service Commission deferred his promotion by deducting two years from his satisfactory service record due to a disciplinary action involving the deferment of two salary increments. The Court upheld the decision, stating that Rule 186 of the Public Service Commission Procedural Rules requires the exclusion of the period of deferred increments when computing satisfactory service. While related to the Inland Revenue, the case is about public service employment rules, not commercial tax exemptions.",
+        "doc_id": "f377d509-ea0d-4a2f-9e7a-4d2a14515d19",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": [
+            "administrative law",
+            "employment law",
+            "public service law",
+            "writ jurisdiction"
+          ]
+        }
+      },
+      {
+        "query": "tax exemption Board of Investment (BOI) supplementary agreement",
+        "document_text": "This is an appeal against a conviction for murder. The primary ground of appeal was whether the prosecution had proved the case beyond a reasonable doubt. The court considered the evidence of a deceased eyewitness through his deposition and the appellant's dock statement admitting the incident. The court found no merit in the appeal and affirmed the conviction and death sentence. The case is entirely within the domain of criminal law and has no relation to tax or commercial agreements.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
         }
       }
     ]
   },
   {
-    "query": "social media contempt proceedings evidence requirements",
-    "query_id": "query_2",
+    "query": "bail cancellation judicial discretion applicability of Bail Act",
+    "query_id": "query_08",
     "documents": [
       {
-        "query": "social media contempt proceedings evidence requirements",
-        "document_text": "The Criminal Investigations Department ('CID') has investigated the matter and ascertained that this article was uploaded to social media by the said Respondent. The said article had been circulated approximately among 122 web users and shared roughly among 4300 readers. Evidence was led through digital forensic investigation of computers taken into custody by the CID.",
-        "doc_id": "doc_2_0",
-        "relevance_score": 0.88,
+        "query": "bail cancellation judicial discretion applicability of Bail Act",
+        "document_text": "This is an application challenging an order by a High Court Judge remanding an accused pending trial. The judge had cancelled the accused's existing bail, relying on section 263 of the Code of Criminal Procedure Act. The Court of Appeal held that the judge was misdirected, as the provisions of the Bail Act No. 30 of 1997 prevail over the Criminal Procedure Code in matters of bail. Section 14 of the Bail Act provides the specific, limited grounds for cancelling a subsisting bail order, which were not met in this case. The Court found the High Court's order was made without due consideration of the relevant law and set it aside, affirming the release of the accused.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
+          "date": "2024-01-31",
           "legal_domains": [
-            "digital evidence",
-            "social media law",
-            "contempt of court"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "query": "proceedings in absentia contempt cases",
-    "query_id": "query_3",
-    "documents": [
-      {
-        "query": "proceedings in absentia contempt cases",
-        "document_text": "As the CID informed Court that the Respondent is absconding, the Attorney General moved that the matter be taken up for Inquiry in the absence of the Respondent. The Respondent has left the island while the relevant Magistrate's Court case was pending against him. This Court was convinced that sufficient evidence was led to establish that the Respondent is evading Court and decided to proceed with the Inquiry in the absence of the said Respondent.",
-        "doc_id": "doc_3_0",
-        "relevance_score": 0.89,
-        "metadata_features": {
-          "court_level": 2,
-          "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
-          "legal_domains": [
+            "criminal law",
             "procedural law",
-            "contempt of court",
-            "absentia proceedings"
+            "bail law",
+            "constitutional law"
           ]
         }
-      }
-    ]
-  },
-  {
-    "query": "burden of proof contempt of court criminal standard",
-    "query_id": "query_4",
-    "documents": [
+      },
       {
-        "query": "burden of proof contempt of court criminal standard",
-        "document_text": "The Supreme Court has observed that even if contempt is not always a crime, it bears a criminal character and therefore, it must be satisfactorily proved. Tilakawardena J. has held that the offence of contempt of court under our law is a criminal charge and the burden of proof is that of proof beyond reasonable doubt. We hold that the charges against the Accused have been proved beyond reasonable doubt.",
-        "doc_id": "doc_4_0",
-        "relevance_score": 0.93,
+        "query": "bail cancellation judicial discretion applicability of Bail Act",
+        "document_text": "In this bribery case, the Court of Appeal reviewed a High Court Judge's decision to refuse the admission of recorded conversations as evidence. The revisionary power of the court was invoked to correct a procedural error. While the case deals with a judge's order in a criminal trial and the exercise of judicial discretion, it focuses on the admissibility of evidence under the Evidence (Special Provisions) Act, not on the principles of bail cancellation. It is thematically related as it involves judicial procedure in a criminal context.",
+        "doc_id": "9f8a8858-7dc2-435e-b914-8dea2058034e",
+        "relevance_score": 0.5,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
+          "date": "2024-01-24",
           "legal_domains": [
+            "criminal law",
             "evidence law",
-            "contempt of court",
-            "burden of proof"
+            "bribery law",
+            "procedural law"
           ]
         }
-      }
-    ]
-  },
-  {
-    "query": "judicial independence protection from scandalous publications",
-    "query_id": "query_5",
-    "documents": [
+      },
       {
-        "query": "judicial independence protection from scandalous publications",
-        "document_text": "Creating such a false and malicious impression in the minds of the public has adversely affected the credibility, integrity and the independence of the Court of Appeal. Such statements will eventually tarnish the trust the public reposes in the administration of justice. The charge of contempt of Court was classically defined as the scandalizing of the Court, in that the words or acts are likely to bring the Court and the Judges into disrepute.",
-        "doc_id": "doc_5_0",
-        "relevance_score": 0.91,
+        "query": "bail cancellation judicial discretion applicability of Bail Act",
+        "document_text": "The Court of Appeal dismissed an appeal against a murder conviction. The appellant's counsel conceded that there was no basis to challenge the High Court's judgment. The evidence included a deposition from a deceased eyewitness and a dock statement where the appellant admitted the incident. The court affirmed the death sentence. This case concerns the substantive evaluation of evidence in a murder trial, not procedural matters like bail.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.15,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      },
+      {
+        "query": "bail cancellation judicial discretion applicability of Bail Act",
+        "document_text": "The Petitioner, the father of a minor child, sought a Writ of Mandamus to compel a school to admit his child under the 'close proximity' category. The application was rejected because the petitioner failed to prove residency during site inspections. The Court held that the petitioner had no legitimate expectation of admission without fulfilling the mandatory requirement of proving physical residence. The application was dismissed. This is an administrative law case and is completely unrelated to criminal bail proceedings.",
+        "doc_id": "8a23d9c9-b5b6-4c47-87ef-ab9d38ab5272",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
           "legal_domains": [
-            "judicial independence",
-            "contempt of court",
-            "public confidence in judiciary"
+            "administrative law",
+            "writ jurisdiction",
+            "education law"
           ]
         }
       }
     ]
   },
   {
-    "query": "Contempt of Court Act 2024 legislative changes",
-    "query_id": "query_6",
+    "query": "writ of certiorari demolition of unauthorized construction under municipal council ordinance",
+    "query_id": "query_09",
     "documents": [
       {
-        "query": "Contempt of Court Act 2024 legislative changes",
-        "document_text": "The 'Contempt of a Court, Tribunal or Institution Act No. 8 of 2024' was certified on 01.02.2024 and it was after the Rule had been issued against the Accused of these proceedings. Regardless of the procedures that were in place for contempt of court cases prior to the enactment of the said Act, we believe this Court has the inherent powers to make a decision Suo Moto in such proceedings.",
-        "doc_id": "doc_6_0",
+        "query": "writ of certiorari demolition of unauthorized construction under municipal council ordinance",
+        "document_text": "The 1st Petitioner's business building was demolished by the Municipal Council of Moratuwa. The Respondents contend that the Petitioner had erected an unlawful and unauthorised structure encroaching on a public road. They state that the demolition was carried out under Section 77 of the Municipal Council Ordinance. The core issue is whether the Respondents acted within their vested powers. The Court found that Section 77 grants the Council authority to order the removal of encroachments and to demolish them if the order is not complied with. As the Council gave prior notice, it acted in compliance with the Ordinance. The application seeking relief is dismissed.",
+        "doc_id": "a8214375-4576-411e-9849-fbb225ce6f16",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized construction under municipal council ordinance",
+        "document_text": "The Petitioners were issued a notice to permanently close two gates and regularize a boundary wall, which the Respondents claim is an unauthorized construction. The property is within the Colombo Municipal Council area. The Petitioners claim the wall was built in 1962 with approvals. The Court examined the Condominium Plan, which had been approved with a street line certificate, and noted it described the wall as the southern boundary. Therefore, the Court concluded the boundary wall cannot be considered an unauthorized construction and the notice to close the gates, issued after a long delay, was unlawful and arbitrary. A Writ of Certiorari was issued to quash the notice.",
+        "doc_id": "1879977a-a086-41c6-a1e3-5fc4fcf05ab1",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized construction under municipal council ordinance",
+        "document_text": "The Petitioner seeks to quash a quit notice issued under the State Lands (Recovery of Possession) Act, which requires him to vacate a state land. The Court found that the scope of inquiry before the Magistrate is limited to whether the person has a valid permit. The appellant has an alternative remedy under section 12 of the Act to institute a separate action to vindicate his title. The court found no reason to interfere with the Magistrate's ejectment order.",
+        "doc_id": "3f222e28-d9a0-452e-aa98-498d5656613e",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized construction under municipal council ordinance",
+        "document_text": "This criminal appeal concerns a murder conviction where the sole eyewitness had passed away before the trial. The prosecution relied on the deposition made by the eyewitness during non-summary proceedings. The court considered the inherent weaknesses of such evidence but ultimately affirmed the conviction, noting that the appellant's counsel conceded there was no basis to challenge the High Court's judgment. The case deals with criminal law and evidence, not municipal law or unauthorized constructions.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal sexual abuse child witness corroboration evidence consistency",
+    "query_id": "query_10",
+    "documents": [
+      {
+        "query": "criminal appeal sexual abuse child witness corroboration evidence consistency",
+        "document_text": "This appeal is against a conviction for grave sexual abuse of a minor. The prosecution's case was based on the testimony of the victim (PW-01) and her mother (PW-02). The defense argued that the lack of injuries on the child, despite the alleged incident occurring on a rough surface, raised doubts. The court addressed the consistency of the evidence, noting minor discrepancies between the child's and mother's accounts but found them not to be fatal to the prosecution's case. The court also considered the history given to the JMO, clarifying it goes to consistency, not corroboration. The conviction was affirmed, finding the child's testimony credible and corroborated by the mother's evidence of seeing the appellant flee the scene.",
+        "doc_id": "1fd3711c-cee9-4d59-9023-a32cd006f8d1",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "criminal appeal sexual abuse child witness corroboration evidence consistency",
+        "document_text": "This appeal challenges a conviction for grave sexual abuse where the main evidence was a video recording of the child victim's statement. During the trial, the victim contradicted her video statement. Section 163A (5) of the Evidence (Special Provisions) Act requires that in such a case, the video statement must be corroborated in material particulars by an independent source. The Court held that the trial judge misdirected himself by considering the testimony of the school principal (PW3) and a probation officer (PW5) as corroboration, when it merely showed consistency. The Court distinguished between corroboration and consistency, citing case law, and acquitted the appellant because the statutory requirement for corroboration was not met.",
+        "doc_id": "2d8f6172-6e23-4841-8b6e-70952dfc1cdc",
+        "relevance_score": 0.95,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "criminal appeal sexual abuse child witness corroboration evidence consistency",
+        "document_text": "This is a criminal appeal against a murder conviction. The sole eyewitness's testimony was challenged on grounds of credibility due to contradictions and omissions between his court testimony and his initial statement to the police. The court found these discrepancies to be serious and affect the root of the case. It held that the prosecution had failed to prove the case beyond a reasonable doubt and acquitted the appellants. While it deals with witness credibility and evidence, the specific context is murder, not sexual abuse of a child.",
+        "doc_id": "4c9fba4d-eee6-4afa-8020-a56053595d73",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      },
+      {
+        "query": "criminal appeal sexual abuse child witness corroboration evidence consistency",
+        "document_text": "This application challenges an order by a High Court Judge to remand an accused after cancelling his bail. The Court of Appeal found that the judge had not followed the mandatory provisions of the Bail Act, particularly Section 14, which sets out the limited grounds for bail cancellation. The order was deemed a miscarriage of justice and set aside. The case is a procedural matter in criminal law and does not involve the evaluation of evidence like witness testimony or corroboration in a sexual abuse trial.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "procedural law", "bail law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari land title dispute land reform law land settlement ordinance",
+    "query_id": "query_11",
+    "documents": [
+      {
+        "query": "writ of certiorari land title dispute land reform law land settlement ordinance",
+        "document_text": "The Petitioner seeks a Writ of Certiorari to quash a land settlement order issued under the Land Settlement Ordinance. The petitioner claims ownership through a transfer from the Land Reform Commission (LRC), which had previously acquired the land under the Land Reform Law. The 5th Respondent claims ownership based on the subsequent settlement order. The Court noted that the land was vested with the LRC in 1972, and the settlement order was issued much later in 2006. The Petitioner has also filed a separate action in the District Court for a declaration of title. The Court dismissed the writ application, noting the disputed facts, the existence of an alternative remedy, and the petitioner's delay (laches) in challenging the 2006 gazette.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari land title dispute land reform law land settlement ordinance",
+        "document_text": "The Petitioners seek to quash a Gem Mining License issued to the 5th Respondent. A central issue is the ownership of the land. The 5th Respondent's claim is based on a Statutory Determination (SD) made by the Land Reform Commission (LRC) under the Land Reform Law. The Petitioners claim co-ownership of the larger land from which the SD portion was carved out. The Court analyzed the legal effect of an SD, referencing the Jinawathie case, and found that the authorities failed to properly investigate the title and whether the land in the license matched the land in the SD, especially given the co-ownership claims. The license was quashed. This case is highly relevant as it directly interprets the effect of the Land Reform Law on land titles in a dispute.",
+        "doc_id": "e18d4705-26a5-4c70-9216-5542b8693941",
         "relevance_score": 0.85,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
-          "legal_domains": [
-            "statutory interpretation",
-            "contempt of court",
-            "legislative changes"
-          ]
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "mining law"]
         }
-      }
-    ]
-  },
-  {
-    "query": "digital forensic evidence social media publications",
-    "query_id": "query_7",
-    "documents": [
+      },
       {
-        "query": "digital forensic evidence social media publications",
-        "document_text": "B.N.M.A.S.K. Senarathne (Chief Inspector, OIC of the CID and Digital Forensic Laboratory) testified regarding investigation of computers taken into custody by the CID from the place the Accused was living. R. A. Mahinda Rajapaksa (Sub-Inspector, CID Cyber Crime Investigations Unit, Social Media Unit) provided evidence about the social media circulation of the article on lankanewsweb.org.",
-        "doc_id": "doc_7_0",
-        "relevance_score": 0.87,
+        "query": "writ of certiorari land title dispute land reform law land settlement ordinance",
+        "document_text": "This is an appeal regarding a quit notice issued under the State Lands (Recovery of Possession) Act. The competent authority sought to eject the appellant from a state land. A previous writ application had quashed an earlier notice because it incorrectly named a private land. The authority then issued a corrected notice for the correct state land. The Court held that the appellant's defense was limited to proving a valid permit, and the previous writ did not grant a right to occupy. The appeal was dismissed. This case involves state land but does not engage with the Land Reform Law or the Land Settlement Ordinance.",
+        "doc_id": "3f222e28-d9a0-452e-aa98-498d5656613e",
+        "relevance_score": 0.3,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
-          "legal_domains": ["digital forensics", "cyber crime", "evidence law"]
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
         }
-      }
-    ]
-  },
-  {
-    "query": "malicious publication interference with course of justice",
-    "query_id": "query_8",
-    "documents": [
+      },
       {
-        "query": "malicious publication interference with course of justice",
-        "document_text": "The article authored and published by the said Accused has been made and published with a clear intention of insulting their Lordships of the Court of Appeal or to bring the Court of Appeal into disrepute. This eventually amounts to the interference with the course of justice or the abuse of process of court. There must be involved some act done or writing published calculated to obstruct or interfere with the due course of justice.",
-        "doc_id": "doc_8_0",
-        "relevance_score": 0.9,
+        "query": "writ of certiorari land title dispute land reform law land settlement ordinance",
+        "document_text": "This case involves a company that is challenging its obligation to pay EPF for an employee. The company argues it is a non-profit charitable organization and therefore exempt under the EPF Act. The Court examined the definition of a 'charitable institution' and the company's objectives and activities. It found that the company met the criteria and was not engaged in a 'covered employment' under the EPF Act. A Writ of Certiorari was issued to quash the decision of the Labour Commissioner. The case is entirely unrelated to land law.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.0,
         "metadata_features": {
           "court_level": 2,
           "jurisdiction": "Court of Appeal",
-          "date": "2024-09-18",
-          "legal_domains": [
-            "contempt of court",
-            "interference with justice",
-            "malicious publication"
-          ]
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction"]
         }
       }
     ]
   },
   {
-    "query": "Bar Association complaint judicial misconduct allegations",
-    "query_id": "query_9",
+    "query": "procedural defect in revision application preliminary objection affidavit date",
+    "query_id": "query_12",
     "documents": [
       {
-        "query": "Bar Association complaint judicial misconduct allegations",
-        "document_text": "It is noted that proceedings in the Magistrate's court has been commenced against the Respondent as a consequence of a complaint received by the Bar Association of Sri Lanka upon the said article. The Respondent has left the island while the relevant Magistrate's Court case was pending against him arising from the Bar Association complaint.",
-        "doc_id": "doc_9_0",
-        "relevance_score": 0.82,
+        "query": "procedural defect in revision application preliminary objection affidavit date",
+        "document_text": "In this revision application, the respondent raised preliminary objections, including that the affidavit filed in support of the petition was dated three days before the petition was signed. The respondent relied on the Supreme Court judgment in Roylin Fernando, arguing the application should be dismissed. The Court distinguished the cited case, noting it involved an affidavit dated two years before the impugned order. The Court held that an affidavit does not need to be dated after the petition and that a rigid adherence to technicalities should not prevent justice. Citing Distilleries Company Ltd. Vs. Kariyawasam, the court dismissed the preliminary objection.",
+        "doc_id": "9f8a8858-7dc2-435e-b914-8dea2058034e",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 1,
-          "jurisdiction": "Magistrate's Court",
-          "date": "2024-09-18",
-          "legal_domains": [
-            "professional conduct",
-            "Bar Association",
-            "judicial misconduct allegations"
-          ]
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law", "bribery law", "procedural law"]
+        }
+      },
+      {
+        "query": "procedural defect in revision application preliminary objection affidavit date",
+        "document_text": "In this writ application, the court dismissed the petition on several procedural grounds. The court noted that the petitioner was seeking relief for a building that had already been demolished, rendering the prayers futile. More importantly, the court held that the petitioner was guilty of laches (unreasonable delay) for waiting 12-14 years to challenge a gazette notification. It also noted that the petitioner had an alternative remedy in the District Court. This case deals with procedural bars to a writ application, which is conceptually similar to preliminary objections, but does not involve the specific issue of affidavit dates.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "procedural law"]
+        }
+      },
+      {
+        "query": "procedural defect in revision application preliminary objection affidavit date",
+        "document_text": "In this case, the court reviewed a decision of the Tax Appeals Commission (TAC). The appellant, the Commissioner General of Inland Revenue, raised four questions of law for the court's opinion regarding a tax exemption for a BOI company. The court examined the principal and supplementary agreements to determine the scope of the tax exemption. The judgment focuses entirely on the substantive interpretation of tax law and BOI agreements, with no discussion of procedural defects, preliminary objections, or affidavits.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["tax law", "commercial law", "administrative law"]
         }
       }
     ]
   },
   {
-    "query": "social media copyright infringement fair use DMCA takedown",
+    "query": "writ of certiorari gem mining license land reform law co-ownership dispute",
+    "query_id": "query_13",
+    "documents": [
+      {
+        "query": "writ of certiorari gem mining license land reform law co-ownership dispute",
+        "document_text": "The Petitioners seek a Writ of Certiorari to quash a gem mining license issued to the 5th Respondent. The dispute centers on the ownership of the land. The 5th Respondent claims title based on a Statutory Determination (SD) made under the Land Reform Law, arguing it created a separate land entity. The Petitioners assert co-ownership rights over the larger land. The Court found the authority that issued the license failed to properly investigate the co-ownership claims and the applicability of the SD, especially since the land extent in the license differed from the SD. The Court quashed the license, holding that an SD under the Land Reform Law does not automatically extinguish co-ownership rights for the purpose of issuing a gemming license under separate regulations.",
+        "doc_id": "e18d4705-26a5-4c70-9216-5542b8693941",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "mining law"]
+        }
+      },
+      {
+        "query": "writ of certiorari gem mining license land reform law co-ownership dispute",
+        "document_text": "This case involves a writ application to quash a land settlement order issued under the Land Settlement Ordinance. The petitioner's title stems from the Land Reform Commission (LRC), which acquired the land under the Land Reform Law. A competing claim arises from the settlement order. This case is relevant as it deals with a title dispute involving the Land Reform Law and a writ of certiorari, but the conflicting law is the Land Settlement Ordinance, not the Gem and Jewellery Authority Act, and the dispute is not over a mining license.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari gem mining license land reform law co-ownership dispute",
+        "document_text": "The Respondents demolished a structure erected by the Petitioner, claiming it was an unauthorized encroachment on a public road under the Municipal Council Ordinance. The court examined whether the council acted within its powers under Section 77 of the Ordinance. The case involves a dispute over land use and a writ application, but it is governed by municipal law concerning road encroachments and does not involve mining, co-ownership disputes, or the Land Reform Law.",
+        "doc_id": "a8214375-4576-411e-9849-fbb225ce6f16",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "land law"]
+        }
+      },
+      {
+        "query": "writ of certiorari gem mining license land reform law co-ownership dispute",
+        "document_text": "This is an appeal against a murder conviction. The appellant was found guilty after a trial where the court considered evidence from a deceased eyewitness's deposition and the appellant's own dock statement admitting to the incident. The appeal was dismissed, and the death sentence was affirmed. This case is entirely a criminal matter and has no connection to land law, mining, or administrative writs.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "loan recovery from provident fund upon termination employer's lien",
+    "query_id": "query_14",
+    "documents": [
+      {
+        "query": "loan recovery from provident fund upon termination employer's lien",
+        "document_text": "The issue in this case is whether the Petitioner Company is legally entitled to recover a loan granted to an employee from the money held in his account in the Mercantile Services Provident Society (MSPS), a private provident fund, upon the termination of his service. The Court examined Section 27 of the EPF Act, which allows for approved private funds, and Rule 43 of the MSPS, which provides for an employer's lien to recover loans. The Court held that the recovery was lawful as the MSPS is an approved fund and its rules permit such a deduction. A Writ of Certiorari was issued to quash the Labour Commissioner's order which had directed the company to repay the deducted amount to the employee.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "provident funds"]
+        }
+      },
+      {
+        "query": "loan recovery from provident fund upon termination employer's lien",
+        "document_text": "This case concerns the payment of gratuity to an employee who was re-employed on fixed-term contracts after his retirement. The court held that once the employee retired and accepted his gratuity, his initial employment contract ended. The subsequent contracts did not meet the minimum period for a new gratuity payment. This case is relevant as it deals with statutory dues upon termination of employment, but it focuses on gratuity under the Payment of Gratuity Act, not on loan recovery from a provident fund.",
+        "doc_id": "2acb30b0-4625-44c1-8e66-4224f774d4bf",
+        "relevance_score": 0.65,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "gratuity"]
+        }
+      },
+      {
+        "query": "loan recovery from provident fund upon termination employer's lien",
+        "document_text": "The Petitioner, a non-profit charitable organization, challenged its liability to contribute to the Employees' Provident Fund (EPF). The court found that the organization, having fewer than 10 employees and operating for charitable purposes, was not engaged in a 'covered employment' as defined by the EPF Act and its regulations. The decision to register the petitioner for EPF was quashed. This case deals with EPF liability in general but does not address the specific issue of loan recovery or an employer's lien.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "charitable law"]
+        }
+      },
+      {
+        "query": "loan recovery from provident fund upon termination employer's lien",
+        "document_text": "This appeal relates to an ejectment order under the State Lands (Recovery of Possession) Act. The appellant challenged a quit notice for unauthorized occupation of state land. The Court affirmed the ejectment, stating the appellant failed to prove a valid permit for occupation. This is a land law matter and is completely irrelevant to employment law or provident funds.",
+        "doc_id": "3f222e28-d9a0-452e-aa98-498d5656613e",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "State Lands Recovery of Possession Act appeal against Magistrate's ejectment order",
+    "query_id": "query_15",
+    "documents": [
+      {
+        "query": "State Lands Recovery of Possession Act appeal against Magistrate's ejectment order",
+        "document_text": "This is an appeal against a High Court judgment which had dismissed a revision application challenging an ejectment order from the Magistrate’s Court of Nikawaratiya. The order was made under the State Lands (Recovery of Possession) Act. The appellant had failed to show cause as to why an order of ejectment should not be made. The Court held that under Section 9 of the Act, the scope of the inquiry is limited to establishing a valid permit or written authority from the State. The appeal was dismissed as the appellant failed to do so.",
+        "doc_id": "70e90de1-f93f-48d9-840a-6a2b1b067278",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["land law", "administrative law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "State Lands Recovery of Possession Act appeal against Magistrate's ejectment order",
+        "document_text": "This case is an appeal against an ejectment order issued by the Magistrate’s Court of Nikawaratiya under the State Lands (Recovery of Possession) Act. The appellant, who was in unauthorized possession of state land, had a quit notice issued against him. When he failed to comply, the Magistrate issued an ejectment order. The Court of Appeal affirmed the order, citing Farook Vs. Gunawardena and stating that the only defense available in such an inquiry is to prove a valid permit, which the appellant failed to do.",
+        "doc_id": "3f222e28-d9a0-452e-aa98-498d5656613e",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "State Lands Recovery of Possession Act appeal against Magistrate's ejectment order",
+        "document_text": "The Petitioner sought a Writ of Certiorari to quash a quit notice issued under the State Lands (Recovery of Possession) Act before an ejectment order was made. The Petitioner's challenge was based on the claim that the land was not properly identified. The court found that the land was properly identified in the quit notice and dismissed the application. This case is highly relevant as it involves the same act, but it is at the pre-ejectment stage (challenging the quit notice) rather than an appeal against the final ejectment order.",
+        "doc_id": "eaaf5922-459d-46c6-8a6d-7d943cf59802",
+        "relevance_score": 0.75,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "State Lands Recovery of Possession Act appeal against Magistrate's ejectment order",
+        "document_text": "This application challenges an order remanding an accused in a criminal case. The High Court Judge cancelled the accused's bail, but the Court of Appeal found this was done in violation of the Bail Act. The case concerns criminal procedure and bail principles. It has no connection to land law, ejectment, or the State Lands (Recovery of Possession) Act.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "procedural law", "bail law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "professional misconduct disciplinary action writ of mandamus",
+    "query_id": "query_16",
+    "documents": [
+      {
+        "query": "professional misconduct disciplinary action writ of mandamus",
+        "document_text": "The Petitioner, a doctor, seeks a Writ of Mandamus to compel his appointment as a Consultant Neurologist. The Postgraduate Institute of Medicine (PGIM), based on adverse progress reports from his local and overseas trainers detailing unsatisfactory conduct and performance, decided he must undergo remedial training. The Petitioner challenged this decision. The Court found that the PGIM acted within its regulations to address professional inadequacy and ensure patient safety. Given the well-substantiated evidence of the Petitioner's unsatisfactory training and behavioral issues, the Court dismissed the application, holding he was not entitled to the appointment without completing the required remedial training.",
+        "doc_id": "8a1844b8-851e-4ad5-ae21-ce790eb9c199",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "writ jurisdiction", "professional regulation", "medical law"]
+        }
+      },
+      {
+        "query": "professional misconduct disciplinary action writ of mandamus",
+        "document_text": "The Petitioner, an Inland Revenue Service officer, challenged the rejection of his promotion by the Administrative Appeals Tribunal. A formal disciplinary inquiry had resulted in the deferment of two salary increments. The Public Service Commission, applying its procedural rules, deducted two years from his period of satisfactory service due to this disciplinary action, making him ineligible for the promotion from the requested date. The Court upheld the decision, finding no basis to overturn the Tribunal's order as the rules were correctly applied. This case involves disciplinary action affecting a professional career but focuses on public service rules rather than professional misconduct.",
+        "doc_id": "f377d509-ea0d-4a2f-9e7a-4d2a14515d19",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "employment law", "public service law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "professional misconduct disciplinary action writ of mandamus",
+        "document_text": "This case involves an employee who was terminated after a domestic inquiry found him guilty of misconduct related to financial mismanagement. The legal dispute, however, is not about the disciplinary action itself but about the employer's right to recover a loan from the employee's provident fund upon his termination. The court's decision centered on the rules of the private provident fund and the validity of the loan agreement. The employee's misconduct is the factual background but not the legal issue being adjudicated.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 0.35,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "provident funds"]
+        }
+      },
+      {
+        "query": "professional misconduct disciplinary action writ of mandamus",
+        "document_text": "This appeal challenges a conviction for murder. The key legal question was the credibility of the sole eyewitness's testimony, which contained contradictions and omissions compared to his earlier statements. The Court of Appeal found that these discrepancies created reasonable doubt and acquitted the appellants. The case is a criminal appeal focused on the evaluation of evidence and does not involve professional conduct, disciplinary actions, or administrative writs.",
+        "doc_id": "4c9fba4d-eee6-4afa-8020-a56053595d73",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "laches undue delay as a bar to writ jurisdiction",
+    "query_id": "query_17",
+    "documents": [
+      {
+        "query": "laches undue delay as a bar to writ jurisdiction",
+        "document_text": "The Petitioner filed a Writ Application in 2020 to challenge a land settlement order published in a Gazette in 2006. The learned SSC, appearing for the Respondents, argued that the Petitioner is guilty of laches. The Court agreed, holding that the petitioner failed to seek court intervention within a reasonable time from the date of the gazette's publication and failed to explain the delay of 14 years. Citing authorities like Seneviratne Vs. Tissa Bandaranayake and Biso Menike Vs. Cyril de Alwis, the Court affirmed that undue delay is a valid impediment to the grant of a discretionary writ. The application was dismissed on this ground, among others.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "procedural law"]
+        }
+      },
+      {
+        "query": "laches undue delay as a bar to writ jurisdiction",
+        "document_text": "The Court dismissed a writ application seeking relief for a demolished building, holding that granting the relief prayed for would be futile since the building no longer exists. The Court cited authorities like Samastha Lanka Nidahas Grama Niladhari Sangamaya Vs Dissanayake, stating that a court will not issue a writ where it would be vexatious or futile. While this is a procedural bar to a writ, similar to laches, the specific ground for dismissal was futility, not the petitioner's delay.",
+        "doc_id": "a8214375-4576-411e-9849-fbb225ce6f16",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "procedural law"]
+        }
+      },
+      {
+        "query": "laches undue delay as a bar to writ jurisdiction",
+        "document_text": "In this writ application, the Respondents claimed the Petitioner was guilty of laches. The Petitioner, a charitable organization, was challenging its EPF registration. The Court, however, decided the case on its merits, finding that the petitioner was indeed exempt from EPF contributions under the law. It did not rely on the argument of laches to dismiss the case. The concept was raised by a party but was not a basis for the judgment.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "charitable law"]
+        }
+      },
+      {
+        "query": "laches undue delay as a bar to writ jurisdiction",
+        "document_text": "This criminal appeal concerns a conviction for sexual abuse. The key legal issues were the credibility of the child victim's testimony and the interpretation of medical evidence. The court evaluated the consistency of witness accounts and affirmed the conviction. This case is a criminal appeal and does not involve writ jurisdiction or the doctrine of laches.",
+        "doc_id": "1fd3711c-cee9-4d59-9023-a32cd006f8d1",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "legitimate expectation administrative law school admission",
+    "query_id": "query_18",
+    "documents": [
+      {
+        "query": "legitimate expectation administrative law school admission",
+        "document_text": "The Petitioner challenges the rejection of his child's application for Grade One admission to a school under the 'close proximity' category. The Petitioner claims that after being awarded high marks at the interview based on documents, he had a legitimate expectation that his child would be admitted. The Court rejected this argument, holding that the relevant circulars made it clear that marks were subject to the physical establishment of residence via site inspection. Since the petitioner failed to prove residency during multiple site inspections, the court concluded that no legitimate expectation could arise merely from the initial documentary-based score. The application for a writ was dismissed.",
+        "doc_id": "8a23d9c9-b5b6-4c47-87ef-ab9d38ab5272",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "education law"]
+        }
+      },
+      {
+        "query": "legitimate expectation administrative law school admission",
+        "document_text": "The Petitioner, a charitable organization, sought to quash a decision making it liable for EPF contributions. A key part of its argument was that it had a legitimate expectation that it would be excluded from paying EPF due to its non-profit status and having fewer than 10 employees, as per the governing regulations. The Court ultimately agreed on the merits that the organization was exempt, thereby validating the expectation that was based on the law. This case directly involves the concept of legitimate expectation in an administrative law context.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.75,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "charitable law"]
+        }
+      },
+      {
+        "query": "legitimate expectation administrative law school admission",
+        "document_text": "The Petitioners challenged a notice from the Municipal Council to close two gates on their property. They argued that the gates and boundary wall had been in existence for approximately 60 years with the necessary approvals. The court found that the Council's long period of inaction and the existence of an approved condominium plan showing the wall implied the construction was authorized. While the principle of legitimate expectation is not explicitly named, the court's reasoning—that the Council cannot act arbitrarily after such a long period of acquiescence—is closely related to it.",
+        "doc_id": "1879977a-a086-41c6-a1e3-5fc4fcf05ab1",
+        "relevance_score": 0.45,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "land law"]
+        }
+      },
+      {
+        "query": "legitimate expectation administrative law school admission",
+        "document_text": "This is a criminal appeal concerning a murder conviction where the evidence of a deceased eyewitness was considered. The appellant was sentenced to death. The legal issues revolve around the weight and admissibility of evidence in a criminal trial. This case does not involve administrative law, public authorities making decisions affecting individuals' rights in a way that would give rise to a legitimate expectation, or school admissions.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "evidence law corroboration vs consistency in sexual assault cases",
+    "query_id": "query_19",
+    "documents": [
+      {
+        "query": "evidence law corroboration vs consistency in sexual assault cases",
+        "document_text": "The Court held that the trial judge misdirected himself by holding that the victim's evidence had been corroborated by the evidence of the school principal (PW3) and a probation officer (PW5). The Court clarified that their evidence only shows the “consistency” of the prosecutrix’s evidence, which strengthens her credibility, but it is not corroboration. Citing Sana v. Republic of Sri Lanka, the court stated, 'A complaint made by the prosecutrix to the police...cannot be regarded as corroboration of her evidence.' The statutory requirement under Section 163A(5) is for corroboration from an independent source, which was not met.",
+        "doc_id": "2d8f6172-6e23-4841-8b6e-70952dfc1cdc",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "evidence law corroboration vs consistency in sexual assault cases",
+        "document_text": "The third ground of appeal was that the High Court Judge was misdirected in stating that the history given by the child to the doctor corroborated her evidence. This Court clarified the legal principle: 'It is trite law that the history given in a Medico-Legal Report can only be considered in relation to the consistency of the evidence of a witness... I am of the view that the history given by a patient to a doctor becomes relevant in a criminal trial only to establish that the relevant witness has been consistent.' While the trial judge used the wrong word ('corroborates'), the Court found it caused no prejudice as there was other ample evidence.",
+        "doc_id": "1fd3711c-cee9-4d59-9023-a32cd006f8d1",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["criminal law", "evidence law", "family law"]
+        }
+      },
+      {
+        "query": "evidence law corroboration vs consistency in sexual assault cases",
+        "document_text": "In this murder appeal, the credibility of the sole eyewitness (PW1) was challenged. The Court noted that PW1's testimony contradicted that of another witness (PW2) on material points and that PW1 had omitted key facts in his initial police statement. The Court found that these 'contradictions and omissions' were significant and affected the root of the case, creating reasonable doubt. While this case deals with inconsistent evidence, it does not involve the specific legal distinction between corroboration and consistency as applied in sexual offence cases.",
+        "doc_id": "4c9fba4d-eee6-4afa-8020-a56053595d73",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      },
+      {
+        "query": "evidence law corroboration vs consistency in sexual assault cases",
+        "document_text": "The Petitioner, a father, sought a Writ of Mandamus to compel a school to admit his child. The application was rejected as the Petitioner failed to prove his residency during site inspections. The Court held that the Petitioner had no legitimate expectation of admission. This is an administrative law case concerning school admissions and is entirely unrelated to the rules of evidence in criminal trials.",
+        "doc_id": "8a23d9c9-b5b6-4c47-87ef-ab9d38ab5272",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "education law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Land Reform Law Statutory Determination effect on co-ownership rights",
     "query_id": "query_20",
     "documents": [
       {
-        "query": "social media copyright infringement fair use DMCA takedown",
-        "document_text": "The Petitioner, a professional photographer, filed a copyright infringement claim against the Respondent for unauthorized use of their copyrighted photographs on a commercial blog. The Respondent claimed fair use under Section 107 of the Copyright Act, arguing the use was for commentary and educational purposes. The Court must balance the four fair use factors: (1) purpose and character of use, (2) nature of the copyrighted work, (3) amount used, and (4) effect on the market. The DMCA provides a safe harbor for online service providers who promptly remove infringing content upon receiving a proper takedown notice that complies with 17 U.S.C. § 512(c)(3).",
-        "doc_id": "doc_20_0",
-        "relevance_score": 0.94,
+        "query": "Land Reform Law Statutory Determination effect on co-ownership rights",
+        "document_text": "The Court analyzed whether a Statutory Determination (SD) made by the Land Reform Commission (LRC) under the Land Reform Law extinguished the co-ownership rights of the Petitioners. The 5th Respondent argued, based on the *Jinawathie* case, that the SD created a distinct and separate land free from prior co-ownership. The Court distinguished the *Jinawathie* case, stating its purpose was primarily to determine the extent of land holdings for the 50-acre ceiling. It held that for the purpose of issuing a gemming license, an SD does not cure defects of title or extinguish co-ownership rights, especially when other parties' interests are affected and the land cannot be clearly identified on the ground. The decision to issue the license based solely on the SD was quashed.",
+        "doc_id": "e18d4705-26a5-4c70-9216-5542b8693941",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 3,
-          "jurisdiction": "High Court",
-          "date": "2024-10-15",
-          "legal_domains": [
-            "intellectual property",
-            "copyright law",
-            "digital media",
-            "DMCA"
-          ]
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "mining law"]
+        }
+      },
+      {
+        "query": "Land Reform Law Statutory Determination effect on co-ownership rights",
+        "document_text": "This case involves a title dispute where the Petitioner's ownership derives from a transfer by the Land Reform Commission (LRC) after the land vested in it under the Land Reform Law in 1972. A competing claim arises from a land settlement order issued in 2006. The court acknowledged the vesting of the land with the LRC under the Land Reform Law as a key fact. This case is relevant as it directly involves a title derived from the LRC, but the conflict is with a Settlement Order, not an internal analysis of how an SD affects co-owners.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law"]
+        }
+      },
+      {
+        "query": "Land Reform Law Statutory Determination effect on co-ownership rights",
+        "document_text": "This appeal concerns an ejectment order under the State Lands (Recovery of Possession) Act. The legal issue is whether the appellant had a valid permit to occupy state land. The case revolves around a different statute governing state lands and does not involve the Land Reform Law, the Land Reform Commission, or statutory determinations affecting private land ownership.",
+        "doc_id": "70e90de1-f93f-48d9-840a-6a2b1b067278",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-30",
+          "legal_domains": ["land law", "administrative law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "Land Reform Law Statutory Determination effect on co-ownership rights",
+        "document_text": "The Petitioner, an officer in the Inland Revenue Service, is challenging the denial of a promotion based on a disciplinary action that affected his service record. This is an employment law matter concerning public service rules. It has no connection to land law, the Land Reform Law, or property rights.",
+        "doc_id": "f377d509-ea0d-4a2f-9e7a-4d2a14515d19",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "employment law", "public service law", "writ jurisdiction"]
         }
       }
     ]
   },
   {
-    "query": "GDPR data protection personal information breach compensation",
+    "query": "public service promotion disciplinary action satisfactory service record",
     "query_id": "query_21",
     "documents": [
       {
-        "query": "GDPR data protection personal information breach compensation",
-        "document_text": "The Claimant seeks compensation under Article 82 of the UK GDPR for a data breach where their personal information was unlawfully disclosed to third parties without consent. The breach involved sensitive financial information of over 10,000 customers. Under the Data Protection Act 2018, which implements the UK GDPR, data subjects have the right to compensation for material or non-material damage resulting from a breach. The Court must consider: (1) whether there was a breach of data protection legislation, (2) whether the Claimant suffered damage, and (3) whether there is a causal link between the two. The ICO's guidance on personal data breach notification will be particularly relevant in determining liability.",
-        "doc_id": "doc_21_0",
-        "relevance_score": 0.92,
+        "query": "public service promotion disciplinary action satisfactory service record",
+        "document_text": "The Petitioner, an Inland Revenue Service officer, was denied a promotion. The Public Service Commission contended that in computing his satisfactory service period, two years should be deducted due to a disciplinary order that deferred two of his salary increments. The Court examined Rule 186 of the Public Service Commission Procedural Rules, which expressly requires the exclusion of 'the period during which the increments stand deferred' when computing the satisfactory period of service. The Court upheld the decision, finding that based on this rule, the Petitioner was not entitled to the promotion from the date he claimed.",
+        "doc_id": "f377d509-ea0d-4a2f-9e7a-4d2a14515d19",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 3,
-          "jurisdiction": "High Court",
-          "date": "2024-10-20",
-          "legal_domains": [
-            "data protection",
-            "GDPR",
-            "privacy law",
-            "compensation claims"
-          ]
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "employment law", "public service law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "public service promotion disciplinary action satisfactory service record",
+        "document_text": "A doctor's application to be certified as a Consultant Neurologist was deferred by the PGIM, which required him to undergo remedial training. This decision was based on adverse reports on his professional conduct and performance, which constitutes a form of corrective/disciplinary action affecting his career progression. The Court found the PGIM's action to be reasonable and within its powers to ensure professional standards. This is relevant as it shows a professional body taking action based on performance that impacts career advancement, but it is not a public service promotion case governed by PSC rules.",
+        "doc_id": "8a1844b8-851e-4ad5-ae21-ce790eb9c199",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-29",
+          "legal_domains": ["administrative law", "writ jurisdiction", "professional regulation", "medical law"]
+        }
+      },
+      {
+        "query": "public service promotion disciplinary action satisfactory service record",
+        "document_text": "This case deals with an employee in a private plantation company who retired, received his gratuity, and was then re-employed on fixed-term contracts. The dispute is about whether he is owed more gratuity. While it is an employment law case concerning service records and termination benefits, it involves a private company and is governed by the Payment of Gratuity Act, not the specific rules of the public service regarding promotions and disciplinary actions.",
+        "doc_id": "2acb30b0-4625-44c1-8e66-4224f774d4bf",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "gratuity"]
+        }
+      },
+      {
+        "query": "public service promotion disciplinary action satisfactory service record",
+        "document_text": "This case is about a BOI company's entitlement to a tax exemption under a supplementary agreement. The dispute is between the company and the Commissioner General of Inland Revenue over the interpretation of a BOI agreement and tax law. This is a commercial and tax law matter and has no connection to public service employment, promotions, or disciplinary rules.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["tax law", "commercial law", "administrative law"]
         }
       }
     ]
   },
   {
-    "query": "international commercial arbitration enforcement of foreign award",
+    "query": "futility of writ remedy discretionary bar",
     "query_id": "query_22",
     "documents": [
       {
-        "query": "international commercial arbitration enforcement of foreign award",
-        "document_text": "The Applicant seeks enforcement of a foreign arbitral award under the New York Convention 1958, as implemented by the Arbitration Act 1996. The Respondent resists enforcement on grounds of public policy and alleged procedural irregularities. Under Section 103 of the Arbitration Act 1996, the Court may refuse recognition or enforcement only on limited grounds, including: (a) incapacity of parties, (b) improper notice of appointment, (c) award dealing with matters not within the submission to arbitration, (d) composition of tribunal not in accordance with agreement, (e) award not yet binding or set aside, or (f) violation of public policy. The burden of proof lies with the party resisting enforcement to establish one of these grounds.",
-        "doc_id": "doc_22_0",
-        "relevance_score": 0.95,
+        "query": "futility of writ remedy discretionary bar",
+        "document_text": "The Petitioners sought writs, including a Writ of Prohibition, concerning a building that had already been demolished by the Municipal Council. The Court held that granting the relief prayed for would be futile. It reasoned, 'there is neither a building nor a land for the 1st Petitioner to claim and enjoy.' Citing several authorities, including *Samastha Lanka Nidahas Grama Niladhari Sangamaya Vs Dissanayake* and *Siddeek Vs Jacolyn Seneviratne*, the Court affirmed the legal principle that 'A writ... will not issue where it would be vexatious or futile.' The application was dismissed as the court will not issue a mandate where the end result will be futility.",
+        "doc_id": "a8214375-4576-411e-9849-fbb225ce6f16",
+        "relevance_score": 1.0,
         "metadata_features": {
           "court_level": 2,
-          "jurisdiction": "Commercial Court",
-          "date": "2024-10-25",
-          "legal_domains": [
-            "commercial law",
-            "international arbitration",
-            "enforcement of judgments",
-            "New York Convention"
-          ]
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "writ jurisdiction", "municipal law", "procedural law"]
+        }
+      },
+      {
+        "query": "futility of writ remedy discretionary bar",
+        "document_text": "The Court dismissed a writ application on the grounds that the petitioner had an adequate alternative remedy. The petitioner had already filed a case in the District Court for a declaration of title, which was the appropriate forum to resolve the disputed facts. The court noted that 'since the Writ jurisdiction of the Court of Appeal is discretionary, when there is an adequate alternative remedy, the Court will not exercise its Writ jurisdiction.' The existence of an alternative remedy is another key discretionary bar to issuing a writ, related to the concept of futility, as it makes the writ an unnecessary intervention.",
+        "doc_id": "0b62012f-a1fb-435b-80d5-2a867b52ad09",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["administrative law", "writ jurisdiction", "land law", "procedural law"]
+        }
+      },
+      {
+        "query": "futility of writ remedy discretionary bar",
+        "document_text": "In this revision application challenging a High Court order on evidence, the court considered preliminary objections raised by the respondent. The court stated, 'any application before this Court which requires the exercise of a discretionary remedy granted to this Court... shall, as much as possible considered sans deciding based on mere technical defects.' While this case discusses the court's discretion, it's in the context of overlooking technical procedural flaws rather than refusing a remedy based on futility or other discretionary bars.",
+        "doc_id": "9f8a8858-7dc2-435e-b914-8dea2058034e",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law", "procedural law"]
+        }
+      },
+      {
+        "query": "futility of writ remedy discretionary bar",
+        "document_text": "This is a criminal appeal against a conviction for murder. The case focuses on the evaluation of evidence, including an eyewitness deposition and the appellant's dock statement. The court affirmed the conviction and death sentence. The case does not involve discretionary remedies like writs, nor does it discuss any procedural bars to hearing the appeal.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
         }
       }
     ]
   },
   {
-    "query": "environmental impact assessment judicial review development project",
+    "query": "constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
     "query_id": "query_23",
     "documents": [
       {
-        "query": "environmental impact assessment judicial review development project",
-        "document_text": "The Claimant challenges the Defendant local authority's decision to grant planning permission for a large-scale development project without requiring a full Environmental Impact Assessment (EIA). The Town and Country Planning (Environmental Impact Assessment) Regulations 2017 require an EIA for projects likely to have significant effects on the environment. The Claimant argues that the screening opinion was flawed as it failed to properly consider cumulative impacts with other developments in the area. The Court must determine whether the decision-maker: (1) took into account all relevant considerations, (2) failed to take into account irrelevant considerations, (3) reached a decision that was so unreasonable that no reasonable authority could have come to it, or (4) made an error of law.",
-        "doc_id": "doc_23_0",
-        "relevance_score": 0.91,
+        "query": "constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "The Petitioner contended that the jurisdiction of the 1st Respondent (Labour Commissioner) is ousted from hearing complaints under the Termination of Employment of Workmen (Special Provisions) Act (TEWA) as the termination was on disciplinary grounds. However, the employees alleged they were prevented from working, which the Court found amounted to constructive termination. The Court held that since the employer had not initiated any disciplinary action, the termination was not on disciplinary grounds and thus fell within the purview of TEWA. The Court stated, 'the assertion of the 3rd to 7th Respondents that the Petitioner Company terminated their services by preventing them from reporting to work without any reason and on non-disciplinary grounds cannot be denied.'",
+        "doc_id": "ac043c15-2add-4c59-836b-65a5d08869c9",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 3,
-          "jurisdiction": "Planning Court",
-          "date": "2024-11-01",
-          "legal_domains": [
-            "environmental law",
-            "planning law",
-            "judicial review",
-            "EIA"
-          ]
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-19",
+          "legal_domains": ["employment law", "administrative law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "This case deals with an employee's termination for misconduct (fraud). The legal dispute centered on whether the employer could recover a loan from the employee's private provident fund. The termination itself, which followed a domestic inquiry, was the factual predicate for the provident fund claim. While it involves termination on disciplinary grounds, it does not engage with the legal framework of TEWA or the concept of constructive termination.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "provident funds"]
+        }
+      },
+      {
+        "query": "constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "This case concerns the legality of a BOI company's tax exemption. The dispute is between the company and the Commissioner General of Inland Revenue regarding the interpretation of a supplementary agreement. The case revolves around tax and commercial law and has no connection to employment termination, TEWA, or disciplinary actions.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["tax law", "commercial law", "administrative law"]
         }
       }
     ]
   },
   {
-    "query": "online banking fraud liability cybersecurity regulations",
+    "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
     "query_id": "query_24",
     "documents": [
       {
-        "query": "online banking fraud liability cybersecurity regulations",
-        "document_text": "The Claimant seeks compensation from the Defendant bank for unauthorized transactions made through their online banking account. The dispute centers on whether the bank's security measures were compliant with the Payment Services Regulations 2017 and the strong customer authentication requirements under PSD2. The Court must consider: (1) whether the bank can rely on the 'gross negligence' defense under Regulation 77, (2) whether the multi-factor authentication measures were properly implemented, and (3) whether the bank's fraud detection systems were adequate. The Financial Conduct Authority's guidance on payment services and electronic money will be particularly relevant in assessing the bank's compliance with its regulatory obligations.",
-        "doc_id": "doc_24_0",
-        "relevance_score": 0.93,
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "This is an appeal against an interim order by the Board of Quazis that stayed the enforcement of a maintenance order issued by a Quazi. The Court set aside the Board's order for several reasons: it was made ex-parte without hearing the petitioner, violating the principle of *audi alteram partem* (a rule of natural justice); the Board failed to provide any reasons for its judicial decision; and the respondent had not come with 'clean hands' as he had failed to pay maintenance. The Court affirmed the original Quazi's order and directed the Magistrate to enforce the recovery of arrears.",
+        "doc_id": "4770dcf8-b456-4ba5-9bca-ec9069c7ff14",
+        "relevance_score": 1.0,
         "metadata_features": {
-          "court_level": 3,
-          "jurisdiction": "High Court",
-          "date": "2024-11-05",
-          "legal_domains": [
-            "banking law",
-            "cybersecurity",
-            "financial regulation",
-            "consumer protection"
-          ]
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-18",
+          "legal_domains": ["family law", "muslim law", "procedural law", "natural justice"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "In this case, the Court of Appeal reviewed a High Court Judge's decision to cancel bail and remand an accused. The Court found that the judge violated principles of natural justice by not providing the accused an opportunity to show cause why bail should not be cancelled. It noted that the failure to provide an opportunity to be heard was a decision that 'shocks the conscience of this Court'. While this case applies the principle of natural justice, it is in a criminal bail context, not Muslim family law or maintenance.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "procedural law", "bail law", "constitutional law"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "The Petitioner, a charitable organization, challenged a decision by the Commissioner of Labour regarding EPF liability. The petitioner argued that the decision was made contrary to the principles of natural justice because it was not afforded a proper hearing. The court's final decision, however, was based on the substantive legal question of whether the organization was exempt under the EPF Act. The case involves review of a quasi-judicial order but is unrelated to family law or maintenance.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "charitable law"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "This criminal appeal deals with the conviction of the appellant for murder. The evidence presented included a deposition from a deceased eyewitness. The legal arguments centered on whether the prosecution had proved the case beyond a reasonable doubt. The case is entirely within the realm of criminal law and has no relevance to Muslim family law, maintenance, or quasi-judicial proceedings.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+    "query_id": "query_23",
+    "documents": [
+      {
+        "query": "writ of certiorari constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "The Petitioner company sought a Writ of Certiorari to quash a Labour Commissioner's order awarding compensation to employees under the Termination of Employment of Workmen (Special Provisions) Act (TEWA). The company argued TEWA did not apply as it intended to take disciplinary action. The Court held that since the employees were prevented from reporting to work without a formal disciplinary process being initiated, it amounted to constructive termination on non-disciplinary grounds. This brought the matter within the purview of TEWA. The application was dismissed.",
+        "doc_id": "ac043c15-2add-4c59-836b-65a5d08869c9",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-19",
+          "legal_domains": ["employment law", "administrative law", "writ jurisdiction"]
+        }
+      },
+      {
+        "query": "writ of certiorari constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "This case involves an employee who was terminated for misconduct (fraud) following a domestic inquiry. The legal dispute was not about the termination itself but about the employer's right to recover a loan from the employee's provident fund under the rules of the MSPS. The case involves termination on disciplinary grounds as a factual backdrop but does not engage with the legal framework of TEWA or the concept of constructive termination.",
+        "doc_id": "766f067d-f06a-4953-bbe3-444a2c498bd6",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2022-02-05",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "provident funds"]
+        }
+      },
+      {
+        "query": "writ of certiorari constructive termination Termination of Employment of Workmen Act (TEWA) disciplinary grounds",
+        "document_text": "This case concerns a dispute over a BOI company's entitlement to a tax exemption under a supplementary agreement. The legal issue is the interpretation of the agreement between the company and the Board of Investment. The case revolves around tax and commercial law and has no connection to employment termination, TEWA, or disciplinary actions.",
+        "doc_id": "84e32ca3-6e0c-43c9-ac73-9e38f0816370",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["tax law", "commercial law", "administrative law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+    "query_id": "query_24",
+    "documents": [
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "This is an appeal against an interim order by the Board of Quazis that stayed the enforcement of a maintenance order issued by a Quazi for a wife and children under Muslim Law. The Court of Appeal set aside the Board's order because it was made ex-parte, violating the principle of natural justice (*audi alteram partem*). The Court also faulted the Board for failing to provide reasons for its decision and for granting relief to a party who had not come with 'clean hands' by being in arrears of maintenance. The original Quazi's order was affirmed.",
+        "doc_id": "4770dcf8-b456-4ba5-9bca-ec9069c7ff14",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-18",
+          "legal_domains": ["family law", "muslim law", "procedural law", "natural justice"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "In this revision application, the Court of Appeal reviewed a High Court Judge's decision to cancel bail and remand an accused. The Court found that the judge violated principles of natural justice by not providing the accused an opportunity to show cause why bail should not be cancelled. It noted that the failure to provide an opportunity to be heard was a decision that 'shocks the conscience of this Court'. This case strongly applies the principle of natural justice, though in a criminal bail context rather than Muslim family law.",
+        "doc_id": "9eaa002e-2133-40a3-97ec-3bf16d5829f8",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-31",
+          "legal_domains": ["criminal law", "procedural law", "bail law", "constitutional law"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "The Petitioner, a charitable organization, challenged a decision by the Commissioner of Labour regarding EPF liability. The petitioner argued that the decision was made contrary to the principles of natural justice because it was not afforded a proper hearing. The court's final decision was based on the substantive legal question of whether the organization was exempt under the EPF Act. The case involves the review of a quasi-judicial order but is unrelated to family law or maintenance.",
+        "doc_id": "6aea5179-112f-4db6-a5d5-5624f2f8ff5c",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-23",
+          "legal_domains": ["administrative law", "employment law", "writ jurisdiction", "charitable law"]
+        }
+      },
+      {
+        "query": "Muslim law maintenance enforcement Quazi Board of Quazis natural justice",
+        "document_text": "This is a criminal appeal dealing with a conviction for murder. The evidence presented included a deposition from a deceased eyewitness. The legal arguments centered on whether the prosecution had proved its case beyond a reasonable doubt. The case is entirely within the realm of criminal law and has no relevance to Muslim family law, maintenance, or quasi-judicial proceedings.",
+        "doc_id": "8fb1373c-2b19-4df4-bbcc-40b0720dc9b3",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": 2,
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-01-24",
+          "legal_domains": ["criminal law", "evidence law"]
         }
       }
     ]

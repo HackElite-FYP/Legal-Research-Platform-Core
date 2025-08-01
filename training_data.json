@@ -1436,5 +1436,1659 @@
         }
       }
     ]
+  },
+  {
+    "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+    "query_id": "query_26",
+    "documents": [
+      {
+        "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+        "document_text": "The Petitioner seeks a Writ of Certiorari to quash the findings of a Presidential Commission of Inquiry, alleging a grave violation of natural justice. The Petitioner was named as a responsible person in the Commission's report but was never informed of the charges, given an opportunity to state his case, or allowed to controvert evidence brought against him. The Court found a flagrant violation of the *audi alteram partem* rule. Referencing cases like *The University of Ceylon v E W F Fernando* and *Dharmaratne v Samaraweera*, the Court emphasized that a person accused should know the nature of the accusation and be given a fair opportunity to be heard. The Court quashed the findings of the Commission's report as they pertained to the Petitioner.",
+        "doc_id": "0d247b2e-fa41-4027-a86c-fd5a46dcd853",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional", "civil", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+        "document_text": "This application seeks a Writ of Certiorari to quash the findings of a Presidential Commission of Inquiry. The Petitioner, a former CID Director, argues that adverse findings were made against him in his absence, in violation of an undertaking given to the Court of Appeal. The Court held that the Commission's actions violated the principles of Natural Justice and the rule of *audi alteram partem*. The Petitioner was not informed of the charges, not given an opportunity to show cause, and was denied a fair hearing. The findings of the commission were deemed ultra vires and quashed.",
+        "doc_id": "3940cd1e-1796-4c23-9fb6-8f79d610e80f",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+        "document_text": "In this Writ Application, the Petitioner challenges the findings of a Presidential Commission of Inquiry. He argues that he was informed he was only a witness but damaging findings were later made against him, violating his legitimate expectation and the rules of natural justice. The Court noted that the government itself had appointed a second Special Presidential Commission to review the first commission's report, rendering the first report inoperative and the application futile. However, the Court proceeded to quash the findings on the grounds of procedural impropriety and unreasonableness, affirming that the Petitioner's right to a fair hearing was breached.",
+        "doc_id": "e6c0cd27-6660-4d6a-8a09-2367c11ca845",
+        "relevance_score": 0.95,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+        "document_text": "This case involves a writ application by a police officer challenging his Vacation of Post (VOP) order. The core issue was whether the National Police Commission (NPC), established by the 17th Amendment, had jurisdiction to hear a fresh appeal against a Public Service Commission (PSC) decision made in 1995. The court held that the 17th Amendment did not have retrospective effect and the NPC lacked jurisdiction. The case turns on statutory interpretation and jurisdiction, not on the principles of natural justice within a commission of inquiry.",
+        "doc_id": "4ada41bf-3e2a-4107-aa78-0486503fb289",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "constitutional", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari presidential commission of inquiry violation of natural justice audi alteram partem",
+        "document_text": "This is a criminal appeal against a murder conviction based on circumstantial evidence. The appellant argued that the trial judge failed to properly evaluate the evidence and wrongly shifted the burden of proof. The Court of Appeal analyzed the circumstantial evidence, including the appellant's conduct after the incident and his inconsistent defence. The appeal was dismissed. The case is a criminal matter and does not involve commissions of inquiry or the principles of administrative law.",
+        "doc_id": "95404603-658d-4e41-9858-2c51f849f01a",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal murder conviction circumstantial evidence common intention",
+    "query_id": "query_27",
+    "documents": [
+      {
+        "query": "criminal appeal murder conviction circumstantial evidence common intention",
+        "document_text": "The two appellants were convicted of murder and robbery based on circumstantial evidence. They were employees at the deceased's house and were the only occupants with the deceased at the time of the crime. The Court found a strong chain of circumstantial evidence: their presence, recovery of the deceased's property from them after they absconded, matching footprints at the scene, and a confession from the 2nd appellant. The court held that the established facts were only consistent with the hypothesis of guilt and convicted them for acting with a common intention.",
+        "doc_id": "9a0c6c03-945f-48ba-9cde-0bfd81ff4718",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction circumstantial evidence common intention",
+        "document_text": "The appellant was convicted of murder. He and his twin brother, armed with an iron bar and a dagger, attacked the deceased. The court found that even if the fatal blow was struck by the brother, the appellant's participatory presence established a common intention to kill. Evidence showed they came together in search of the deceased, jointly assaulted him, and fled together after the police arrived. The court held that under Section 32 of the Penal Code, the appellant was liable for the murder committed in furtherance of their common intention.",
+        "doc_id": "aed75516-fba6-4af7-94fc-838145f9c8df",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-20",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction circumstantial evidence common intention",
+        "document_text": "This appeal is against a murder conviction where the prosecution's case rested on circumstantial evidence. The wife of the deceased saw the appellant, the deceased's brother, leaving the house with a mamoty after hearing her husband scream. The appellant later prevented the injured from being taken to hospital and consumed poison. The court held that this strong chain of incriminating circumstantial evidence, which the appellant failed to explain, pointed irresistibly to his guilt. The conviction was affirmed.",
+        "doc_id": "95404603-658d-4e41-9858-2c51f849f01a",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction circumstantial evidence common intention",
+        "document_text": "The accused-appellant was convicted of murder. The case involved a dying declaration where the deceased identified the appellant as the person who stabbed him, and eyewitness testimony from the deceased's wife who saw the appellant running from the scene. The court analyzed the credibility of the dying declaration and eyewitness testimony, and considered the appellant's alibi. It held that the evidence proved the case beyond a reasonable doubt. While a murder conviction, the primary evidence was direct (dying declaration) rather than circumstantial.",
+        "doc_id": "239785d6-2cdd-46bc-a88f-80354bf5bb30",
+        "relevance_score": 0.45,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction circumstantial evidence common intention",
+        "document_text": "This is a tax appeal concerning whether a company qualifies as a 'manufacturer' under the Value Added Tax Act. The dispute is over whether the appellant company, which outsources production to 'contract manufacturers', is liable for VAT on its wholesale and retail supply. The court analyzed the definition of 'manufacture' and 'supply of goods' under the Act. The case is entirely in the realm of tax law and irrelevant to criminal law.",
+        "doc_id": "c6dd8ed0-6bde-41f3-9d11-29e385903b3c",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of mandamus public tender government procurement guidelines transparency",
+    "query_id": "query_28",
+    "documents": [
+      {
+        "query": "writ of mandamus public tender government procurement guidelines transparency",
+        "document_text": "The Petitioner's bid for a tender to supply cash deposit slips to a state bank was rejected. The bank relied on a clause in the tender notice stating it had the right to reject any tender 'without assigning reasons'. The Petitioner sought a Writ of Mandamus to compel the bank to follow public procurement guidelines in future tenders. The Court, citing cases like *Daewoo Engineering* and *SmithKline Beecham*, affirmed that state institutions are bound to follow Government Procurement Guidelines to ensure transparency, honesty, and fairness. It issued a Writ of Mandamus directing the bank to strictly follow the guidelines in all future tender procedures.",
+        "doc_id": "4286ec96-bcdc-4f8f-ab05-26370423dbc0",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["administrative", "civil", "commercial"]
+        }
+      },
+      {
+        "query": "writ of mandamus public tender government procurement guidelines transparency",
+        "document_text": "The petitioner challenged the government's process for the divestiture of Litro Gas, a state-owned enterprise. The petitioner argued that a clause in the Bid Document disqualifying bidders who would gain a market share of 50% or more was unreasonable and anti-competitive. The court examined the government's policy to promote contestable markets and found the clause was based on a legitimate policy to prevent monopolies, consistent with the Consumer Affairs Authority Act. The application for interim relief was refused. This case is highly relevant as it involves judicial review of a public bidding process.",
+        "doc_id": "9d2e15b3-5595-4581-a1a1-af8b549fa3a5",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-29",
+          "legal_domains": ["administrative", "commercial", "constitutional"]
+        }
+      },
+      {
+        "query": "writ of mandamus public tender government procurement guidelines transparency",
+        "document_text": "The Petitioner, an officer in the Volunteer Naval Force, was denied permission to return to active service after being on unpaid leave. He sought a Writ of Mandamus to compel his reinstatement. The Court found that the decision to refuse his return was made without providing reasons and without a hearing, violating natural justice and the petitioner's legitimate expectations. The court issued the writ. While this involves a public body and a writ of mandamus, it is an employment/service matter, not a public procurement or tender case.",
+        "doc_id": "baf6be9b-ad31-4da2-976c-f756ec350021",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of mandamus public tender government procurement guidelines transparency",
+        "document_text": "This is a civil appeal concerning a partition action. The case involves a dispute over the title to land and the shares allotted to various co-owners. The court found that the District Judge had failed in his duty under the Partition Law to properly investigate the title of the parties, particularly in light of an admission by the plaintiff that undermined their own pedigree of title. The judgment was set aside. This is a property law case, irrelevant to public tenders.",
+        "doc_id": "34383139-c8e3-48a4-b261-fb6ce0790393",
+        "relevance_score": 0.05,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "writ of mandamus public tender government procurement guidelines transparency",
+        "document_text": "The appellant was convicted of possessing and trafficking 3.17 grams of heroin. The appeal was based on grounds that the High Court Judge failed to consider the probability of the prosecution's story and wrongly shifted the burden of proof. The Court of Appeal found that the police raid was highly improbable and that the trial judge had unfairly placed the burden on the appellant to prove his innocence, denying him a fair trial. The conviction was set aside. The case is purely criminal law.",
+        "doc_id": "4afa42e0-678a-432d-823c-7441a9d6df50",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-13",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+    "query_id": "query_29",
+    "documents": [
+      {
+        "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+        "document_text": "The appellants were convicted of possessing and trafficking 22.91 grams of heroin. The appeal raised several grounds, including a significant discrepancy in the weight of the heroin. The police weighed the substance with covers at 154 grams, but the Government Analyst later weighed it without covers at 156.5 grams. The Court held that weight is vital in drug charges and the prosecution failed to properly explain this discrepancy, which could not be attributed to a more accurate scale. This failure to establish a secure chain of custody created a reasonable doubt. The conviction was set aside.",
+        "doc_id": "93caf945-2727-4ad8-b1ee-e6525ecc605d",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-28",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+        "document_text": "The appellant was convicted of possessing and trafficking 196.1 grams of heroin. The appeal argued that the police officers' behavior during the raid was improbable (e.g., not searching the house of the alleged main supplier) and that the trial judge failed to consider the defence. The Court of Appeal found that the trial judge had been 'too eager to believe the prosecution and disregard the defense', noting the uncontradicted evidence of the appellant's wife and daughter. It concluded that the improbabilities in the police story and the failure to fairly consider the defence evidence resulted in a miscarriage of justice. The conviction was set aside.",
+        "doc_id": "082359b1-0049-4a61-a436-51f5583832ac",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-12",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+        "document_text": "The appellant was convicted of trafficking and possessing 3.17 grams of heroin. The appeal focused on the improbability of the police raid, particularly the very short time (five minutes) taken to organize and leave for the raid. The Court of Appeal agreed, finding it 'highly improbable'. It also held that the trial judge had improperly shifted the burden of proof to the appellant to prove his innocence. Due to the improbability of the police evidence and the denial of a fair trial, the conviction was quashed.",
+        "doc_id": "4afa42e0-678a-432d-823c-7441a9d6df50",
+        "relevance_score": 0.85,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-13",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+        "document_text": "The appellant was convicted for possessing and trafficking 2.40 grams of heroin. The appeal challenged the reliance on a single police witness and the credibility of the evidence. The Court of Appeal, citing section 134 of the Evidence Ordinance, held that a conviction can be based on a single trustworthy witness. The court found no reason to doubt the evidence of the police officer and concluded that the prosecution had proved its case beyond a reasonable doubt. The conviction was affirmed. This case is relevant but concludes with an affirmation of the conviction.",
+        "doc_id": "41d80e88-2173-4d7d-abd7-329807e73477",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-20",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal conviction heroin trafficking evidence credibility chain of custody",
+        "document_text": "This is a civil appeal concerning a partition action where the District Judge's decree was challenged. The Court of Appeal found that the lower court had failed in its duty under the Partition Law to properly investigate the title of all parties. The case involves complex issues of property law, pedigree, and the interpretation of old deeds. It is completely unrelated to criminal law or drug trafficking.",
+        "doc_id": "34383139-c8e3-48a4-b261-fb6ce0790393",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["civil", "property law"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Right to Information Act access to examination marks public interest vs privacy",
+    "query_id": "query_30",
+    "documents": [
+      {
+        "query": "Right to Information Act access to examination marks public interest vs privacy",
+        "document_text": "An unsuccessful candidate for a position at the Bank of Ceylon requested information, including the mark sheets and merit list of all applicants, under the Right to Information Act. The Bank refused, citing privacy concerns under section 5(1)(a) of the Act. The Right to Information Commission ordered the release of the information. The Court of Appeal upheld the Commission's order, holding that while the marks are personal information, their disclosure has a relationship to public activity and interest. The court stated, 'Is it not in the interest of public, that, public examinations... must be honest, upright and transparent?'. It concluded that the larger public interest in transparency of public recruitment justifies the disclosure, which is not an 'unwarranted invasion of privacy'.",
+        "doc_id": "faa31910-2358-4236-84c8-837544ab97b1",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["administrative", "constitutional"]
+        }
+      },
+      {
+        "query": "Right to Information Act access to examination marks public interest vs privacy",
+        "document_text": "A student sought a writ to compel a university to disclose her examination marks and allow for reassessment. The university refused, claiming it had no procedure for reassessment. The court held that reassessment is a standard practice in degree-awarding institutions and that the university's refusal was irrational. It issued a writ of mandamus directing the disclosure of information about the marking of her exams. While not explicitly under the RTI Act, this case directly addresses a student's right to access information about their own examination performance and the principles of transparency in academic institutions.",
+        "doc_id": "40a4742a-d0b8-4bfc-ad32-1a48f94b26e8",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["administrative", "civil"]
+        }
+      },
+      {
+        "query": "Right to Information Act access to examination marks public interest vs privacy",
+        "document_text": "This case involved a citizen requesting salary and loan details of top management at Litro Gas, a state-owned enterprise, under the Right to Information Act. The company argued it was not a 'public authority' and that the information was personal. The court found Litro Gas to be a public authority due to the state's controlling interest and held that the public interest in knowing how public funds are spent overrides the privacy of the officials. While this case involves the RTI Act and the balance between public interest and privacy, the information sought is financial, not examination marks.",
+        "doc_id": "bd9b4eb9-9c6d-485c-a02a-bd94536e1584",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["administrative", "constitutional"]
+        }
+      },
+      {
+        "query": "Right to Information Act access to examination marks public interest vs privacy",
+        "document_text": "This is an appeal against convictions for murder and robbery. The case rests on circumstantial evidence, including footprints found at the scene and a confession. The court evaluated the strength of the evidence and the credibility of the defense. This is a criminal law case and has no connection to the Right to Information Act, access to information, or privacy rights in an administrative context.",
+        "doc_id": "9a0c6c03-945f-48ba-9cde-0bfd81ff4718",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "Right to Information Act access to examination marks public interest vs privacy",
+        "document_text": "The Petitioner challenges a decision by the Public Service Commission that affected his seniority and date of appointment in the Sri Lanka Planning Service. The case involves a writ of mandamus sought against the PSC for an administrative failure. While it's an administrative law case, it does not involve the Right to Information Act or a request for information from a public body.",
+        "doc_id": "71a4f042-ec3f-4056-988e-9a28d4d3447e",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+    "query_id": "query_31",
+    "documents": [
+      {
+        "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+        "document_text": "The Petitioner, a director of a company, mortgaged his personal property as security for a company loan. Upon default, the bank initiated parate execution. The Petitioner argued that the bank cannot parate execute a property mortgaged by a third party. The Court, citing the Supreme Court's decision in *Sunpac Engineers (Pvt) Ltd v DFCC Bank*, held that the Recovery of Loans by Banks Act applies irrespective of whether the mortgagor is the borrower or a third party, explicitly overruling the precedent (*Ramachandran v Hatton National Bank*) relied on by the Petitioner. It further held a director mortgaging property for a company loan is considered a 'borrower' under the Act. The application was dismissed.",
+        "doc_id": "f78a2dcb-c50c-4bb7-8b42-1915de66da54",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-30",
+          "legal_domains": ["civil", "commercial", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+        "document_text": "The Petitioner, a Director of a company, challenged a parate execution resolution under the Recovery of Loans by Banks Act, alleging the notice was not properly served. The Court noted the petitioner's duty as a director to ensure the company's liabilities were met. It further held that a director who mortgages their property for a company loan is considered a borrower within the meaning of the Act, and cannot hide behind the veil of incorporation. The Court found the petitioner's conduct did not warrant the issuance of a writ and dismissed the application.",
+        "doc_id": "75af8f1e-81e2-4185-bdae-532a1925c76f",
+        "relevance_score": 0.95,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-08",
+          "legal_domains": ["civil", "commercial", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+        "document_text": "The Petitioner challenged a parate execution resolution, arguing the bank failed to consider concessions available under a Central Bank circular for COVID-19 affected businesses. The Court found the petitioner was a habitual defaulter since 2016, long before the pandemic. It also noted the petitioner failed to use the statutory remedy under Section 10 of the Act to tender payment and stay the auction. The Court emphasized that the Act was designed to fast-track debt recovery and dismissed the application. While it deals with parate execution, the core legal issue is the applicability of a circular, not the third-party mortgagor rule.",
+        "doc_id": "4f8f25df-dd87-4a26-9f47-703367d31eda",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-07",
+          "legal_domains": ["civil", "commercial", "administrative"]
+        }
+      },
+      {
+        "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+        "document_text": "The court dealt with an application to set aside a settlement entered into in a District Court case. The petitioner claimed she did not understand the terms and was misled by her attorney. The Court of Appeal, citing non-compliance with the mandatory procedural requirements for settlements under section 408 of the Civil Procedure Code, set aside the decree. The case involves a civil dispute and property but is entirely unrelated to banking law, loans, or parate execution.",
+        "doc_id": "0b03db14-7e1c-41d1-b75f-bc930a9702c7",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-29",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "writ of certiorari parate execution Recovery of Loans by Banks Act third party mortgage",
+        "document_text": "This is a criminal appeal against a murder conviction. The legal issues discussed are the evaluation of eyewitness testimony, the credibility of witnesses who gave belated statements, and whether the circumstances amounted to a 'sudden fight' under the Penal Code. The case is entirely a criminal matter with no connection to civil or commercial law.",
+        "doc_id": "74463333-390d-4f93-a514-b8874262efd0",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-22",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari legitimate expectation public authority promise university admission",
+    "query_id": "query_32",
+    "documents": [
+      {
+        "query": "writ of certiorari legitimate expectation public authority promise university admission",
+        "document_text": "The Petitioner was disqualified from state university admission by the UGC under a rule against students registered in other state-funded institutions, as she had enrolled at KDU. She was later medically discharged from KDU through no fault of her own. The UGC then rejected her appeal to be reconsidered. The Court found the UGC's rigid application of the rule was an unreasonable fettering of its discretion, especially in the petitioner's exceptional circumstances. It held that the UGC should have considered her case on its merits rather than blindly following a policy. The court, applying principles of proportionality and fairness similar to those underpinning legitimate expectation, granted the writ.",
+        "doc_id": "f23752eb-37cd-47dd-8986-b22b19836ebe",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-10",
+          "legal_domains": ["administrative", "constitutional"]
+        }
+      },
+      {
+        "query": "writ of certiorari legitimate expectation public authority promise university admission",
+        "document_text": "The Petitioner's father was allocated a lot in a housing scheme for public servants. Officials permitted him to build on an adjacent lot (Lot 194) with the understanding it would also be allocated to him. Despite payments being made and assurances given, the National Housing Development Authority later refused to transfer the full lot, citing part of it was marshy land. The Petitioner claimed a legitimate expectation. The Court held that any expectation created was not 'legitimate' because its fulfilment would be ultra vires, as the law prohibits development on marshy land and allocating more than one lot. The application was dismissed.",
+        "doc_id": "6735bc9c-acea-4c42-b4b3-8405b4a4d080",
+        "relevance_score": 0.85,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-22",
+          "legal_domains": ["administrative", "civil", "property law"]
+        }
+      },
+      {
+        "query": "writ of certiorari legitimate expectation public authority promise university admission",
+        "document_text": "A Naval Officer was refused permission to return to active service after a period of unpaid leave. He argued that he had a legitimate expectation that he would be permitted to return. The Court found that the decision to refuse his return, made without giving reasons or a hearing, was unfair, unreasonable, and in violation of his legitimate expectations. A Writ of Mandamus was issued for his reinstatement. This case is a strong example of legitimate expectation but is in the context of military service, not university admission.",
+        "doc_id": "baf6be9b-ad31-4da2-976c-f756ec350021",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari legitimate expectation public authority promise university admission",
+        "document_text": "The Petitioners, Grade Medical Officers, challenged a 'Replacement List' transfer scheme, arguing it was not approved by the Public Service Commission (PSC). The Court found that the assignments were not 'transfers' in the traditional sense, but temporary postings for officers returning from overseas training, done under the exigencies of service. It also noted a letter from the PSC stating its approval was not necessary for the replacement list. The application was dismissed. The case deals with public service administration but not the doctrine of legitimate expectation.",
+        "doc_id": "d9568be1-3aa6-4596-858a-1e9d9b18ae4c",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-05",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari legitimate expectation public authority promise university admission",
+        "document_text": "This is a criminal appeal concerning a conviction for robbery and murder as part of an unlawful assembly. The key legal issues are the evaluation of identification evidence from parades and in the dock, and the establishment of a common object. The case is entirely a criminal matter and has no bearing on administrative law or legitimate expectation.",
+        "doc_id": "d179cfda-c0e1-4ad4-93d1-6a9af95a3722",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-19",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+    "query_id": "query_33",
+    "documents": [
+      {
+        "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+        "document_text": "The petitioner's tractor and trailer were confiscated under section 40(1) of the Forest Ordinance after his son pleaded guilty to illegally transporting sand from a reserve forest. The petitioner, as the owner, repeatedly failed to appear for the claim inquiry. The Magistrate confiscated the vehicles due to his failure to show cause. The High Court affirmed this. The Court of Appeal held that the petitioner, by sleeping on his rights and showing scant disregard for the proceedings, had disentitled himself from the discretionary remedy of revision. The order of confiscation was upheld.",
+        "doc_id": "d37f1d4e-83ff-49b8-a270-281aad401807",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-20",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+        "document_text": "The petitioner's vehicle was confiscated under the Forest Ordinance. The case was filed against several accused who pleaded guilty. The petitioner argued that the charge sheet did not specify that the vehicle was *used in committing* the offence, which is a prerequisite for confiscation under section 40(1). The Court of Appeal agreed, finding that without such an allegation in the charge, there was no legal basis for the confiscation inquiry. The orders of the Magistrate and High Court were set aside and the vehicle was ordered to be released.",
+        "doc_id": "dcd57738-fbe8-414f-bd33-28830fa62e0f",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-01",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+        "document_text": "An excavator was confiscated for illegal sand mining under the Mines and Minerals Act. The owner (petitioner) had rented the machine to a licensed miner and instructed the driver not to engage in illegal work. The Court, citing *Manawadu V. The Attorney General*, held that the owner is entitled to be heard and if he satisfies the court that the offence was committed without his knowledge, the vehicle is not liable to forfeiture. Finding the owner had taken reasonable precautions, the Court set aside the confiscation order. This is highly relevant as it deals with the same legal principles of vehicle confiscation, though under a different Act.",
+        "doc_id": "649f1a08-e7b0-49eb-895a-46ea116d1492",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-13",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+        "document_text": "A car was confiscated for transporting illicit liquor under the Excise Ordinance. The owner had rented the vehicle to a rent-a-car company, which in turn rented it to the accused. The Magistrate confiscated the vehicle on the basis that the owner failed to show she took all necessary precautions. The Court of Appeal disagreed, finding she had legally entered an agreement and had no knowledge of the offence. The confiscation order was set aside. This is another analogous case on vehicle confiscation.",
+        "doc_id": "935f5861-89b2-45ad-ba11-a850b2a6a212",
+        "relevance_score": 0.65,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-03",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "revision vehicle confiscation under Forest Ordinance owner's knowledge and precautions",
+        "document_text": "This case concerns a tax appeal where the issue is whether the determination of the Tax Appeals Commission was time-barred under its governing Act. The court analyzed the relevant statutory time limits and their amendments to decide if they were mandatory or directory. The case is a procedural matter in tax law and is unrelated to vehicle confiscation or the Forest Ordinance.",
+        "doc_id": "c6dd8ed0-6bde-41f3-9d11-29e385903b3c",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal defective charge incorrect period of offence",
+    "query_id": "query_34",
+    "documents": [
+      {
+        "query": "criminal appeal defective charge incorrect period of offence",
+        "document_text": "The appellant was convicted of grave sexual abuse. The charge specified that the offence occurred between 1st November 2009 and 26th December 2010, a period exceeding one year. The Court of Appeal held that Section 165(2) of the Code of Criminal Procedure Act only permits specifying a time period for offences of criminal breach of trust and misappropriation, and even then, the period cannot exceed one year. Citing *W. E. De Zylva, v. The Queen*, the court ruled that a charge specifying a period over one year is not merely irregular but illegal. A conviction based on an illegal charge cannot stand. The conviction was set aside and the appellant was acquitted.",
+        "doc_id": "3cbc61c2-6c60-45c1-aa83-6d4911f1a80b",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal defective charge incorrect period of offence",
+        "document_text": "In this drug trafficking case, the indictment was amended three times, with the final amendment to correct the place of the offence being made after the case was fixed for judgment. The appellant argued this prejudiced his defence. The court discussed section 167 of the Code of Criminal Procedure Act, which allows alteration of a charge at any time before judgment. While criticizing the prosecution's carelessness, the court did not ultimately decide the appeal on this ground, focusing instead on the improbability of the police evidence. This case is relevant as it extensively discusses amending charges, a related concept to defective charges.",
+        "doc_id": "b8463d8e-3ee8-402d-9eec-9bd2da821cfd",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal defective charge incorrect period of offence",
+        "document_text": "The appellant challenged an order confiscating his vehicle under the Forest Ordinance. His key legal argument on appeal was that the charge sheet against the driver never alleged that the vehicle was *used in committing* the forest offence (trespass and digging). The court agreed, holding that without this essential element in the charge, there was no legal basis to initiate a confiscation inquiry under section 40(1) of the Act. The order was set aside. This is a strong example of a legal proceeding being invalidated due to a defect in the initial charge.",
+        "doc_id": "dcd57738-fbe8-414f-bd33-28830fa62e0f",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-01",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "criminal appeal defective charge incorrect period of offence",
+        "document_text": "This appeal concerned a private plaint for dishonored cheques under the Debt Recovery Act. The Magistrate had refused to issue summons, partly on the basis that certain facts were not established. The Court of Appeal held the Magistrate was misdirected, as the plaint and supporting documents provided sufficient grounds to issue summons. The court analyzed the necessary ingredients to prove a charge under section 25(1)(b) of the Act. While it discusses the elements of a charge, the issue is not a defect in the charge itself, but the threshold for initiating proceedings based on it.",
+        "doc_id": "26714ef0-6c2e-46da-bf75-1366e7d59118",
+        "relevance_score": 0.35,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-06",
+          "legal_domains": ["criminal", "commercial"]
+        }
+      },
+      {
+        "query": "criminal appeal defective charge incorrect period of offence",
+        "document_text": "In this murder appeal, the core issues were the credibility of eyewitness testimony and whether the evidence supported a finding of common intention. The defence did not raise any issues with the indictment itself. The discussion focuses purely on the factual evaluation of evidence related to the incident. The case is therefore not relevant to the query about defective charges.",
+        "doc_id": "aed75516-fba6-4af7-94fc-838145f9c8df",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-20",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "civil procedure setting aside court settlement restitutio in integrum",
+    "query_id": "query_35",
+    "documents": [
+      {
+        "query": "civil procedure setting aside court settlement restitutio in integrum",
+        "document_text": "The petitioner sought to set aside terms of settlement recorded in the District Court. She claimed she did not understand the terms, which were dictated in court for the first time, and was assured by her lawyer that her residence would not be affected, which was not the case. The Court of Appeal granted the application for *restitutio in integrum*. It held that the mandatory procedure under sections 408 and 91 of the Civil Procedure Code, which require a settlement to be notified to the court by a written motion, was not followed. Citing *UKKU AMMA v. PARAMANATHAN*, the court vacated the decree, holding that non-compliance with the statutory procedure means the settlement does not attract finality.",
+        "doc_id": "0b03db14-7e1c-41d1-b75f-bc930a9702c7",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-29",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "civil procedure setting aside court settlement restitutio in integrum",
+        "document_text": "In this revision application, the petitioner challenges a High Court judgment that set aside a Magistrate's order. The case concerned the interim custody of three vehicles seized during a criminal investigation. The Magistrate had ordered possession to be given to the complainant. The High Court reversed this, giving possession to the finance company that was the absolute owner. The Court of Appeal varied the High Court order to include a bond. This case involves procedural orders but is about interim custody of productions under the Criminal Procedure Code, not the setting aside of a final civil settlement.",
+        "doc_id": "19ffe04a-fc8a-41aa-8ec4-f0ca0266a8f9",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["civil", "criminal"]
+        }
+      },
+      {
+        "query": "civil procedure setting aside court settlement restitutio in integrum",
+        "document_text": "This case involves an appeal against a conviction and death sentence for murder. The key legal issues relate to the evaluation of eyewitness evidence, identification parades, and the doctrine of common object in an unlawful assembly. The judgment is purely within the domain of criminal law and procedure and does not touch upon civil settlements or restitutio in integrum.",
+        "doc_id": "d179cfda-c0e1-4ad4-93d1-6a9af95a3722",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-19",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "civil procedure setting aside court settlement restitutio in integrum",
+        "document_text": "The petitioners sought a Writ of Mandamus to compel the Public Service Commission (PSC) to ante-date their letters of appointment. The dispute arose from a delay in the recruitment process for the 'Limited' category compared to the 'Open' category. The court considered jurisdictional bars and the issue of laches before issuing the writ. This is an administrative law case concerning public service appointments, not a civil action with a settlement agreement.",
+        "doc_id": "71a4f042-ec3f-4056-988e-9a28d4d3447e",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "civil procedure setting aside court settlement restitutio in integrum",
+        "document_text": "This appeal deals with a conviction for bribery. The appellant, a public officer, was found guilty of soliciting and accepting a bribe to perform an official act. The court reviewed the evidence, including the credibility of the complainant and the decoy. The appeal against the conviction was dismissed, but the sentence was varied. This is a criminal law case.",
+        "doc_id": "5437caf3-58c8-4f10-b286-11e19c2f697a",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal", "administrative", "professional conduct"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal murder conviction dying declaration alibi defense",
+    "query_id": "query_36",
+    "documents": [
+      {
+        "query": "criminal appeal murder conviction dying declaration alibi defense",
+        "document_text": "The appellant was convicted of a double murder. The evidence included a dying declaration from one of the victims, Chandralatha, who identified the appellant as the shooter. This was corroborated by her daughter (PW-4) who saw the appellant fleeing the scene. The appellant raised an alibi defense, claiming he was at work. The Court analyzed the dying declaration using the established legal tests and found it to be true and reliable. It held that the alibi defense was not credible as it was not put to key witnesses and was contradicted by unchallenged evidence of the appellant absconding. The conviction was affirmed.",
+        "doc_id": "c01c70c7-6bd3-4baf-9b14-4433f09c25c4",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-27",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction dying declaration alibi defense",
+        "document_text": "The appellant was convicted of murder. The prosecution relied on two separate dying declarations made by the deceased to his wife (PW-01) and brother (PW-02), both naming the appellant as one of the assailants. The appellant raised an alibi defense in his dock statement. The Court found the dying declarations were consistent and supported by the JMO's evidence that the deceased could speak after the injury. The appellant's alibi was rejected as it was not put to witnesses and did not establish an impossibility of his presence at the scene. The conviction was affirmed.",
+        "doc_id": "239785d6-2cdd-46bc-a88f-80354bf5bb30",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction dying declaration alibi defense",
+        "document_text": "This case involved a murder conviction where the deceased was found stabbed. The key evidence was the testimony of a sole eyewitness (PW1). The deceased had made an utterance to PW1 when being taken to hospital, naming the appellant as the stabber. The court considered this utterance as part of the overall evidence. The appellant made a dock statement but it was not an alibi. The court upheld the conviction based on the cogent evidence of the eyewitness, which was corroborated by other factors like the recovery of the weapon. While it includes a statement from the deceased, it's not the central focus like a formal dying declaration.",
+        "doc_id": "a7bbb81f-e817-4ae7-a265-3a3957547cb1",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-14",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction dying declaration alibi defense",
+        "document_text": "In this murder conviction, the appellant's defense was that another person, PW-11, was the actual killer. The key eyewitness, PW-3, testified that the appellant stabbed the deceased. The court found PW-3's testimony to be unreliable and contradicted by PW-11 himself. It noted serious flaws in the trial judge's evaluation of the defense case. The judgment focuses on witness credibility and mis-evaluation of evidence, not on a dying declaration or a traditional alibi.",
+        "doc_id": "c2130377-fb03-41d5-85f1-980b613c65d9",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-15",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal murder conviction dying declaration alibi defense",
+        "document_text": "The Petitioner, a company, is challenging restrictions imposed on its export business by government authorities. The dispute is over the use of locally sourced copper scrap for manufacturing value-added products. The company seeks a writ of certiorari to quash decisions that limit its operations, claiming a violation of its fundamental rights. This is a purely administrative and commercial law case, completely unrelated to criminal appeals, murder, or alibi defenses.",
+        "doc_id": "a35f9563-df1f-44b3-a45c-f9c75b6b7b72",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "commercial", "constitutional", "civil"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "revision jurisdiction exceptional circumstances failure to appeal",
+    "query_id": "query_37",
+    "documents": [
+      {
+        "query": "revision jurisdiction exceptional circumstances failure to appeal",
+        "document_text": "This is a revision application challenging a Primary Court order concerning a land possession dispute, which was affirmed by the High Court. The Court of Appeal extensively discussed the nature of revisionary jurisdiction. It held that revision is an extraordinary and discretionary remedy exercised only in exceptional circumstances. The Court stated, 'The petitioner in the instant Application has not established exceptional circumstances warranting the exercise of revisionary powers of this Court'. It also held that if a right of appeal was available, the petitioner has a duty to satisfy the court why they did not invoke it. The application was dismissed on these grounds.",
+        "doc_id": "3b99110a-ab22-40b9-a2c7-c9fa0371c5d2",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-07",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "revision jurisdiction exceptional circumstances failure to appeal",
+        "document_text": "The petitioner sought to revise interim protection orders made by a Magistrate under the Prevention of Domestic Violence Act. The Court noted that the correct forum to challenge such an order in revision is the Provincial High Court, not the Court of Appeal directly. The Court emphasized that for it to exercise its extraordinary revisionary jurisdiction, exceptional circumstances must be established. Finding no exceptional circumstances, especially since the petitioner had statutory remedies (showing cause before the Magistrate, appealing a final order to the High Court), the application was dismissed.",
+        "doc_id": "4cc40ea7-a412-4701-b216-37b74b6b2169",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-22",
+          "legal_domains": ["family law", "civil", "criminal"]
+        }
+      },
+      {
+        "query": "revision jurisdiction exceptional circumstances failure to appeal",
+        "document_text": "This revision application challenged a High Court judgment that enhanced a sentence on appeal from a Magistrate's Court. The Supreme Court has clarified that the Court of Appeal's revisionary jurisdiction can be invoked against appellate judgments of a Provincial High Court. The court found an exceptional circumstance warranting its intervention: the High Court had enhanced the sentence without giving the petitioner an opportunity to be heard, a violation of natural justice. The sentence was set aside.",
+        "doc_id": "01678304-fafe-410c-93c4-9eb6b147acaf",
+        "relevance_score": 0.85,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["criminal", "constitutional"]
+        }
+      },
+      {
+        "query": "revision jurisdiction exceptional circumstances failure to appeal",
+        "document_text": "The High Court dismissed a bribery case on a preliminary objection that the prosecution was not sanctioned by all three commissioners of the CIABOC. The CIABOC filed this revision application. The Court found exceptional circumstances warranting its intervention, such as the High Court Judge raising the jurisdictional objection on his own motion in an adversarial system and misapplying the law on jurisdiction. The order of dismissal was set aside. This is a clear instance of the court using its revisionary power to correct a significant legal error.",
+        "doc_id": "ba34336d-c194-4c8d-a873-c07d6de7ed01",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-08",
+          "legal_domains": ["criminal", "administrative"]
+        }
+      },
+      {
+        "query": "revision jurisdiction exceptional circumstances failure to appeal",
+        "document_text": "This is an appeal against a conviction for robbery and murder under the principle of unlawful assembly. The main ground for setting aside the conviction was the inadequacy of the High Court's judgment, which failed to properly analyze the evidence as required by the Code of Criminal Procedure. The court ordered an acquittal rather than a retrial due to the long delay since the incident. This is an appeal, a statutory right, not a discretionary revision application, and thus does not discuss the principles of 'exceptional circumstances'.",
+        "doc_id": "27ebebe1-51cd-4e65-a486-d1ad7429e5e3",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-18",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "bribery prosecution sanction of commissioners preliminary objection",
+    "query_id": "query_38",
+    "documents": [
+      {
+        "query": "bribery prosecution sanction of commissioners preliminary objection",
+        "document_text": "The High Court dismissed an indictment for bribery based on a preliminary objection that the Director General of the CIABOC had not been directed by all commissioners to proceed with the criminal investigation. The CIABOC filed a revision application. The Court of Appeal, citing the Supreme Court judgment in *Indikatiya Hewage Kusumadasa Mahanama*, held that a High Court has no power to question the validity of an indictment based on the internal administrative function of the CIABOC. Any such challenge must be raised before the Supreme Court via a writ. It found the High Court judge was misdirected and set aside the dismissal order.",
+        "doc_id": "a57c0ed8-1ccc-4082-a34c-b445d62dd4ef",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-22",
+          "legal_domains": ["criminal", "administrative", "constitutional"]
+        }
+      },
+      {
+        "query": "bribery prosecution sanction of commissioners preliminary objection",
+        "document_text": "In this revision application, the High Court Judge, on his own motion, raised an issue about the indictment not having the sanction of all three CIABOC commissioners. Based on the *Anoma Polwatte* case, he dismissed the action for a patent lack of jurisdiction. The Court of Appeal held this was a misdirection. Citing the later Supreme Court decision in *Kusumadasa Mahanama*, it clarified that the sanction of commissioners is an administrative function not to be questioned by the High Court, and any such defect is a latent, not patent, lack of jurisdiction. The dismissal order was set aside.",
+        "doc_id": "ba34336d-c194-4c8d-a873-c07d6de7ed01",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-08",
+          "legal_domains": ["criminal", "administrative"]
+        }
+      },
+      {
+        "query": "bribery prosecution sanction of commissioners preliminary objection",
+        "document_text": "The appellants were convicted of soliciting and accepting a bribe. The case involved a raid by the CIABOC where the 1st appellant was caught accepting marked money. The legal issues on appeal focused on the evaluation of evidence, credibility of the complainant, and the elements of aiding and abetting. The case does not involve any preliminary objections related to the sanction for prosecution.",
+        "doc_id": "5437caf3-58c8-4f10-b286-11e19c2f697a",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal", "professional conduct"]
+        }
+      },
+      {
+        "query": "bribery prosecution sanction of commissioners preliminary objection",
+        "document_text": "The petitioners challenged the report of a Presidential Commission of Inquiry into Political Victimization. The report made recommendations against the petitioners, some of whom were involved in investigating bribery and corruption cases. The court quashed the report for violating natural justice. While the case background involves bribery investigations, the legal issue is about the validity of a Commission of Inquiry's report, not the procedural requirements for initiating a bribery prosecution.",
+        "doc_id": "49303d59-f5aa-4ca9-a229-504063051e18",
+        "relevance_score": 0.25,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional"]
+        }
+      },
+      {
+        "query": "bribery prosecution sanction of commissioners preliminary objection",
+        "document_text": "This case is an appeal against a murder conviction where the key evidence was circumstantial. The court analyzed whether the proven facts were consistent only with the guilt of the accused and excluded all other possibilities. This is a classic criminal law case focused on the standard of proof for circumstantial evidence and has no connection to bribery or procedural objections.",
+        "doc_id": "95404603-658d-4e41-9858-2c51f849f01a",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+    "query_id": "query_39",
+    "documents": [
+      {
+        "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+        "document_text": "The petitioner appealed his conviction and sentence from a Magistrate's Court to the Provincial High Court. The High Court acquitted him on two counts but affirmed one, and then enhanced the sentence for that count from a suspended sentence to rigorous imprisonment. The Court of Appeal held this was a violation of natural justice. Citing Supreme Court precedent, it affirmed the cardinal principle that an accused must be given an opportunity to be heard (*audi alteram partem*) before a sentence is enhanced on appeal. As the High Court failed to follow this procedure, the enhancement was illegal and set aside.",
+        "doc_id": "01678304-fafe-410c-93c4-9eb6b147acaf",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["criminal", "constitutional"]
+        }
+      },
+      {
+        "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+        "document_text": "An appeal was filed against a sentence for attempted murder, where the appellant had pleaded guilty. The appellant argued the 15-year rigorous imprisonment sentence was excessive. The court analyzed the principles of sentencing, considering both mitigatory factors (guilty plea) and aggravating factors (severity of injuries, appellant's criminal record). It found the sentence was within the legal limits and reasonable given the circumstances. The appeal was dismissed. This case deals with the appropriateness of a sentence, but does not involve enhancement or the procedural requirement to be heard before enhancement.",
+        "doc_id": "670aacd2-2076-4536-b196-8cb77ca5822d",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-30",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+        "document_text": "The petitioner, convicted of rape after pleading guilty, sought a revision of his sentence, arguing it was excessive. The court noted the petitioner showed no remorse at the trial stage and only expressed a willingness to marry the victim on revision. The Court of Appeal reviewed the sentence and made a minor adjustment to make the sentence on the first count run concurrently, but otherwise dismissed the application, finding no exceptional circumstances to warrant a major reduction. The case involves a review of sentence severity, but not its enhancement by an appellate court.",
+        "doc_id": "6ac161c9-3e8b-46e9-a679-cf150388645c",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+        "document_text": "This is an appeal against convictions for murder and robbery. The court's judgment focuses on analyzing the circumstantial evidence and the credibility of the defense. It affirmed the death sentence and a 10-year sentence for robbery. The appeal is against the conviction itself, not just the sentence, and there is no discussion of sentence enhancement or related procedural issues.",
+        "doc_id": "9a0c6c03-945f-48ba-9cde-0bfd81ff4718",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "appeal sentence enhancement procedural fairness audi alteram partem",
+        "document_text": "This case involves a writ application concerning a public tender for the supply of deposit slips. The court issued a writ of mandamus compelling a state bank to follow Government Procurement Guidelines. This is an administrative law case about public procurement and is entirely unrelated to criminal sentencing or appeals.",
+        "doc_id": "4286ec96-bcdc-4f8f-ab05-26370423dbc0",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["administrative", "civil", "commercial"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+    "query_id": "query_40",
+    "documents": [
+      {
+        "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+        "document_text": "The accused was facing two separate High Court cases. In one case, after he was abducted and a death certificate was issued, the proceeding was terminated (abated) with the consent of the Attorney General. In the second case, the High Court ordered a trial *in absentia* under section 241 of the Code of Criminal Procedure. The Court of Appeal set aside this order, holding that once a death certificate is issued and accepted by the prosecution, the accused is presumed dead. A trial *in absentia* under section 241 requires the court to be satisfied the accused is absconding, which is impossible if he is presumed dead. The court affirmed the principle that criminal proceedings abate upon the death of the accused, as their purpose (punishment) becomes futile.",
+        "doc_id": "6c304599-2028-4062-9eb1-0e82acdc2e97",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+        "document_text": "In this multi-accused murder trial, one accused absconded during the proceedings. The court ordered evidence to be led against him under section 241(1) of the Code of Criminal Procedure Act and proceeded with the trial *in absentia*. He was later arrested and produced before the defence was called. The case illustrates the application of trial *in absentia* for an absconding accused, which is a related procedure, but does not deal with the issue of abatement upon death.",
+        "doc_id": "906a5a3d-d79d-49a8-94ac-7f971e9828da",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-01",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+        "document_text": "This was a multi-accused murder trial where two accused died before trial and a third died while the appeal was pending. The court noted these facts and amended the indictment accordingly, proceeding against the remaining accused. The case mentions the death of accused persons and its effect on the continuation of the case against them, but does not discuss the legal principles of abatement or trial *in absentia* in detail.",
+        "doc_id": "27ebebe1-51cd-4e65-a486-d1ad7429e5e3",
+        "relevance_score": 0.45,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-18",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+        "document_text": "This is a civil case involving a partition action. The original defendant died during the proceedings, and his wife was substituted in his place. The legal issue was whether the substituted party was the correct legal representative. This case deals with substitution upon death in a civil case, which is governed by different principles than the abatement of a criminal trial.",
+        "doc_id": "c4ef11b6-f7a6-4c95-ad35-4ea23de886bf",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-02",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "criminal trial in absentia abatement of proceedings upon death of accused",
+        "document_text": "A student petitioner seeks a writ of mandamus to compel the UGC to admit her to a state university. She had previously enrolled at KDU but was medically discharged. The case concerns administrative law, university admissions, and the doctrine of legitimate expectation. It has no connection to criminal procedure.",
+        "doc_id": "f23752eb-37cd-47dd-8986-b22b19836ebe",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-10",
+          "legal_domains": ["administrative", "constitutional"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "belated complaint child sexual abuse credibility of victim's testimony",
+    "query_id": "query_41",
+    "documents": [
+      {
+        "query": "belated complaint child sexual abuse credibility of victim's testimony",
+        "document_text": "The appellant was convicted of abducting and sexually abusing a 9-year-old girl. The complaint was made about one and a half years after the incident, after the victim attended a child protection awareness program at her school. The appellant argued the conviction was unsafe due to the belated complaint and discrepancies. The Court of Appeal held that the delay was justifiably explained by the child's fear and the grandmother's initial instruction not to tell anyone. It found the child's evidence cogent and trustworthy, noting that victims of sexual harassment often prefer not to talk about the harrowing experience. The conviction was affirmed.",
+        "doc_id": "a634ab9a-1a3b-4ad1-bfda-e7ff4bb5f101",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["criminal", "family law"]
+        }
+      },
+      {
+        "query": "belated complaint child sexual abuse credibility of victim's testimony",
+        "document_text": "The appellant was convicted of grave sexual abuse of a 5 ½ year old boy. The victim gave evidence when he was 17 years old, about 11 years after the incident. The court considered the victim's young age at the time of the incident and the significant time lapse as factors in evaluating his testimony. It found his evidence credible and corroborated by his mother's testimony and medical evidence of anal intercourse. The court held that it is natural for a child witness to forget the exact date of a traumatic event that occurred many years prior.",
+        "doc_id": "fd8b91aa-2dfd-446b-84f4-0c9b84c6bbbc",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-05",
+          "legal_domains": ["criminal", "family law"]
+        }
+      },
+      {
+        "query": "belated complaint child sexual abuse credibility of victim's testimony",
+        "document_text": "The appellant was convicted of grave sexual abuse of an 11-year-old victim. The victim immediately narrated the incident to her friend, who corroborated her testimony. The father also gave evidence. The court found the victim's evidence to be explicit and consistent, and that she stood the test of cross-examination well. In this case, there was no significant delay in the complaint, which contrasts with the query's focus on belatedness, but it is relevant for its discussion of a child victim's credibility.",
+        "doc_id": "c305cef2-a189-4d17-82f1-dc1577b3ea6a",
+        "relevance_score": 0.5,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-14",
+          "legal_domains": ["criminal", "family law"]
+        }
+      },
+      {
+        "query": "belated complaint child sexual abuse credibility of victim's testimony",
+        "document_text": "This appeal concerned a conviction for gang rape. The first complaint to the police was made two days after the incident. The defense challenged the credibility of the victims' identification of the appellant. The court found the victims' testimony to be 'uncertain and vacillating', and the identification doubtful, especially since another person clearly identified by name had been discharged. The conviction was set aside. While it involves a delayed complaint and credibility in a sexual offence, the victims were adults (or not specified as children), and the focus is on identification issues.",
+        "doc_id": "af2ad53c-541a-4f0e-a6a9-05acde022dd7",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-03",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "belated complaint child sexual abuse credibility of victim's testimony",
+        "document_text": "This is a civil case where a petitioner is challenging a bank's decision to initiate parate execution proceedings to recover a loan. The legal issues revolve around banking law, contract law, and civil procedure. The case is entirely unrelated to criminal law, sexual offences, or witness testimony.",
+        "doc_id": "f78a2dcb-c50c-4bb7-8b42-1915de66da54",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-30",
+          "legal_domains": ["civil", "commercial", "property law", "administrative"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+    "query_id": "query_42",
+    "documents": [
+      {
+        "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+        "document_text": "The Petitioners sought a Writ of Certiorari to quash demolition orders issued by the Coast Conservation Department for unauthorized structures within the coastal zone. The Petitioners operated a cafe they claimed had existed since 1960. The Court held that under Section 14(1) of the Coast Conservation and Coastal Resources Management Act, no development activity is permitted within the coastal zone without a permit. The Petitioners failed to prove their structures were built before the Act's appointed date (1983) and did not possess a permit. The Court found the demolition orders were issued lawfully within the purview of the Act and dismissed the writ application.",
+        "doc_id": "451a21c1-c07b-4b76-aba2-084b635eef66",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-07",
+          "legal_domains": ["administrative", "property law", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+        "document_text": "This case involves a writ application concerning the laying of a 33Kv electricity line near the petitioner's property. The petitioner argued the installation violated safety regulations under the Sri Lanka Electricity Act regarding the minimum distance from buildings. The Court found the Ceylon Electricity Board had failed to comply with the mandatory statutory regulations. While this case involves a writ against an unauthorized/unsafe construction, it falls under the Electricity Act, not the Coast Conservation Act, and does not deal with coastal zones.",
+        "doc_id": "6bb90621-71b6-4163-bd68-411e1a7939e9",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-07",
+          "legal_domains": ["administrative", "civil", "tort law"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+        "document_text": "The Court dismissed a writ application challenging quit notices issued under the State Lands (Recovery of Possession) Act. The subject land was a reclaimed portion of the Negombo Lagoon, which the court found to be State land. The case deals with the recovery of state land and the finality of partition decrees against the state. Although it involves a coastal feature (a lagoon), the governing statute is the State Lands Ordinance and the State Lands (Recovery of Possession) Act, not the Coast Conservation Act.",
+        "doc_id": "f9f2875b-443a-4bb8-b967-6e89a5b97830",
+        "relevance_score": 0.35,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-31",
+          "legal_domains": ["administrative", "property law", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+        "document_text": "The Petitioner, a public servant, challenges his Vacation of Post (VOP) order and the subsequent refusal of his appeals by the Public Service Commission and the National Police Commission. The case revolves around the interpretation of constitutional amendments and the jurisdiction of these commissions. It is an administrative law case concerning employment and has no relation to land, construction, or coastal conservation.",
+        "doc_id": "4ada41bf-3e2a-4107-aa78-0486503fb289",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "constitutional", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari demolition of unauthorized coastal structures Coast Conservation Act",
+        "document_text": "This is a criminal appeal against a conviction for bribery. The legal issues concern the evaluation of the complainant's credibility and whether the elements of soliciting and accepting a bribe were proven beyond a reasonable doubt. The case is entirely a criminal matter.",
+        "doc_id": "5437caf3-58c8-4f10-b286-11e19c2f697a",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal", "professional conduct"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of mandamus compelling public officer to prosecute or investigate",
+    "query_id": "query_43",
+    "documents": [
+      {
+        "query": "writ of mandamus compelling public officer to prosecute or investigate",
+        "document_text": "The Petitioner sought a Writ of Mandamus to compel the Attorney General to prosecute a teacher who allegedly punished his daughter at school. The Court held that the petitioner failed to establish that the Attorney General has a legal duty towards him to prosecute the matter. Citing *Ratnayake v Perera*, the Court affirmed that the function of mandamus is to compel a public authority to do its duty, but the decision to prosecute is a discretionary power vested in the Attorney General under the criminal procedure code. The petitioner did not allege that the Attorney General's decision was mala fide. The application was dismissed.",
+        "doc_id": "ae11b754-4c97-43c5-8ed1-03f3c3382dbc",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-15",
+          "legal_domains": ["administrative", "criminal", "constitutional"]
+        }
+      },
+      {
+        "query": "writ of mandamus compelling public officer to prosecute or investigate",
+        "document_text": "The Petitioners sought a Writ of Mandamus to compel the Marine Environment Protection Authority (MEPA), the Central Environmental Authority (CEA), and the Attorney General to investigate and prosecute parties responsible for dumping hazardous industrial waste into the sea. The Court found that the CEA had already filed five cases against the drivers and another against the company, and the police had conducted investigations. As the relevant authorities had taken necessary steps and were performing their statutory duties, the Court concluded that a necessity to issue a writ of mandamus did not arise and refused the relief.",
+        "doc_id": "e5bf9832-525c-4490-8dc8-fe58b61eaefb",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-04",
+          "legal_domains": ["administrative", "civil"]
+        }
+      },
+      {
+        "query": "writ of mandamus compelling public officer to prosecute or investigate",
+        "document_text": "The Petitioner company sought a Writ of Mandamus to direct the Public Service Commission (PSC) to ante-date their letters of appointment due to administrative delays in the recruitment process. The Court found there was a failure on the part of the authorities to perform their public duty in a timely manner, which unfairly affected the petitioners' seniority. The court issued the writ to rectify the error. This is a classic application of mandamus to compel a public duty, but it relates to an administrative function (appointment), not a prosecutorial or investigative one.",
+        "doc_id": "71a4f042-ec3f-4056-988e-9a28d4d3447e",
+        "relevance_score": 0.55,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of mandamus compelling public officer to prosecute or investigate",
+        "document_text": "The petitioner sought a writ of mandamus directing the Controller General of Imports and Exports to issue a letter of authorization to clear goods on open account terms. The court found that the petitioner had delayed in submitting its application and failed to meet the statutory requirement of obtaining authorization *prior* to the arrival of the goods. Since the Controller had no statutory duty to issue the letter after the deadline had passed, the court held there was no basis for a writ of mandamus and dismissed the application.",
+        "doc_id": "5cbd1eec-3655-4419-8344-243441a9bcfb",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-04",
+          "legal_domains": ["administrative", "commercial", "civil"]
+        }
+      },
+      {
+        "query": "writ of mandamus compelling public officer to prosecute or investigate",
+        "document_text": "This is a criminal appeal against a conviction for murder. The judgment analyzes the evidence of eyewitnesses and the defense of sudden fight. It is a substantive criminal appeal and does not involve the administrative law remedy of mandamus or the duties of public officers to investigate.",
+        "doc_id": "4b19cc5d-b4a1-44a1-8d2a-22925600e873",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-07",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "tax appeal mandatory time limit for determination statutory interpretation",
+    "query_id": "query_44",
+    "documents": [
+      {
+        "query": "tax appeal mandatory time limit for determination statutory interpretation",
+        "document_text": "The appellant argued that the determination of the Tax Appeals Commission (TAC) was time-barred, as it was made 526 days after the first hearing, exceeding the 270-day limit in Section 10 of the Tax Appeals Commission Act. The court analyzed whether this time limit was mandatory or directory. It held that the legislature's meticulous and repeated amendments to the time limit, with retrospective effect, indicated a mandatory intention. It distinguished the case from fundamental rights applications where time limits are often held to be directory to protect citizens' rights. Here, the court concluded that if the process for disputing a citizen's self-assessment is not completed within the legally stipulated time, the citizen's right to pay on that self-assessment must prevail. The determination was held to be time-barred.",
+        "doc_id": "c6dd8ed0-6bde-41f3-9d11-29e385903b3c",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      },
+      {
+        "query": "tax appeal mandatory time limit for determination statutory interpretation",
+        "document_text": "In this tax appeal, one of the issues was whether the Commissioner General of Inland Revenue (CGIR) made his determination within the statutory two-year time limit prescribed by the VAT Act. The validity depended on the date the appeal was considered 'received'. The court found that the determination was made after the two-year period had expired from the actual date of receipt, rendering it time-barred. As a consequence, the Act deemed the appeal to have been allowed. This case directly deals with a mandatory statutory time limit for a tax determination.",
+        "doc_id": "7ed47d91-5438-47e1-9cc4-4294dcd4bb54",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-28",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      },
+      {
+        "query": "tax appeal mandatory time limit for determination statutory interpretation",
+        "document_text": "This case involved a writ application to quash a report from a Presidential Commission of Inquiry. The Court discussed the legal effect of the commission's recommendations, noting that they are not legally binding until acted upon. The Attorney General submitted that the Cabinet had decided not to act on the report and that a second commission's mandate had expired, rendering the matter futile. The case discusses the finality of administrative decisions but does not involve statutory time limits for those decisions.",
+        "doc_id": "5de95c56-a653-4880-aaf1-f8dab060d098",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional", "civil"]
+        }
+      },
+      {
+        "query": "tax appeal mandatory time limit for determination statutory interpretation",
+        "document_text": "The appellant, an officer in the military, challenged the withdrawal of his commission. The court analyzed the Army Act and its regulations to determine which authority—the Army Commander or the President—had the power to withdraw a commission. It found the decision was taken by an authority without jurisdiction (ultra vires) and quashed it. This involves statutory interpretation but in the context of military service law and jurisdiction, not time limits in tax appeals.",
+        "doc_id": "db559a5f-31e5-48d1-94d9-6a44854e320c",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-07",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "tax appeal mandatory time limit for determination statutory interpretation",
+        "document_text": "This is a criminal appeal against a murder conviction. The judgment focuses on the evaluation of evidence from eyewitnesses and the credibility of their testimony. The legal discussion centers on the standard of proof beyond a reasonable doubt in a criminal trial. It is entirely unrelated to tax law or statutory time limits.",
+        "doc_id": "c01c70c7-6bd3-4baf-9b14-4433f09c25c4",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-27",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+    "query_id": "query_45",
+    "documents": [
+      {
+        "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+        "document_text": "The petitioner filed a revision application after his criminal appeal in the High Court was dismissed due to his non-appearance on a calling date. The petitioner argued that a criminal appeal cannot be dismissed for default of appearance and must be disposed of on its merits. The Court of Appeal agreed, stating that the High Court is required to dispose of a criminal appeal 'exclusively on its merits in terms of Section 349(3) of the Code of Criminal Procedure Act'. Finding this to be an exceptional ground, the court issued the revision, setting aside the High Court's dismissal order.",
+        "doc_id": "df9e8104-5cae-4207-b38d-14116dd3b14f",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-01",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+        "document_text": "This revision application was filed against a High Court order that refused to issue notice in a revision application challenging a Magistrate's order. The High Court had dismissed the application due to a two-month delay. The Court of Appeal noted that its own appeal had previously been dismissed for the appellant's non-appearance but was later re-listed. The case involves dismissal for delay and default but focuses on the merits of the underlying confiscation order rather than the procedural rule for dismissing appeals.",
+        "doc_id": "471b5e7b-9283-4527-b7ca-be576c990cca",
+        "relevance_score": 0.6,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-01",
+          "legal_domains": ["criminal", "property law"]
+        }
+      },
+      {
+        "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+        "document_text": "A petitioner challenged a quit notice issued under the State Lands (Recovery of Possession) Act. The court determined that the petitioner's partition decree was not binding on the State, which was not a party to the action. It also held that under Section 3(1A) of the Act, there is no right to a hearing before a quit notice is issued. The writ application was dismissed. This case is a civil/administrative matter and does not concern criminal appeals or dismissal for non-appearance.",
+        "doc_id": "f9f2875b-443a-4bb8-b967-6e89a5b97830",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-31",
+          "legal_domains": ["administrative", "property law", "civil"]
+        }
+      },
+      {
+        "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+        "document_text": "This is a civil appeal regarding a partition action where the final decree was challenged. The key legal issues relate to the District Court's duty to investigate title under the Partition Law and the evaluation of evidence related to a pedigree of title. The case is a complex property law matter and is irrelevant to the procedure for criminal appeals.",
+        "doc_id": "34383139-c8e3-48a4-b261-fb6ce0790393",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "revision of High Court order dismissing criminal appeal for non-appearance",
+        "document_text": "This is an appeal against a conviction for bribery. The court reviewed the evidence from a raid conducted by the CIABOC, the credibility of the complainant, and the defense put forward by the appellants. The appeal against the conviction was dismissed. The case deals with the merits of a criminal trial, not procedural dismissal of an appeal.",
+        "doc_id": "5437caf3-58c8-4f10-b286-11e19c2f697a",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal", "professional conduct"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "murder conviction appeal based on sudden fight or grave provocation",
+    "query_id": "query_46",
+    "documents": [
+      {
+        "query": "murder conviction appeal based on sudden fight or grave provocation",
+        "document_text": "The appellant was convicted of murdering his neighbour. The evidence showed the appellant, having been told to go away after an initial altercation over hoppers, returned later and struck the deceased's husband with a club, but the blow landed on the deceased. The appellant argued that the trial judge failed to consider the exceptions of sudden fight and grave and sudden provocation. The Court of Appeal rejected this, noting the appellant's repeated return to the house showed malice and vindictiveness, not a sudden quarrel. Citing *Bandara v Attorney General*, it held that a key ingredient for the 'sudden fight' exception is the absence of premeditation, which was contradicted by the appellant's behavior. The conviction for murder was affirmed.",
+        "doc_id": "4b19cc5d-b4a1-44a1-8d2a-22925600e873",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-07",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "murder conviction appeal based on sudden fight or grave provocation",
+        "document_text": "This appeal was against a murder conviction where the prosecution relied on the eyewitness testimony of PW-02 and PW-16. The learned Counsel for the appellant argued that the High Court Judge failed to consider the possibility of a sudden fight. The Court of Appeal held that for a trial judge to consider such a possibility, there must be evidence on record to that effect. As no such position was taken during the trial and no evidence suggested a sudden fight or provocation, the court found no basis to reduce the charge from murder to culpable homicide not amounting to murder.",
+        "doc_id": "74463333-390d-4f93-a514-b8874262efd0",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-22",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "murder conviction appeal based on sudden fight or grave provocation",
+        "document_text": "The appellant was convicted of murder based on circumstantial evidence, which included him being seen leaving the deceased's house with a mamoty, preventing others from taking the injured to the hospital, and then consuming poison. He gave evidence under oath claiming he found his brother already injured. The court found his explanation improbable and inconsistent with his failure to challenge the incriminating evidence against him. The judgment focuses on circumstantial evidence and the appellant's conduct, with no discussion of sudden fight or provocation.",
+        "doc_id": "95404603-658d-4e41-9858-2c51f849f01a",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "murder conviction appeal based on sudden fight or grave provocation",
+        "document_text": "The appellants were convicted of murder and robbery, committed with a common intention. The case involved a detailed analysis of circumstantial evidence, including footprints, recovered stolen items, and a confession. The court's decision was based on the cumulative weight of this evidence pointing irresistibly to the guilt of the accused. The legal discussion is centered on the principles of circumstantial evidence and common intention, not on mitigating exceptions like sudden fight.",
+        "doc_id": "9a0c6c03-945f-48ba-9cde-0bfd81ff4718",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "murder conviction appeal based on sudden fight or grave provocation",
+        "document_text": "This is a writ application where a company is challenging the government's decision to restrict its use of locally sourced raw materials for export products. The company argues that this decision is a violation of its rights and agreements with the Board of Investment (BOI). The case is a commercial and administrative law dispute and is completely unrelated to criminal law.",
+        "doc_id": "a35f9563-df1f-44b3-a45c-f9c75b6b7b72",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "commercial", "constitutional", "civil"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+    "query_id": "query_47",
+    "documents": [
+      {
+        "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+        "document_text": "The petitioner, an importer of milk powder, sought a writ of certiorari to quash the decision of the Controller General of Imports and Exports refusing to issue a letter of authorization to clear goods on open account terms. The regulations required the authorization to be obtained *prior* to the arrival of the goods. The petitioner obtained the necessary recommendation from the Ministry of Industries only one day before the ship's arrival and submitted it to the Controller after the arrival. The Court held that the Controller had no discretion to issue the letter after the goods had arrived, as this would be contrary to the express terms of the regulation. It also found the petitioner's delay in applying for the recommendation was the cause of the issue. The application was dismissed.",
+        "doc_id": "5cbd1eec-3655-4419-8344-243441a9bcfb",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-04",
+          "legal_domains": ["administrative", "commercial", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+        "document_text": "The Petitioner, a BOI company, challenged government decisions restricting the use of locally sourced copper scrap for export. These decisions were communicated by the Ministry of Industry and the BOI, and enforced by the Department of Import and Export Control. The court analyzed regulations made under the Imports and Exports (Control) Act, which required an export license for certain items. The court ultimately dismissed the writ application, finding the restrictions were a valid change in policy based on economic considerations. This case is highly relevant as it involves the same Act and regulatory bodies.",
+        "doc_id": "a35f9563-df1f-44b3-a45c-f9c75b6b7b72",
+        "relevance_score": 0.7,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "commercial", "constitutional", "civil"]
+        }
+      },
+      {
+        "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+        "document_text": "This case involves a writ application challenging a decision by the Public Service Commission (PSC) regarding the seniority and appointment date of public officers. The court had to interpret the relevant service minute and PSC rules. While it is a writ application against a public authority, the subject matter is public service employment, not import/export control.",
+        "doc_id": "71a4f042-ec3f-4056-988e-9a28d4d3447e",
+        "relevance_score": 0.2,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-21",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+        "document_text": "The petitioner sought to set aside a settlement recorded in the District Court, claiming she was misled. The Court of Appeal granted the application based on procedural irregularities under the Civil Procedure Code. This is a purely civil procedural matter and has no connection to administrative law concerning import/export.",
+        "doc_id": "0b03db14-7e1c-41d1-b75f-bc930a9702c7",
+        "relevance_score": 0.05,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-29",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "writ of certiorari refusal to issue letter of authorization import export control regulations",
+        "document_text": "This is a criminal appeal against a conviction for bribery. The case involves a raid by the CIABOC and the evaluation of evidence from the complainant and a decoy. The legal issues are criminal in nature and have no relevance to the administrative control of imports and exports.",
+        "doc_id": "135dbf99-6d5d-4d1b-8872-7586404adfd4",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-29",
+          "legal_domains": ["criminal", "professional conduct"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "criminal appeal eyewitness identification dock identification credibility",
+    "query_id": "query_48",
+    "documents": [
+      {
+        "query": "criminal appeal eyewitness identification dock identification credibility",
+        "document_text": "The appellants were convicted of robbery and murder. The conviction relied on eyewitnesses who identified them in court (dock identification) and at identification parades held several months after the incident. The appellants challenged the credibility of the parades. The Court of Appeal, while noting infirmities in the parades, held that a dock identification is a valid form of identification. Citing *Roshan v Attorney General* and other cases, it stated that the quality of the identification evidence is what matters. Given that the witnesses observed the appellants for about ten minutes in broad daylight in a well-lit shop, the court found the dock identification reliable and sufficient to uphold the conviction.",
+        "doc_id": "d179cfda-c0e1-4ad4-93d1-6a9af95a3722",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-19",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal eyewitness identification dock identification credibility",
+        "document_text": "In this murder appeal, the mother of the deceased (PW2) identified the appellant at an identification parade and in court. The incident occurred at night, and the witness claimed to have identified the appellant with the aid of a street light and light from a nearby chapel. However, in cross-examination, she admitted the place was dark and her testimony about the light source was inconsistent. The investigating officer's evidence did not corroborate the presence of adequate lighting. The court found her identification evidence to be doubtful, especially since another accused she identified was acquitted for poor identification. The conviction was set aside due to the unreliability of the identification.",
+        "doc_id": "906a5a3d-d79d-49a8-94ac-7f971e9828da",
+        "relevance_score": 0.9,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-01",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal eyewitness identification dock identification credibility",
+        "document_text": "The appellant was convicted of gang rape and robbery. The victims' mother (PW3) identified the appellant, claiming his face was not covered, but had told police their faces were covered. Victim PW2 identified the appellant after his mask allegedly fell off, a fact not mentioned in her police statement. The identification parade was held 10 months late. The court found the eyewitness testimony 'very uncertain and vacillating' and the identification evidence unreliable. It noted that another person, clearly identified by name, was discharged by the AG. The conviction was quashed due to the lack of credible identification.",
+        "doc_id": "af2ad53c-541a-4f0e-a6a9-05acde022dd7",
+        "relevance_score": 0.8,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-03",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal eyewitness identification dock identification credibility",
+        "document_text": "The appellant was convicted of murdering his brother. The case was based on circumstantial evidence. The deceased's wife (PW-01) was an eyewitness not to the assault itself, but to the immediate aftermath. She heard her husband scream and saw the appellant, her brother-in-law, coming out of the house with a mamoty in hand. Her evidence is about the circumstances immediately following the act, not a direct identification of the perpetrator during the act. Thus, while it involves an eyewitness, the legal analysis is on circumstantial evidence, not identification.",
+        "doc_id": "95404603-658d-4e41-9858-2c51f849f01a",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-28",
+          "legal_domains": ["criminal"]
+        }
+      },
+      {
+        "query": "criminal appeal eyewitness identification dock identification credibility",
+        "document_text": "This is a tax appeal case where the main issue is whether the appellant company is a 'manufacturer' for the purposes of the Value Added Tax Act. The case involves the interpretation of statutory definitions and commercial agreements. It is a civil/commercial matter and has no relevance to criminal law or eyewitness identification.",
+        "doc_id": "c6dd8ed0-6bde-41f3-9d11-29e385903b3c",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "primary courts procedure act possession of land revisionary jurisdiction",
+    "query_id": "query_49",
+    "documents": [
+      {
+        "query": "primary courts procedure act possession of land revisionary jurisdiction",
+        "document_text": "The Petitioner filed an action in the Primary Court of Jaffna under Section 66(1)(b) of the Primary Courts Procedure Act, alleging he was dispossessed from a disputed land. The Primary Court dismissed his application. The Provincial High Court affirmed the dismissal and further declared the 2nd Respondent was entitled to possession. The Petitioner then sought revision in the Court of Appeal. The court found that the Petitioner failed to establish possession within the two months prior to the information, as required by Section 68(3). It also upheld the High Court's power in revision to correct the Primary Court's error of not making a determination on who was in possession. The application was dismissed.",
+        "doc_id": "3b99110a-ab22-40b9-a2c7-c9fa0371c5d2",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-07",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "primary courts procedure act possession of land revisionary jurisdiction",
+        "document_text": "This case concerns a revision application challenging an interim protection order issued by a Magistrate under the Prevention of Domestic Violence Act. The Court of Appeal held that the proper forum for such a revision is the Provincial High Court under Article 154P, not the Court of Appeal directly. While it discusses revisionary jurisdiction over a lower court order, the subject matter is domestic violence, not a land possession dispute under the Primary Courts Procedure Act.",
+        "doc_id": "4cc40ea7-a412-4701-b216-37b74b6b2169",
+        "relevance_score": 0.3,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-22",
+          "legal_domains": ["family law", "civil", "criminal"]
+        }
+      },
+      {
+        "query": "primary courts procedure act possession of land revisionary jurisdiction",
+        "document_text": "The appellant is challenging an order confiscating his vehicle, which was used in a forest offence. The matter originated in the Magistrate's Court, was appealed in revision to the Provincial High Court, and is now before the Court of Appeal. Although it involves a revision of a High Court's revisionary judgment over a Magistrate's Court, the underlying law is the Forest Ordinance, not the Primary Courts Procedure Act, and the subject is vehicle confiscation, not land possession.",
+        "doc_id": "d37f1d4e-83ff-49b8-a270-281aad401807",
+        "relevance_score": 0.25,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-20",
+          "legal_domains": ["criminal", "property law", "administrative"]
+        }
+      },
+      {
+        "query": "primary courts procedure act possession of land revisionary jurisdiction",
+        "document_text": "This application seeks to set aside a settlement recorded in a partition action in the District Court. The petitioner is invoking the Court of Appeal's *restitutio in integrum* and revisionary jurisdiction. The case involves a land dispute and a lower court order, but it's a partition action in the District Court governed by the Civil Procedure Code, not a possessory action under the Primary Courts Procedure Act.",
+        "doc_id": "1b895da5-766d-4549-9f2c-111b7dd050ee",
+        "relevance_score": 0.15,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-10",
+          "legal_domains": ["civil", "property law"]
+        }
+      },
+      {
+        "query": "primary courts procedure act possession of land revisionary jurisdiction",
+        "document_text": "This is a criminal appeal against a murder conviction. The judgment analyzes the evidence of eyewitnesses, the credibility of their testimony, and the defense of a sudden fight. It is a substantive criminal appeal and has no connection to land disputes or the Primary Courts Procedure Act.",
+        "doc_id": "4b19cc5d-b4a1-44a1-8d2a-22925600e873",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-07",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+    "query_id": "query_50",
+    "documents": [
+      {
+        "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+        "document_text": "The petitioner, a police officer, was served a Vacation of Post (VOP) notice in 1995. His appeal to the Public Service Commission (PSC) was dismissed the same year. In 2003, after the 17th Amendment established the National Police Commission (NPC), he filed a 'fresh appeal' with the NPC. The Court held that the 17th Amendment did not have retrospective effect. Citing the Interpretation Ordinance, it ruled that the NPC had no power to vary a decision made by the PSC before the NPC's establishment. The petitioner's VOP order, confirmed by the PSC in 1995, therefore remained valid. The writ application was dismissed.",
+        "doc_id": "4ada41bf-3e2a-4107-aa78-0486503fb289",
+        "relevance_score": 1.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-04-05",
+          "legal_domains": ["administrative", "constitutional", "professional conduct"]
+        }
+      },
+      {
+        "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+        "document_text": "A Naval Officer was denied permission to return to active service after a period of unpaid leave. He sought a writ to compel his reinstatement. The Court found the decision to deny his return was made without reasons and in violation of natural justice. This case deals with an administrative decision affecting a service member's career, but the specific legal issue is not a VOP order or the retrospective effect of legislation, but rather a violation of natural justice and legitimate expectation.",
+        "doc_id": "baf6be9b-ad31-4da2-976c-f756ec350021",
+        "relevance_score": 0.4,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-27",
+          "legal_domains": ["administrative", "professional conduct"]
+        }
+      },
+      {
+        "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+        "document_text": "This tax appeal concerned the retrospective effect of amendments to the Tax Appeals Commission Act. The legislature had twice amended the time limit for the Commission to deliver its determination, and on both occasions, gave the amendments retrospective effect back to the date the original Act came into force. The court discussed the significance of these retrospective clauses in determining that the time limit was mandatory. This is relevant for its discussion on retrospective legislation, but in a tax law context, not employment or constitutional law concerning public service.",
+        "doc_id": "c6dd8ed0-6bde-41f3-9d11-29e385903b3c",
+        "relevance_score": 0.35,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-02-12",
+          "legal_domains": ["commercial", "administrative"]
+        }
+      },
+      {
+        "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+        "document_text": "This case involves a writ application challenging the findings of a Presidential Commission of Inquiry. The petitioners argue the commission acted in violation of natural justice and its mandate. The legal discussion revolves around the powers of such commissions, the rules of natural justice, and whether their recommendations are legally binding. It does not deal with public service employment rules, VOP orders, or constitutional amendments.",
+        "doc_id": "0d247b2e-fa41-4027-a86c-fd5a46dcd853",
+        "relevance_score": 0.1,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-03-25",
+          "legal_domains": ["administrative", "constitutional", "civil", "professional conduct"]
+        }
+      },
+      {
+        "query": "Vacation of Post VOP order retrospective effect of constitutional amendments",
+        "document_text": "This is a criminal appeal against a conviction for murder and robbery. The court evaluates the strength and credibility of circumstantial evidence, including footprints, recovered items, and a confession. The case is a purely criminal matter and has no connection to public service law, administrative orders, or constitutional interpretation.",
+        "doc_id": "9a0c6c03-945f-48ba-9cde-0bfd81ff4718",
+        "relevance_score": 0.0,
+        "metadata_features": {
+          "court_level": "Court of Appeal",
+          "jurisdiction": "Court of Appeal",
+          "date": "2024-05-17",
+          "legal_domains": ["criminal"]
+        }
+      }
+    ]
   }
+
+
+
+  
 ]

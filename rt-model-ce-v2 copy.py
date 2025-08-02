@@ -1,126 +1,4 @@
-import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
-import numpy as np
-from transformers import AutoTokenizer, AutoModel
-from sklearn.metrics import ndcg_score
-from sklearn.model_selection import train_test_split
-import json
-import logging
-from typing import List, Dict, Tuple, Optional, Any
-from dataclasses import dataclass, field
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import defaultdict
-import os
-from scipy import stats
-import warnings
-from datetime import datetime, timedelta
-import asyncio
-import nest_asyncio
-
-# Database imports
-from pinecone import Pinecone
-from neo4j import GraphDatabase  
-import firebase_admin
-from firebase_admin import credentials, firestore
-from sentence_transformers import SentenceTransformer
-
-warnings.filterwarnings('ignore')
-
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-# Database Configuration (from reference system)
-PINECONE_API_KEY = "pcsk_2it9oG_RzRNfQdLGg9jUen7wW6viE9JpLRgVTHtWbTZhomuZKmhuyYnrh8GgMyrHJMz37Q"
-PINECONE_CASE_DENSE_INDEX = "law-cases-dense"
-PINECONE_ACTS_DENSE_INDEX = "law-acts-dense"
-
-NEO4J_URI = "neo4j+s://66d16355.databases.neo4j.io"
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "G4UXZ6KLGd1dzo57rp6ITypJHZ37aM1fn-exAWdw3p8"
-NEO4J_DATABASE = "neo4j"
-
-FIRESTORE_PROJECT_ID = "legal-research-platform"
-FIRESTORE_CREDENTIALS_PATH = "resources/legal-research-platform-firebase-adminsdk-fbsvc-46a9ab3605.json"
-
-@dataclass
-class RerankingExample:
-    """Enhanced training example with database features"""
-    query: str
-    document_text: str
-    doc_id: str
-    relevance_score: float
-    metadata_features: Dict[str, Any] = field(default_factory=dict)
-    kg_features: Dict[str, Any] = field(default_factory=dict)
-    authority_score: float = 0.0
-    citation_count: int = 0
-
-@dataclass
-class RerankingBatch:
-    """Batch of documents for a single query"""
-    query: str
-    documents: List[RerankingExample]
-    query_id: str = ""
-
-@dataclass
-class CrossEncoderEvaluationMetrics:
-    """Comprehensive evaluation metrics for cross-encoder"""
-    ndcg_at_5: float = 0.0
-    ndcg_at_10: float = 0.0
-    map_score: float = 0.0
-    mrr_score: float = 0.0
-    precision_at_k: Dict[int, float] = field(default_factory=dict)
-    recall_at_k: Dict[int, float] = field(default_factory=dict)
-    spearman_correlation: float = 0.0
-    kendall_tau: float = 0.0
-    dcg_score: float = 0.0
-    authority_coverage: float = 0.0
-    response_time: float = 0.0
-    training_efficiency: float = 0.0
-
 class DatabaseConnector:
-    """Database connector for fetching enhanced features"""
-    
-    def __init__(self):
-        self.pinecone_client = None
-        self.neo4j_driver = None
-        self.firestore_client = None
-        
-        self._initialize_connections()
-    
-    def _initialize_connections(self):
-        """Initialize all database connections"""
-        try:
-            # Pinecone
-            self.pinecone_client = Pinecone(api_key=PINECONE_API_KEY)
-            logger.info("Pinecone client initialized")
-            
-            # Neo4j
-            self.neo4j_driver = GraphDatabase.driver(
-                NEO4J_URI, 
-                auth=(NEO4J_USERNAME, NEO4J_PASSWORD)
-            )
-            self.neo4j_driver.verify_connectivity()
-            logger.info("Neo4j connection verified")
-            
-            # Firestore
-            if not firebase_admin._apps:
-                try:
-                    cred = credentials.Certificate(FIRESTORE_CREDENTIALS_PATH)
-                    firebase_admin.initialize_app(cred, {'projectId': FIRESTORE_PROJECT_ID})
-                except:
-                    firebase_admin.initialize_app()
-            
-            self.firestore_client = firestore.client()
-            logger.info("Firestore client initialized")
-            
-        except Exception as e:
-            logger.warning(f"Database initialization error: {e}")
-            logger.info("Running in mock mode for training")
     
     def get_kg_features(self, doc_id: str) -> Dict[str, Any]:
         """Get knowledge graph features for a document"""
@@ -134,13 +12,12 @@ class DatabaseConnector:
                 MATCH (d:Case {doc_id: $doc_id})
                 OPTIONAL MATCH (d)-[:REFERS_TO]->(act:Act)
                 OPTIONAL MATCH (d)<-[r]-(judge:Person)
-                OPTIONAL MATCH (citing:Case)-[:CITES]->(d)
+                OPTIONAL MATCH (citing:Case)-[:REFERS_TO]->(d)
                 RETURN 
                     count(DISTINCT act) as act_references,
                     count(DISTINCT judge) as judge_count,
                     count(DISTINCT citing) as citation_count,
-                    d.court_level as court_level,
-                    d.date as doc_date
+                    d.doc_year as doc_date
                 """
                 
                 # Query for Acts
@@ -151,8 +28,7 @@ class DatabaseConnector:
                     count(DISTINCT case) as citation_count,
                     0 as act_references,
                     0 as judge_count,
-                    2 as court_level,
-                    d.date as doc_date
+                    d.doc_year as doc_date
                 """
                 
                 result = session.run(case_query, {"doc_id": doc_id}).single()
@@ -191,25 +67,7 @@ class DatabaseConnector:
             logger.error(f"Error fetching KG features for {doc_id}: {e}")
         
         return self._mock_kg_features(doc_id)
-    
-    def _mock_kg_features(self, doc_id: str) -> Dict[str, Any]:
-        """Generate mock KG features for testing"""
-        import hashlib
-        seed = int(hashlib.md5(doc_id.encode()).hexdigest()[:8], 16)
-        np.random.seed(seed % (2**32))
-        
-        citation_count = np.random.poisson(15)
-        authority_score = np.random.beta(3, 2)
-        court_level = np.random.choice([1, 2, 3, 4, 5], p=[0.1, 0.15, 0.3, 0.3, 0.15])
-        
-        return {
-            'citation_count': citation_count,
-            'act_references': np.random.poisson(3),
-            'judge_count': np.random.choice([1, 3, 5], p=[0.6, 0.3, 0.1]),
-            'authority_score': authority_score,
-            'jurisdictional_weight': 1.0 / court_level,
-            'court_level': court_level
-        }
+
     
     def get_document_summary(self, doc_id: str) -> Optional[str]:
         """Get document summary from Firestore"""
@@ -608,8 +466,8 @@ class ComprehensiveEvaluator:
             })
         
         # Initialize metrics
+        ndcg_3_scores = []
         ndcg_5_scores = []
-        ndcg_10_scores = []
         map_scores = []
         mrr_scores = []
         spearman_scores = []
@@ -630,13 +488,13 @@ class ComprehensiveEvaluator:
             authority_scores_sorted = [doc['authority'] for doc in docs_sorted]
             
             # NDCG scores
+            if len(true_relevance) >= 3:
+                ndcg_3 = ndcg_score([true_relevance], [predicted_scores], k=3)
+                ndcg_3_scores.append(ndcg_3)
+            
             if len(true_relevance) >= 5:
                 ndcg_5 = ndcg_score([true_relevance], [predicted_scores], k=5)
                 ndcg_5_scores.append(ndcg_5)
-            
-            if len(true_relevance) >= 10:
-                ndcg_10 = ndcg_score([true_relevance], [predicted_scores], k=10)
-                ndcg_10_scores.append(ndcg_10)
             
             # MAP
             ap_score = self._average_precision(true_relevance)
@@ -673,8 +531,8 @@ class ComprehensiveEvaluator:
         
         # Aggregate metrics
         return CrossEncoderEvaluationMetrics(
+            ndcg_at_3=np.mean(ndcg_3_scores) if ndcg_3_scores else 0.0,
             ndcg_at_5=np.mean(ndcg_5_scores) if ndcg_5_scores else 0.0,
-            ndcg_at_10=np.mean(ndcg_10_scores) if ndcg_10_scores else 0.0,
             map_score=np.mean(map_scores) if map_scores else 0.0,
             mrr_score=np.mean(mrr_scores) if mrr_scores else 0.0,
             precision_at_k={k: np.mean(scores) if scores else 0.0 for k, scores in precision_at_k.items()},
@@ -733,55 +591,13 @@ class ComprehensiveEvaluator:
         })
         
         # Overall statistics
-        print(f"\nOVERALL STATISTICS:")
-        print(f"Total documents evaluated: {len(df)}")
-        print(f"Unique queries: {len(df['query'].unique())}")
-        print(f"Average documents per query: {len(df) / len(df['query'].unique()):.2f}")
-        print(f"Prediction range: [{df['prediction'].min():.3f}, {df['prediction'].max():.3f}]")
-        print(f"Relevance range: [{df['relevance'].min():.3f}, {df['relevance'].max():.3f}]")
-        print(f"Overall correlation: {df['prediction'].corr(df['relevance']):.4f}")
-        print(f"Authority correlation: {df['authority'].corr(df['relevance']):.4f}")
+
         
         # Query-level analysis
-        query_stats = []
-        for query in df['query'].unique():
-            query_df = df[df['query'] == query]
-            corr = query_df['prediction'].corr(query_df['relevance'])
-            auth_corr = query_df['authority'].corr(query_df['relevance'])
-            
-            query_stats.append({
-                'query': query[:60] + "..." if len(query) > 60 else query,
-                'num_docs': len(query_df),
-                'correlation': corr if not np.isnan(corr) else 0.0,
-                'authority_corr': auth_corr if not np.isnan(auth_corr) else 0.0,
-                'avg_relevance': query_df['relevance'].mean(),
-                'avg_prediction': query_df['prediction'].mean(),
-                'avg_authority': query_df['authority'].mean()
-            })
         
-        query_stats_df = pd.DataFrame(query_stats)
-        
-        print(f"\nTOP PERFORMING QUERIES (by correlation):")
-        top_queries = query_stats_df.nlargest(5, 'correlation')
-        for _, row in top_queries.iterrows():
-            print(f"  • {row['query']}")
-            print(f"    Correlation: {row['correlation']:.3f}, Docs: {row['num_docs']}, Authority: {row['avg_authority']:.3f}")
-        
-        print(f"\nCHALLENGING QUERIES (lowest correlation):")
-        low_queries = query_stats_df.nsmallest(3, 'correlation')
-        for _, row in low_queries.iterrows():
-            print(f"  • {row['query']}")
-            print(f"    Correlation: {row['correlation']:.3f}, Docs: {row['num_docs']}")
         
         # Performance by authority level
-        print(f"\nPERFORMANCE BY AUTHORITY LEVEL:")
-        df['authority_bin'] = pd.cut(df['authority'], bins=5, labels=['Very Low', 'Low', 'Medium', 'High', 'Very High'])
-        authority_performance = df.groupby('authority_bin').agg({
-            'prediction': 'mean',
-            'relevance': 'mean',
-            'doc_id': 'count'
-        }).round(3)
-        print(authority_performance)
+
         
         # Create visualizations
         self._create_evaluation_plots(df, query_stats_df)
@@ -866,7 +682,7 @@ class ComprehensiveEvaluator:
             accuracies = []
             confidences = []
             
-            for bin_lower, bin_upper in zip(bin_lower, bin_uppers):
+            for bin_lower, bin_upper in zip(bin_lowers, bin_uppers):
                 in_bin = (df['prediction'] > bin_lower) & (df['prediction'] <= bin_upper)
                 prop_in_bin = in_bin.mean()
                 
@@ -958,7 +774,7 @@ class AdvancedTrainer:
         
         # Training history
         self.training_history = {
-            'train_loss': [], 'val_loss': [], 'ndcg_at_5': [], 'ndcg_at_10': [],
+            'train_loss': [], 'val_loss': [], 'ndcg_at_3': [], 'ndcg_at_5': [],
             'map_score': [], 'mrr_score': [], 'spearman_correlation': [], 
             'authority_coverage': [], 'precision_at_5': [], 'recall_at_10': []
         }
@@ -1129,7 +945,7 @@ class AdvancedTrainer:
         
         return avg_loss, comprehensive_metrics
     
-    def train(self, num_epochs: int, save_path: str = None, early_stopping_patience: int = 10):
+    def train(self, num_epochs: int, save_path: str = None, early_stopping_patience: int = 10, save_best_model: bool = False):
         """Train with comprehensive monitoring"""
         best_metric = 0.0
         patience_counter = 0
@@ -1148,43 +964,20 @@ class AdvancedTrainer:
                 # Evaluation
                 val_loss, val_metrics = self.evaluate(detailed=(epoch == num_epochs - 1))
                 
-                # Store metrics
-                self.training_history['train_loss'].append(train_loss)
-                self.training_history['val_loss'].append(val_loss)
-                self.training_history['ndcg_at_5'].append(val_metrics.ndcg_at_5)
-                self.training_history['ndcg_at_10'].append(val_metrics.ndcg_at_10)
-                self.training_history['map_score'].append(val_metrics.map_score)
-                self.training_history['mrr_score'].append(val_metrics.mrr_score)
-                self.training_history['spearman_correlation'].append(val_metrics.spearman_correlation)
-                self.training_history['authority_coverage'].append(val_metrics.authority_coverage)
-                self.training_history['precision_at_5'].append(val_metrics.precision_at_k.get(5, 0.0))
-                self.training_history['recall_at_10'].append(val_metrics.recall_at_k.get(10, 0.0))
-                
-                # Logging
-                logger.info(f"\nEpoch {epoch+1}/{num_epochs}:")
-                logger.info(f"  Train Loss: {train_loss:.4f}")
-                logger.info(f"  Val Loss: {val_loss:.4f}")
-                logger.info(f"  NDCG@5: {val_metrics.ndcg_at_5:.4f}")
-                logger.info(f"  NDCG@10: {val_metrics.ndcg_at_10:.4f}")
-                logger.info(f"  MAP: {val_metrics.map_score:.4f}")
-                logger.info(f"  MRR: {val_metrics.mrr_score:.4f}")
-                logger.info(f"  Authority Coverage: {val_metrics.authority_coverage:.4f}")
-                logger.info(f"  Spearman: {val_metrics.spearman_correlation:.4f}")
-                
-                # Early stopping based on NDCG@10
-                current_metric = val_metrics.ndcg_at_10
+                # Early stopping based on NDCG@5
+                current_metric = val_metrics.ndcg_at_5
                 if current_metric > best_metric:
                     best_metric = current_metric
                     patience_counter = 0
                     
-                    if save_path:
+                    if save_best_model and save_path:
                         self.save_model(save_path)
-                        logger.info(f"Saved best model (NDCG@10: {best_metric:.4f})")
+                        logger.info(f"Saved best model (NDCG@5: {best_metric:.4f})")
                 else:
                     patience_counter += 1
                 
                 if patience_counter >= early_stopping_patience:
-                    logger.info(f"Early stopping at epoch {epoch+1} (best NDCG@10: {best_metric:.4f})")
+                    logger.info(f"Early stopping at epoch {epoch+1} (best NDCG@5: {best_metric:.4f})")
                     break
                 
             except Exception as e:
@@ -1224,24 +1017,6 @@ class DatabaseEnhancedDataGenerator:
     
     def __init__(self, db_connector: DatabaseConnector):
         self.db_connector = db_connector
-        
-        self.legal_queries = [
-            "contempt of court proceedings constitutional provisions",
-            "fundamental rights protection judicial review", 
-            "criminal procedure arrest detention rights",
-            "contract law breach damages remedies",
-            "tort liability negligence compensation",
-            "property rights title succession disputes",
-            "administrative law government decisions review",
-            "evidence law digital documents admissibility",
-            "family law custody maintenance provisions",
-            "commercial law company incorporation requirements",
-            "Bar Association complaint judicial misconduct allegations",
-            "professional conduct legal practitioners discipline",
-            "constitutional interpretation fundamental rights violations",
-            "criminal appeals conviction sentence review",
-            "civil litigation procedural compliance requirements"
-        ]
         
         self.legal_domains = [
             'constitutional', 'criminal', 'civil', 'commercial', 'administrative',
@@ -1313,89 +1088,6 @@ class DatabaseEnhancedDataGenerator:
         except Exception as e:
             logger.error(f"Error loading training data: {e}")
             return self.generate_enhanced_synthetic_data()
-    
-    def generate_enhanced_synthetic_data(self, num_queries: int = 40, docs_per_query: int = 12) -> List[RerankingBatch]:
-        """Generate enhanced synthetic data with realistic database features"""
-        logger.info(f"Generating {num_queries} enhanced synthetic queries with {docs_per_query} documents each")
-        
-        batches = []
-        
-        for i in range(num_queries):
-            query = np.random.choice(self.legal_queries)
-            query_id = f"enhanced_query_{i}"
-            
-            documents = []
-            for j in range(docs_per_query):
-                doc_id = f"enhanced_doc_{i}_{j}"
-                
-                # Generate realistic relevance distribution
-                if j < 3:  # Top 3 highly relevant
-                    relevance = np.random.uniform(0.8, 1.0)
-                elif j < 7:  # Next 4 moderately relevant
-                    relevance = np.random.uniform(0.4, 0.8)
-                else:  # Rest less relevant
-                    relevance = np.random.uniform(0.0, 0.4)
-                
-                # Generate enhanced document text
-                query_terms = query.split()
-                main_topic = query_terms[0] if query_terms else "legal"
-                
-                doc_text = f"This comprehensive legal document examines {main_topic} in the context of " \
-                          f"{' '.join(query_terms[1:4])}. The analysis includes detailed examination of " \
-                          f"statutory provisions, judicial precedents, and constitutional principles. " \
-                          f"The court's findings establish important legal doctrines for future application " \
-                          f"in similar cases involving {' '.join(query_terms[-2:])} and related matters."
-                
-                # Get enhanced KG features from database
-                kg_features = self.db_connector.get_kg_features(doc_id)
-                
-                # Generate comprehensive metadata
-                jurisdiction = np.random.choice(self.jurisdictions)
-                court_level = self.jurisdictions.index(jurisdiction) + 1
-                
-                # Adjust authority based on relevance and court level
-                base_authority = kg_features.get('authority_score', 0.5)
-                relevance_boost = relevance * 0.3
-                court_boost = (6 - court_level) / 10.0
-                final_authority = min(1.0, base_authority + relevance_boost + court_boost)
-                
-                metadata_features = {
-                    'jurisdiction': jurisdiction,
-                    'court_level': court_level,
-                    'date': f"202{np.random.randint(0, 5)}-{np.random.randint(1, 13):02d}-{np.random.randint(1, 29):02d}",
-                    'legal_domains': np.random.choice(self.legal_domains, size=np.random.randint(1, 4), replace=False).tolist(),
-                    'citation_count': kg_features.get('citation_count', 0),
-                    'authority_score': final_authority,
-                    'recency_boost': np.random.exponential(0.4),
-                    'doc_type': np.random.choice(['case', 'act', 'regulation'], p=[0.7, 0.2, 0.1]),
-                    'jurisdiction_match': np.random.choice([True, False], p=[0.7, 0.3]),
-                    'act_references': kg_features.get('act_references', 0),
-                    'judge_count': kg_features.get('judge_count', 1),
-                    'vector_score': min(1.0, max(0.0, relevance + np.random.normal(0, 0.1))),
-                    # Enhanced KG features
-                    'kg_citation_count': kg_features.get('citation_count', 0),
-                    'kg_authority_score': kg_features.get('authority_score', 0.5),
-                    'kg_court_level': kg_features.get('court_level', 3),
-                    'jurisdictional_weight': kg_features.get('jurisdictional_weight', 0.5)
-                }
-                
-                example = RerankingExample(
-                    query=query,
-                    document_text=doc_text,
-                    doc_id=doc_id,
-                    relevance_score=relevance,
-                    metadata_features=metadata_features,
-                    kg_features=kg_features,
-                    authority_score=final_authority,
-                    citation_count=kg_features.get('citation_count', 0)
-                )
-                documents.append(example)
-            
-            batch = RerankingBatch(query=query, documents=documents, query_id=query_id)
-            batches.append(batch)
-        
-        logger.info(f"Generated {len(batches)} enhanced synthetic batches")
-        return batches
 
 def create_enhanced_data_loaders(batches: List[RerankingBatch], 
                                tokenizer, 
@@ -1407,8 +1099,8 @@ def create_enhanced_data_loaders(batches: List[RerankingBatch],
     # Filter valid batches
     valid_batches = [batch for batch in batches if len(batch.documents) >= 3]
     
-    if len(valid_batches) < 6:
-        raise ValueError(f"Insufficient valid batches: {len(valid_batches)}. Need at least 6.")
+    if len(valid_batches) < batch_size:
+        raise ValueError(f"Insufficient valid batches: {len(valid_batches)}. Need at least {batch_size}.")
     
     # Split at query level
     train_batches, val_batches = train_test_split(
@@ -1455,306 +1147,3 @@ def create_enhanced_data_loaders(batches: List[RerankingBatch],
     )
     
     return train_loader, val_loader
-
-def plot_comprehensive_training_history(history: Dict):
-    """Create comprehensive training visualizations"""
-    try:
-        plt.style.use('seaborn-v0_8')
-        fig, axes = plt.subplots(3, 3, figsize=(20, 15))
-        
-        # Loss curves
-        axes[0, 0].plot(history['train_loss'], label='Train Loss', color='blue', linewidth=2)
-        axes[0, 0].plot(history['val_loss'], label='Val Loss', color='red', linewidth=2)
-        axes[0, 0].set_title('Training and Validation Loss', fontsize=14, fontweight='bold')
-        axes[0, 0].set_xlabel('Epoch')
-        axes[0, 0].set_ylabel('Loss')
-        axes[0, 0].legend()
-        axes[0, 0].grid(True, alpha=0.3)
-        
-        # NDCG scores
-        axes[0, 1].plot(history['ndcg_at_5'], label='NDCG@5', color='green', linewidth=2)
-        axes[0, 1].plot(history['ndcg_at_10'], label='NDCG@10', color='orange', linewidth=2)
-        axes[0, 1].set_title('NDCG Scores', fontsize=14, fontweight='bold')
-        axes[0, 1].set_xlabel('Epoch')
-        axes[0, 1].set_ylabel('NDCG')
-        axes[0, 1].legend()
-        axes[0, 1].grid(True, alpha=0.3)
-        
-        # MAP and MRR
-        axes[0, 2].plot(history['map_score'], label='MAP', color='purple', linewidth=2)
-        axes[0, 2].plot(history['mrr_score'], label='MRR', color='brown', linewidth=2)
-        axes[0, 2].set_title('MAP and MRR Scores', fontsize=14, fontweight='bold')
-        axes[0, 2].set_xlabel('Epoch')
-        axes[0, 2].set_ylabel('Score')
-        axes[0, 2].legend()
-        axes[0, 2].grid(True, alpha=0.3)
-        
-        # Precision and Recall
-        axes[1, 0].plot(history['precision_at_5'], label='Precision@5', color='red', linewidth=2)
-        axes[1, 0].plot(history['recall_at_10'], label='Recall@10', color='blue', linewidth=2)
-        axes[1, 0].set_title('Precision and Recall', fontsize=14, fontweight='bold')
-        axes[1, 0].set_xlabel('Epoch')
-        axes[1, 0].set_ylabel('Score')
-        axes[1, 0].legend()
-        axes[1, 0].grid(True, alpha=0.3)
-        
-        # Correlation and Authority Coverage
-        axes[1, 1].plot(history['spearman_correlation'], label='Spearman Correlation', color='teal', linewidth=2)
-        axes[1, 1].plot(history['authority_coverage'], label='Authority Coverage', color='magenta', linewidth=2)
-        axes[1, 1].set_title('Correlation and Authority Coverage', fontsize=14, fontweight='bold')
-        axes[1, 1].set_xlabel('Epoch')
-        axes[1, 1].set_ylabel('Score')
-        axes[1, 1].legend()
-        axes[1, 1].grid(True, alpha=0.3)
-        
-        # Combined key metrics
-        axes[1, 2].plot(history['ndcg_at_10'], label='NDCG@10', alpha=0.8, linewidth=2)
-        axes[1, 2].plot(history['map_score'], label='MAP', alpha=0.8, linewidth=2)
-        axes[1, 2].plot(history['spearman_correlation'], label='Spearman', alpha=0.8, linewidth=2)
-        axes[1, 2].plot(history['authority_coverage'], label='Authority', alpha=0.8, linewidth=2)
-        axes[1, 2].set_title('Key Metrics Overview', fontsize=14, fontweight='bold')
-        axes[1, 2].set_xlabel('Epoch')
-        axes[1, 2].set_ylabel('Score')
-        axes[1, 2].legend()
-        axes[1, 2].grid(True, alpha=0.3)
-        
-        # Performance trends
-        epochs = range(len(history['train_loss']))
-        
-        # Learning rate effect (assuming cosine annealing)
-        if len(epochs) > 1:
-            axes[2, 0].plot(epochs, history['train_loss'], color='blue', alpha=0.7, label='Train Loss')
-            axes[2, 0].set_title('Training Loss Trend', fontsize=14, fontweight='bold')
-            axes[2, 0].set_xlabel('Epoch')
-            axes[2, 0].set_ylabel('Loss')
-            axes[2, 0].legend()
-            axes[2, 0].grid(True, alpha=0.3)
-        
-        # Validation performance stability
-        if len(history['val_loss']) > 5:
-            val_loss_smooth = pd.Series(history['val_loss']).rolling(window=3, center=True).mean()
-            axes[2, 1].plot(epochs, history['val_loss'], alpha=0.5, color='red', label='Raw')
-            axes[2, 1].plot(epochs, val_loss_smooth, color='red', linewidth=2, label='Smoothed')
-            axes[2, 1].set_title('Validation Loss Stability', fontsize=14, fontweight='bold')
-            axes[2, 1].set_xlabel('Epoch')
-            axes[2, 1].set_ylabel('Validation Loss')
-            axes[2, 1].legend()
-            axes[2, 1].grid(True, alpha=0.3)
-        
-        # Performance summary
-        if len(history['ndcg_at_10']) > 0:
-            final_metrics = {
-                'NDCG@10': history['ndcg_at_10'][-1],
-                'MAP': history['map_score'][-1],
-                'MRR': history['mrr_score'][-1],
-                'Spearman': history['spearman_correlation'][-1],
-                'Authority': history['authority_coverage'][-1]
-            }
-            
-            metric_names = list(final_metrics.keys())
-            metric_values = list(final_metrics.values())
-            
-            bars = axes[2, 2].bar(metric_names, metric_values, alpha=0.7, 
-                                 color=['skyblue', 'lightgreen', 'orange', 'pink', 'lightcoral'])
-            axes[2, 2].set_title('Final Performance Summary', fontsize=14, fontweight='bold')
-            axes[2, 2].set_ylabel('Score')
-            axes[2, 2].tick_params(axis='x', rotation=45)
-            
-            # Add value labels on bars
-            for bar, value in zip(bars, metric_values):
-                axes[2, 2].text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01,
-                               f'{value:.3f}', ha='center', va='bottom', fontweight='bold')
-        
-        plt.tight_layout()
-        plt.savefig('enhanced_cross_encoder_training_history.png', dpi=300, bbox_inches='tight')
-        plt.show()
-        
-    except Exception as e:
-        logger.error(f"Could not create training plots: {e}")
-
-async def main_enhanced_training_pipeline(training_data_path: str = "training_data.json"):
-    """Complete enhanced training pipeline with database integration"""
-    
-    print("🚀 Starting Enhanced Legal Cross-Encoder Training Pipeline")
-    print("=" * 100)
-    
-    # Initialize database connector
-    print("\n🔌 Initializing database connections...")
-    db_connector = DatabaseConnector()
-    
-    try:
-        # 1. Load/Generate enhanced training data
-        print("\n📊 Loading/generating enhanced training data...")
-        data_generator = DatabaseEnhancedDataGenerator(db_connector)
-        training_batches = data_generator.load_or_generate_data(training_data_path)
-        
-        print(f"✅ Created {len(training_batches)} enhanced query batches")
-        total_docs = sum(len(batch.documents) for batch in training_batches)
-        print(f"📄 Total documents: {total_docs}")
-        print(f"📊 Average docs per query: {total_docs / len(training_batches):.2f}")
-        
-        # Display sample enhanced features
-        sample_doc = training_batches[0].documents[0]
-        print(f"📋 Sample enhanced features:")
-        print(f"   Authority Score: {sample_doc.authority_score:.3f}")
-        print(f"   Citation Count: {sample_doc.citation_count}")
-        print(f"   KG Features: {list(sample_doc.kg_features.keys())}")
-        
-        # 2. Initialize enhanced model
-        print("\n🧠 Initializing enhanced cross-encoder model...")
-        model = AdvancedNeuralLegalReranker(
-            model_name="nlpaueb/legal-bert-base-uncased",
-            metadata_dim=16,  # Enhanced metadata
-            hidden_dim=256,
-            dropout_rate=0.15,
-            combine_strategy="multi_head_attention"  # Advanced fusion
-        )
-        
-        print(f"✅ Enhanced model initialized: {model.model_name}")
-        print(f"🔧 Fusion strategy: {model.combine_strategy}")
-        print(f"📐 Metadata dimensions: 16 (enhanced)")
-        
-        # 3. Create enhanced data loaders
-        print("\n📦 Creating enhanced data loaders...")
-        train_loader, val_loader = create_enhanced_data_loaders(
-            training_batches, 
-            model.tokenizer,
-            db_connector,
-            test_size=0.2, 
-            batch_size=6  # Smaller batch for complex model
-        )
-        
-        # 4. Initialize advanced trainer
-        print("\n🏋️ Initializing advanced trainer...")
-        trainer = AdvancedTrainer(
-            model=model,
-            train_loader=train_loader,
-            val_loader=val_loader,
-            db_connector=db_connector,
-            learning_rate=2e-5,
-            weight_decay=1e-5,
-            use_advanced_loss=True
-        )
-        
-        print(f"🎯 Device: {trainer.device}")
-        print(f"🔥 Advanced loss functions: {trainer.use_advanced_loss}")
-        
-        # 5. Add ground truth for evaluation
-        print("\n📊 Setting up comprehensive evaluation...")
-        trainer.evaluator.add_ground_truth(
-            "contempt of court proceedings constitutional provisions",
-            relevant_doc_ids=["enhanced_doc_0_0", "enhanced_doc_0_1", "enhanced_doc_0_2"],
-            relevance_scores={"enhanced_doc_0_0": 1.0, "enhanced_doc_0_1": 0.8, "enhanced_doc_0_2": 0.6}
-        )
-        
-        # 6. Train enhanced model
-        print("\n🚂 Starting enhanced training...")
-        history = trainer.train(
-            num_epochs=25,
-            save_path="best_enhanced_legal_reranker.pth",
-            early_stopping_patience=8
-        )
-        
-        # 7. Final comprehensive evaluation
-        print("\n📈 Final comprehensive evaluation...")
-        final_loss, final_metrics = trainer.evaluate(detailed=True)
-        
-        print(f"\n🎯 FINAL ENHANCED RESULTS:")
-        print(f"Validation Loss: {final_loss:.4f}")
-        print(f"NDCG@5: {final_metrics.ndcg_at_5:.4f}")
-        print(f"NDCG@10: {final_metrics.ndcg_at_10:.4f}")
-        print(f"MAP Score: {final_metrics.map_score:.4f}")
-        print(f"MRR Score: {final_metrics.mrr_score:.4f}")
-        print(f"Spearman Correlation: {final_metrics.spearman_correlation:.4f}")
-        print(f"Kendall Tau: {final_metrics.kendall_tau:.4f}")
-        print(f"Authority Coverage: {final_metrics.authority_coverage:.4f}")
-        print(f"Response Time: {final_metrics.response_time:.2f}s")
-        
-        for k, v in final_metrics.precision_at_k.items():
-            print(f"Precision@{k}: {v:.4f}")
-        
-        for k, v in final_metrics.recall_at_k.items():
-            print(f"Recall@{k}: {v:.4f}")
-        
-        # 8. Create comprehensive visualizations
-        print("\n📊 Creating comprehensive training plots...")
-        plot_comprehensive_training_history(history)
-        
-        # 9. Test enhanced inference
-        print("\n🔍 Testing enhanced inference...")
-        test_enhanced_inference(model, training_batches[:2])
-        
-        print("\n✅ Enhanced training pipeline completed successfully!")
-        print("📋 Summary:")
-        print(f"   • Model: {model.model_name}")
-        print(f"   • Strategy: {model.combine_strategy}")
-        print(f"   • Best NDCG@10: {max(history['ndcg_at_10']):.4f}")
-        print(f"   • Training samples: {len(train_loader.dataset)}")
-        print(f"   • Validation samples: {len(val_loader.dataset)}")
-        
-        return model, trainer, history, final_metrics
-        
-    except Exception as e:
-        logger.error(f"Enhanced training failed: {e}")
-        import traceback
-        traceback.print_exc()
-        return None, None, None, None
-        
-    finally:
-        # Clean up database connections
-        db_connector.close_connections()
-
-def test_enhanced_inference(model: AdvancedNeuralLegalReranker, test_batches: List[RerankingBatch]):
-    """Test enhanced model inference"""
-    print("\n🔍 ENHANCED INFERENCE TESTING")
-    print("-" * 80)
-    
-    model.eval()
-    
-    for batch in test_batches:
-        print(f"\nQuery: {batch.query}")
-        print(f"Query ID: {batch.query_id}")
-        print(f"Documents: {len(batch.documents)}")
-        
-        # Prepare enhanced data
-        queries = [batch.query] * len(batch.documents)
-        documents = [doc.document_text for doc in batch.documents]
-        metadata_list = [doc.metadata_features for doc in batch.documents]
-        
-        # Get enhanced predictions
-        predictions = model.predict_batch(queries, documents, metadata_list)
-        
-        # Sort by prediction score with enhanced features
-        doc_scores = list(zip(batch.documents, predictions))
-        doc_scores.sort(key=lambda x: x[1], reverse=True)
-        
-        print("\nTop 5 enhanced ranked documents:")
-        for i, (doc, pred_score) in enumerate(doc_scores[:5]):
-            print(f"{i+1}. Doc ID: {doc.doc_id}")
-            print(f"   Predicted: {pred_score:.4f} | True: {doc.relevance_score:.4f}")
-            print(f"   Authority: {doc.authority_score:.4f} | Citations: {doc.citation_count}")
-            kg_auth = doc.kg_features.get('authority_score', 0.0)
-            kg_cites = doc.kg_features.get('citation_count', 0)
-            print(f"   KG Authority: {kg_auth:.4f} | KG Citations: {kg_cites}")
-            print(f"   Text: {doc.document_text[:120]}...")
-            print(f"   Jurisdiction: {doc.metadata_features.get('jurisdiction', 'N/A')}")
-            print()
-
-if __name__ == "__main__":
-    # Enable async event loop for database operations
-    nest_asyncio.apply()
-    
-    # Run the enhanced training pipeline
-    print("Running ENHANCED Legal Cross-Encoder Training Pipeline...")
-    
-    # Use asyncio to run the async pipeline
-    import asyncio
-    result = asyncio.run(main_enhanced_training_pipeline())
-    
-    if result[0] is not None:
-        model, trainer, history, final_metrics = result
-        print("\n🎉 Enhanced training successful!")
-        print("🚀 Ready for production deployment!")
-    else:
-        print("\n❌ Enhanced training failed. Please check the error messages above.")
-        print("💡 Tip: Ensure database connections are properly configured.")
